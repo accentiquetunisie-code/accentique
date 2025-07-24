@@ -42,9 +42,7 @@ export const products: Product[] = [
     price: 99,
     originalPrice: 110,
     category: ['package'],
-    images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'
-    ],
+    <img src="'/public/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'+" />
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
       'Mouvement quartz de précision',
