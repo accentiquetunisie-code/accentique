@@ -43,7 +43,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet2.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -65,7 +65,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet2.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet2.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -88,7 +88,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet4.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet4.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -110,7 +110,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet5.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet5.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -132,7 +132,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet6.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet6.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -154,7 +154,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet7.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet7.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -176,7 +176,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet8.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet8.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -198,7 +198,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet9.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet9.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -220,7 +220,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/montreetbracelet10.jpeg'
+      '/product_data/watches/montre+bracelet/montreetbracelet10.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -243,7 +243,7 @@ export const products: Product[] = [
     price: 69,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/3-bracelet.jpeg'
+      '/product_data/bracelets/3-bracelet.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -264,7 +264,7 @@ export const products: Product[] = [
     price: 27,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/bracelet-1.jpeg'
+      '/product_data/bracelets/bracelet-1.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -285,7 +285,7 @@ export const products: Product[] = [
     price: 27,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/bracelet-2.jpeg'
+      '/product_data/bracelets/bracelet-2.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -306,7 +306,7 @@ export const products: Product[] = [
     price: 27,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/bracelet-3.jpeg'
+      '/product_data/bracelets/bracelet-3.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -327,7 +327,7 @@ export const products: Product[] = [
     price: 23,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/bracelet-4.jpeg'
+      '/product_data/bracelets/bracelet-4.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -348,7 +348,7 @@ export const products: Product[] = [
     price: 23,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/bracelet-5.jpeg'
+      '/product_data/bracelets/bracelet-5.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -369,7 +369,7 @@ export const products: Product[] = [
     price: 23,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/3-bracelet-3.jpeg'
+      '/product_data/bracelets/3-bracelet-3.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -390,7 +390,7 @@ export const products: Product[] = [
     price: 23,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/3-bracelet-2.jpeg'
+      '/product_data/bracelets/3-bracelet-2.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -411,7 +411,7 @@ export const products: Product[] = [
     price: 23,
     category: ['bracelets'],
     images: [
-      '/public/product_data/bracelets/3-bracelet-4.jpeg'
+      '/product_data/bracelets/3-bracelet-4.jpeg'
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
@@ -436,15 +436,15 @@ export const products: Product[] = [
     price: 129,
     category: ['rings'],
     images: [
-      '/public/product_data/rings/19/1.jpeg',
-      '/public/product_data/rings/19/2.jpeg',
-      '/public/product_data/rings/19/3.jpeg',
-      '/public/product_data/rings/19/4.jpeg',
-      '/public/product_data/rings/19/5.jpeg',
-      '/public/product_data/rings/19/6.jpeg',
-      '/public/product_data/rings/19/7.jpeg',
-      '/public/product_data/rings/19/8.jpeg',
-      '/public/product_data/rings/19/9.jpeg'
+      '/product_data/rings/19/1.jpeg',
+      '/product_data/rings/19/2.jpeg',
+      '/product_data/rings/19/3.jpeg',
+      '/product_data/rings/19/4.jpeg',
+      '/product_data/rings/19/5.jpeg',
+      '/product_data/rings/19/6.jpeg',
+      '/product_data/rings/19/7.jpeg',
+      '/product_data/rings/19/8.jpeg',
+      '/product_data/rings/19/9.jpeg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -464,7 +464,7 @@ export const products: Product[] = [
     price: 129,
     category: ['rings'],
     images: [
-      '/public/product_data/rings/26/1.jpeg'
+      '/product_data/rings/26/1.jpeg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -484,12 +484,12 @@ export const products: Product[] = [
     price: 129,
     category: ['rings'],
     images: [
-      '/public/product_data/rings/44/1.jpeg',
-      '/public/product_data/rings/44/2.jpeg',
-      '/public/product_data/rings/44/3.jpeg',
-      '/public/product_data/rings/44/4.jpeg',
-      '/public/product_data/rings/44/5.jpeg',
-      '/public/product_data/rings/44/6.jpeg'
+      '/product_data/rings/44/1.jpeg',
+      '/product_data/rings/44/2.jpeg',
+      '/product_data/rings/44/3.jpeg',
+      '/product_data/rings/44/4.jpeg',
+      '/product_data/rings/44/5.jpeg',
+      '/product_data/rings/44/6.jpeg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -509,7 +509,7 @@ export const products: Product[] = [
     price: 129,
     category: ['rings'],
     images: [
-      '/public/product_data/rings/53/1.jpeg',
+      '/product_data/rings/53/1.jpeg',
       '/product_data/rings/53/2.jpeg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
@@ -530,15 +530,15 @@ export const products: Product[] = [
     price: 129,
     category: ['rings'],
     images: [
-      '/public/product_data/rings/55/1.jpeg',
-      '/public/product_data/rings/55/2.jpeg',
-      '/public/product_data/rings/55/3.jpeg',
-      '/public/product_data/rings/55/4.jpeg',
-      '/public/product_data/rings/55/5.jpeg',
-      '/public/product_data/rings/55/6.jpeg',
-      '/public/product_data/rings/55/7.jpeg',
-      '/public/product_data/rings/55/8.jpeg',
-      '/public/product_data/rings/55/9.jpeg'
+      '/product_data/rings/55/1.jpeg',
+      '/product_data/rings/55/2.jpeg',
+      '/product_data/rings/55/3.jpeg',
+      '/product_data/rings/55/4.jpeg',
+      '/product_data/rings/55/5.jpeg',
+      '/product_data/rings/55/6.jpeg',
+      '/product_data/rings/55/7.jpeg',
+      '/product_data/rings/55/8.jpeg',
+      '/product_data/rings/55/9.jpeg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -558,15 +558,15 @@ export const products: Product[] = [
     price: 129,
     category: ['rings'],
     images: [
-      '/public/product_data/rings/73/1.jpeg',
-      '/public/product_data/rings/73/2.jpeg',
-      '/public/product_data/rings/73/3.jpeg',
-      '/public/product_data/rings/73/4.jpeg',
-      '/public/product_data/rings/73/5.jpeg',
-      '/public/product_data/rings/73/6.jpeg',
-      '/public/product_data/rings/73/7.jpeg',
-      '/public/product_data/rings/73/8.jpeg',
-      '/public/product_data/rings/73/9.jpeg'
+      '/product_data/rings/73/1.jpeg',
+      '/product_data/rings/73/2.jpeg',
+      '/product_data/rings/73/3.jpeg',
+      '/product_data/rings/73/4.jpeg',
+      '/product_data/rings/73/5.jpeg',
+      '/product_data/rings/73/6.jpeg',
+      '/product_data/rings/73/7.jpeg',
+      '/product_data/rings/73/8.jpeg',
+      '/product_data/rings/73/9.jpeg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -587,7 +587,7 @@ export const products: Product[] = [
     price: 43,
     category: ['gift-sets'],
     images: [
-      '/public/product_data/package/packdaccessoire/1.jpeg'
+      '/product_data/package/packdaccessoire/1.jpeg'
     ],
     description: '',
     features: [
@@ -607,7 +607,7 @@ export const products: Product[] = [
     price: 43,
     category: ['gift-sets'],
     images: [
-      '/public/product_data/package/packdaccessoire/2.jpeg'
+      '/product_data/package/packdaccessoire/2.jpeg'
     ],
     description: '',
     features: [
@@ -627,7 +627,7 @@ export const products: Product[] = [
     price: 43,
     category: ['gift-sets'],
     images: [
-      '/public/product_data/package/packdaccessoire/3.jpeg'
+      '/product_data/package/packdaccessoire/3.jpeg'
     ],
     description: '',
     features: [
@@ -647,10 +647,10 @@ export const products: Product[] = [
     price: 68,
     category: ['gift-sets'],
     images: [
-      '/public/product_data/package/choker+bracelet/1.jpeg',
-      '/public/product_data/package/choker+bracelet/2.jpeg',
-      '/public/product_data/package/choker+bracelet/3.jpeg',
-      '/public/product_data/package/choker+bracelet/4.jpeg'
+      '/product_data/package/choker+bracelet/1.jpeg',
+      '/product_data/package/choker+bracelet/2.jpeg',
+      '/product_data/package/choker+bracelet/3.jpeg',
+      '/product_data/package/choker+bracelet/4.jpeg'
     ],
     description: '',
     features: [
@@ -670,7 +670,7 @@ export const products: Product[] = [
     price: 22,
     category: ['fan'],
     images: [
-      '/public/product_data/fan/eventailsfleur/eventailsfleur1.jpeg'
+      '/product_data/fan/eventailsfleur/eventailsfleur1.jpeg'
     ],
     description: '',
     features: [
@@ -690,7 +690,7 @@ export const products: Product[] = [
     price: 22,
     category: ['fan'],
     images: [
-      '/public/product_data/fan/eventailsfleur/eventailsfleur2.jpeg'
+      '/product_data/fan/eventailsfleur/eventailsfleur2.jpeg'
     ],
     description: '',
     features: [
@@ -710,7 +710,7 @@ export const products: Product[] = [
     price: 22,
     category: ['fan'],
     images: [
-      '/public/product_data/fan/eventailsfleur/eventailsfleur3.jpeg'
+      '/product_data/fan/eventailsfleur/eventailsfleur3.jpeg'
     ],
     description: '',
     features: [
@@ -730,7 +730,7 @@ export const products: Product[] = [
     price: 22,
     category: ['fan'],
     images: [
-      '/public/product_data/fan/eventailsfleur/eventailsfleur4.jpeg'
+      '/product_data/fan/eventailsfleur/eventailsfleur4.jpeg'
     ],
     description: '',
     features: [
@@ -750,7 +750,7 @@ export const products: Product[] = [
     price: 22,
     category: ['fan'],
     images: [
-      '/public/product_data/fan/eventailsfleur/eventailsfleur5.jpeg'
+      '/product_data/fan/eventailsfleur/eventailsfleur5.jpeg'
     ],
     description: '',
     features: [
@@ -770,7 +770,7 @@ export const products: Product[] = [
     price: 22,
     category: ['fan'],
     images: [
-      '/public/product_data/fan/eventailsfleur/eventailsfleur6.jpeg'
+      '/product_data/fan/eventailsfleur/eventailsfleur6.jpeg'
     ],
     description: '',
     features: [
@@ -790,7 +790,7 @@ export const products: Product[] = [
     price: 22,
     category: ['fan'],
     images: [
-      '/public/product_data/fan/eventailsfleur/eventailsfleur7.jpeg'
+      '/product_data/fan/eventailsfleur/eventailsfleur7.jpeg'
     ],
     description: '',
     features: [
@@ -811,10 +811,10 @@ export const products: Product[] = [
     price: 79,
     category: ['gift-sets'],
     images: [
-      '/public/product_data/gift-sets/coffret/sets6.jpeg',
-      '/public/product_data/gift-sets/coffret/sets5.jpeg',
-      '/public/product_data/gift-sets/coffret/sets1.jpeg',
-      '/public/product_data/gift-sets/coffret/sets7.jpeg'
+      '/product_data/gift-sets/coffret/sets6.jpeg',
+      '/product_data/gift-sets/coffret/sets5.jpeg',
+      '/product_data/gift-sets/coffret/sets1.jpeg',
+      '/product_data/gift-sets/coffret/sets7.jpeg'
     ],
     description: '',
     features: [
@@ -836,9 +836,9 @@ export const products: Product[] = [
     price: 69,
     category: ['gift-sets'],
     images: [
-      '/public/product_data/gift-sets/coffret/sets2.jpeg',
-      '/public/product_data/gift-sets/coffret/sets3.jpeg',
-      '/public/product_data/gift-sets/coffret/sets4.jpeg'
+      '/product_data/gift-sets/coffret/sets2.jpeg',
+      '/product_data/gift-sets/coffret/sets3.jpeg',
+      '/product_data/gift-sets/coffret/sets4.jpeg'
     ],
     description: '',
     features: [
@@ -860,7 +860,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier1.jpeg'
+      '/product_data/necklace/collier/collier1.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -880,7 +880,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier2.jpeg'
+      '/product_data/necklace/collier/collier2.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -900,7 +900,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier3.jpeg'
+      '/product_data/necklace/collier/collier3.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -920,7 +920,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier4.jpeg'
+      '/product_data/necklace/collier/collier4.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -940,7 +940,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier5.jpeg'
+      '/product_data/necklace/collier/collier5.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -960,7 +960,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier6.jpeg'
+      '/product_data/necklace/collier/collier6.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -980,7 +980,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier7.jpeg'
+      '/product_data/necklace/collier/collier7.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1000,7 +1000,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier8.jpeg'
+      '/product_data/necklace/collier/collier8.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1020,7 +1020,7 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier9.jpeg'
+      '/product_data/necklace/collier/collier9.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1041,9 +1041,9 @@ export const products: Product[] = [
     price: 23,
     category: ['necklace'],
     images: [
-      '/public/product_data/necklace/collier/collier10.jpeg',
-      '/public/product_data/necklace/collier/collier11.jpeg',
-      '/public/product_data/necklace/collier/collier12.jpeg'
+      '/product_data/necklace/collier/collier10.jpeg',
+      '/product_data/necklace/collier/collier11.jpeg',
+      '/product_data/necklace/collier/collier12.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1066,8 +1066,8 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
-      '/public/product_data/earings/boucle1.jpeg',
-      '/public/product_data/earings/boucle2.jpeg'
+      '/product_data/earings/boucle1.jpeg',
+      '/product_data/earings/boucle2.jpeg'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1087,8 +1087,8 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
-      '/public/product_data/earings/boucle3.jpeg',
-      '/public/product_data/earings/boucle4.jpeg'
+      '/product_data/earings/boucle3.jpeg',
+      '/product_data/earings/boucle4.jpeg'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1108,7 +1108,7 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
-      '/public/product_data/earings/boucle5.jpeg'
+      '/product_data/earings/boucle5.jpeg'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1128,7 +1128,7 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
-      '/public/product_data/earings/boucle6.jpeg'
+      '/product_data/earings/boucle6.jpeg'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1148,7 +1148,7 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
-      '/public/product_data/earings/boucle7.jpeg'
+      '/product_data/earings/boucle7.jpeg'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1168,7 +1168,7 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
-      '/public/product_data/earings/boucle8.jpeg'
+      '/product_data/earings/boucle8.jpeg'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -1190,7 +1190,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre/montre1.jpeg'
+      '/product_data/watches/montre/montre1.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -1212,7 +1212,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre/montre2.jpeg'
+      '/product_data/watches/montre/montre2.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -1234,7 +1234,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre/montre3.jpeg'
+      '/product_data/watches/montre/montre3.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -1261,7 +1261,7 @@ export const bundles: Bundle[] = [
     discount: 20,
     originalPrice: 278,
     bundlePrice: 222,
-    image: '/public/product_data/package/95/1.jpeg',
+    image: '/product_data/package/95/1.jpeg',
     description: 'DUO ELEGANCE - Économisez 20%'
   },
   {
@@ -1271,7 +1271,7 @@ export const bundles: Bundle[] = [
     discount: 25,
     originalPrice: 287,
     bundlePrice: 215,
-    image: '/public/product_data/gift-sets/89/1.jpeg',
+    image: '/product_data/gift-sets/89/1.jpeg',
     description: 'Collection complète de bracelets et bague - Économisez 25%'
   }
 ];
