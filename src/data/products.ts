@@ -1190,7 +1190,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre/montre1.jpeg'
+      '/product_data/watches/montre/montre-1.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -1212,7 +1212,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre/montre2.jpeg'
+      '/product_data/watches/montre/montre-2.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
@@ -1234,7 +1234,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre/montre3.jpeg'
+      '/product_data/watches/montre/montre-3.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
