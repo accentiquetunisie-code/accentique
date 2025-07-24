@@ -43,7 +43,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      'https://www.google.com/imgres?q=collier&imgurl=https%3A%2F%2Fzayn.boutique%2Fwp-content%2Fuploads%2F2024%2F10%2FCollier-ain-bleu.jpg&imgrefurl=https%3A%2F%2Fzayn.boutique%2Fproduit%2Fcollier-ain-rose%2F&docid=pQN-WY-8MWZkgM&tbnid=iuaWS73owNVgkM&vet=12ahUKEwjlsZ6DstSOAxUuh-4BHULdJ2gQM3oECB4QAA..i&w=2160&h=2160&hcb=2&ved=2ahUKEwjlsZ6DstSOAxUuh-4BHULdJ2gQM3oECB4QAA'
+      '/public/product_data/watches/montre+bracelet/montreetbracelet2.jpeg'
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
