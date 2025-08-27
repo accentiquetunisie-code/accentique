@@ -452,7 +452,7 @@ export const products: Product[] = [
         {
     id: '201',
     name: 'Bracelet A1',
-    price: 23,
+    price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet A1.jpeg'
@@ -473,7 +473,7 @@ export const products: Product[] = [
           {
     id: '202',
     name: 'Bracelet A2',
-    price: 23,
+    price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet A2.jpeg'
@@ -494,7 +494,7 @@ export const products: Product[] = [
           {
     id: '203',
     name: 'Bracelet A3',
-    price: 23,
+    price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet A3.jpeg'
@@ -515,7 +515,7 @@ export const products: Product[] = [
           {
     id: '204',
     name: 'Bracelet A4',
-    price: 23,
+    price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet A4.jpeg'
@@ -536,7 +536,7 @@ export const products: Product[] = [
           {
     id: '205',
     name: 'Bracelet A5',
-    price: 23,
+    price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet A5.jpeg'
@@ -557,7 +557,7 @@ export const products: Product[] = [
         {
     id: '206',
     name: 'Bracelet A6',
-    price: 23,
+    price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet A6.jpeg'
