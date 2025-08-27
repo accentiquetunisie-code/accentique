@@ -579,7 +579,6 @@ export const products: Product[] = [
     id: '211',
     name: 'manchette A1',
     price: 30,
-    originalPrice: 45,
     category: ['bracelets'],
     images: [
       '/product_data/other/manchette A2.jpeg',
@@ -600,7 +599,6 @@ export const products: Product[] = [
     id: '212',
     name: 'manchette A4',
     price: 30,
-    originalPrice: 45,
     category: ['bracelets'],
     images: [
       '/product_data/other/manchette A4.jpeg'
@@ -619,7 +617,6 @@ export const products: Product[] = [
     id: '213',
     name: 'manchette A5',
     price: 30,
-    originalPrice: 45,
     category: ['bracelets'],
     images: [
       '/product_data/other/manchette A5.jpeg'
@@ -638,7 +635,6 @@ export const products: Product[] = [
     id: '216',
     name: 'manchette A6',
     price: 30,
-    originalPrice: 45,
     category: ['bracelets'],
     images: [
       '/product_data/other/manchette A6.jpeg'
