@@ -449,7 +449,132 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 89,
   },
-
+        {
+    id: '201',
+    name: 'Bracelet A1',
+    price: 23,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet A1.jpeg'
+    ],
+    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    features: [
+      'Chaîne en laiton plaqué or',
+      'Pendentifs cristaux Swarovski',
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    rating: 4.9,
+    reviews: 89,
+  },
+          {
+    id: '202',
+    name: 'Bracelet A2',
+    price: 23,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet A2.jpeg'
+    ],
+    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    features: [
+      'Chaîne en laiton plaqué or',
+      'Pendentifs cristaux Swarovski',
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    rating: 4.9,
+    reviews: 89,
+  },
+          {
+    id: '203',
+    name: 'Bracelet A3',
+    price: 23,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet A3.jpeg'
+    ],
+    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    features: [
+      'Chaîne en laiton plaqué or',
+      'Pendentifs cristaux Swarovski',
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    rating: 4.9,
+    reviews: 89,
+  },
+          {
+    id: '204',
+    name: 'Bracelet A4',
+    price: 23,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet A4.jpeg'
+    ],
+    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    features: [
+      'Chaîne en laiton plaqué or',
+      'Pendentifs cristaux Swarovski',
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    rating: 4.9,
+    reviews: 89,
+  },
+          {
+    id: '205',
+    name: 'Bracelet A5',
+    price: 23,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet A5.jpeg'
+    ],
+    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    features: [
+      'Chaîne en laiton plaqué or',
+      'Pendentifs cristaux Swarovski',
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    rating: 4.9,
+    reviews: 89,
+  },
+        {
+    id: '206',
+    name: 'Bracelet A6',
+    price: 23,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet A6.jpeg'
+    ],
+    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    features: [
+      'Chaîne en laiton plaqué or',
+      'Pendentifs cristaux Swarovski',
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    rating: 4.9,
+    reviews: 89,
+  },
    {
     id: '34',
     name: 'Bague 1',
