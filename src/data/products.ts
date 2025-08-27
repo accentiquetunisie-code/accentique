@@ -1395,29 +1395,6 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
-
-      {
-    id: '98',
-    name: 'montre 3',
-    price: 99,
-    originalPrice: 110,
-    category: ['package'],
-    images: [
-      '/product_data/watches/montre/montre-3.jpeg'
-    ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
-    features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
-      'Bracelet ajustable'
-    ],
-    inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
-  },
   
 
 ];
