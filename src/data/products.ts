@@ -427,24 +427,13 @@ export const products: Product[] = [
     reviews: 89,
   },
 
-  
- 
-  
-    {
+   {
     id: '34',
-    name: 'Bague Solitaire Royale',
+    name: 'Bague 1',
     price: 129,
     category: ['rings'],
     images: [
-      '/product_data/rings/19/1.jpeg',
-      '/product_data/rings/19/2.jpeg',
-      '/product_data/rings/19/3.jpeg',
-      '/product_data/rings/19/4.jpeg',
-      '/product_data/rings/19/5.jpeg',
-      '/product_data/rings/19/6.jpeg',
-      '/product_data/rings/19/7.jpeg',
-      '/product_data/rings/19/8.jpeg',
-      '/product_data/rings/19/9.jpeg'
+      '/product_data/rings/bague 1.jpg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -458,13 +447,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
-    {
+   {
     id: '35',
-    name: 'Bague Solitaire Royale',
+    name: 'Bague 2',
     price: 129,
     category: ['rings'],
     images: [
-      '/product_data/rings/26/1.jpeg'
+      '/product_data/rings/bague 2.jpg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -478,18 +467,13 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
-    {
+   {
     id: '36',
-    name: 'Bague Solitaire Royale',
+    name: 'Bague 3',
     price: 129,
     category: ['rings'],
     images: [
-      '/product_data/rings/44/1.jpeg',
-      '/product_data/rings/44/2.jpeg',
-      '/product_data/rings/44/3.jpeg',
-      '/product_data/rings/44/4.jpeg',
-      '/product_data/rings/44/5.jpeg',
-      '/product_data/rings/44/6.jpeg'
+      '/product_data/rings/bague 3.jpg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -505,12 +489,11 @@ export const products: Product[] = [
   },
     {
     id: '37',
-    name: 'Bague Solitaire Royale',
+    name: 'Bague 4',
     price: 129,
     category: ['rings'],
     images: [
-      '/product_data/rings/53/1.jpeg',
-      '/product_data/rings/53/2.jpeg'
+      '/product_data/rings/bague 4.jpg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -526,19 +509,11 @@ export const products: Product[] = [
   },
     {
     id: '38',
-    name: 'Bague Solitaire Royale',
+    name: 'Bague 5',
     price: 129,
     category: ['rings'],
     images: [
-      '/product_data/rings/55/1.jpeg',
-      '/product_data/rings/55/2.jpeg',
-      '/product_data/rings/55/3.jpeg',
-      '/product_data/rings/55/4.jpeg',
-      '/product_data/rings/55/5.jpeg',
-      '/product_data/rings/55/6.jpeg',
-      '/product_data/rings/55/7.jpeg',
-      '/product_data/rings/55/8.jpeg',
-      '/product_data/rings/55/9.jpeg'
+      '/product_data/rings/bague 5.jpg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
@@ -554,19 +529,91 @@ export const products: Product[] = [
   },
     {
     id: '39',
-    name: 'Bague Solitaire Royale',
+    name: 'Bague 6',
     price: 129,
     category: ['rings'],
     images: [
-      '/product_data/rings/73/1.jpeg',
-      '/product_data/rings/73/2.jpeg',
-      '/product_data/rings/73/3.jpeg',
-      '/product_data/rings/73/4.jpeg',
-      '/product_data/rings/73/5.jpeg',
-      '/product_data/rings/73/6.jpeg',
-      '/product_data/rings/73/7.jpeg',
-      '/product_data/rings/73/8.jpeg',
-      '/product_data/rings/73/9.jpeg'
+      '/product_data/rings/bague 6.jpg'
+    ],
+    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+      {
+    id: '40',
+    name: 'Bague 7',
+    price: 129,
+    category: ['rings'],
+    images: [
+      '/product_data/rings/bague 7.jpg'
+    ],
+    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+      {
+    id: '41',
+    name: 'Bague 8',
+    price: 129,
+    category: ['rings'],
+    images: [
+      '/product_data/rings/bague 8.jpg'
+    ],
+    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+      {
+    id: '42',
+    name: 'Bague 9',
+    price: 129,
+    category: ['rings'],
+    images: [
+      '/product_data/rings/bague 9.jpg'
+    ],
+    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+      {
+    id: '43',
+    name: 'Bague 10',
+    price: 129,
+    category: ['rings'],
+    images: [
+      '/product_data/rings/bague 10.jpg'
     ],
     description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
