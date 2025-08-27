@@ -236,6 +236,72 @@ export const products: Product[] = [
     reviews: 124,
   },
 
+        {
+    id: '180',
+    name: 'montre et bracelet 10',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/montre et bracelet 10.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
+          {
+    id: '181',
+    name: 'montre et bracelet 11',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/montre et bracelet 11.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
+        {
+    id: '182',
+    name: 'montre et bracelet 12',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/montre et bracelet 12.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
 
   {
     id: '10',
