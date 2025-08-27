@@ -7,7 +7,7 @@ function doPost(e) {
     console.log('All parameters:', e.parameter);
     
     // Get the active spreadsheet by ID (replace with your actual spreadsheet ID)
-    const spreadsheetId = '11RSjrP0WA-64XLi2uF2WFi1lQNf0Lx5naQqpE3KmXi8';
+    const spreadsheetId = '1KgYsytu41mC4wPmiiibKztidCk8W-sZb1BLYCIcuDxs';
     const spreadsheet = SpreadsheetApp.openById(spreadsheetId);
     const sheet = spreadsheet.getActiveSheet();
     
@@ -128,7 +128,7 @@ function testScript() {
 // Optional: Function to get all orders (for testing)
 function getAllOrders() {
   try {
-    const spreadsheetId = '11RSjrP0WA-64XLi2uF2WFi1lQNf0Lx5naQqpE3KmXi8';
+    const spreadsheetId = '1KgYsytu41mC4wPmiiibKztidCk8W-sZb1BLYCIcuDxs';
     const spreadsheet = SpreadsheetApp.openById(spreadsheetId);
     const sheet = spreadsheet.getActiveSheet();
     const data = sheet.getDataRange().getValues();
