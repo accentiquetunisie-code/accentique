@@ -1109,7 +1109,7 @@ export const products: Product[] = [
 
 {
     id: '91',
-    name: 'boucle-d\'oreilles 1',
+    name: 'boucle-d\'oreilles A1',
     price: 18,
     category: ['earings'],
     images: [
@@ -1229,7 +1229,147 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
-
+{
+    id: '191',
+    name: 'boucle-d\'oreilles A1',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle a1.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+{
+    id: '192',
+    name: 'boucle-d\'oreilles A2',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle a1.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+  {
+    id: '193',
+    name: 'boucle-d\'oreilles A3',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle a3.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+  {
+    id: '194',
+    name: 'boucle-d\'oreilles A4',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle a4.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+  {
+    id: '195',
+    name: 'boucle-d\'oreilles A5',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle a5.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+  {
+    id: '196',
+    name: 'boucle-d\'oreilles A6',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle a6.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+  {
+    id: '197',
+    name: 'boucle-d\'oreilles A7',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle a7.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+  
       {
     id: '96',
     name: 'montre 1',
