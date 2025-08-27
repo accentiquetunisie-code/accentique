@@ -25,7 +25,7 @@ interface OrderData {
 
 export const sendOrderToGoogleSheets = async (orderData: OrderData) => {
   // Use the correct Google Apps Script URL provided by the user
-  const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbxZNHhEg6aREmQMUmUrh3GjyPzZN1pW2LmDtgZD9-x7oqEXiYjnrWO2HAD855q0BHICbA/exec';
+  const googleSheetsUrl = 'https://script.google.com/macros/s/AKfycbz6JEcAxO_pex2-rdH-EXzQsBaHQDWEQrLrU-PayIbhZgeN4RihfBflYFPh13V25CMKww/exec';
   
   console.log('Sending order to Google Sheets:', orderData);
 
