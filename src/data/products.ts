@@ -430,7 +430,7 @@ export const products: Product[] = [
    {
     id: '34',
     name: 'Bague 1',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 1.jpg'
@@ -450,7 +450,7 @@ export const products: Product[] = [
    {
     id: '35',
     name: 'Bague 2',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 2.jpg'
@@ -470,7 +470,7 @@ export const products: Product[] = [
    {
     id: '36',
     name: 'Bague 3',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 3.jpg'
@@ -490,7 +490,7 @@ export const products: Product[] = [
     {
     id: '37',
     name: 'Bague 4',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 4.jpg'
@@ -510,7 +510,7 @@ export const products: Product[] = [
     {
     id: '38',
     name: 'Bague 5',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 5.jpg'
@@ -530,7 +530,7 @@ export const products: Product[] = [
     {
     id: '39',
     name: 'Bague 6',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 6.jpg'
@@ -550,7 +550,7 @@ export const products: Product[] = [
       {
     id: '40',
     name: 'Bague 7',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 7.jpg'
@@ -570,7 +570,7 @@ export const products: Product[] = [
       {
     id: '41',
     name: 'Bague 8',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 8.jpg'
@@ -590,7 +590,7 @@ export const products: Product[] = [
       {
     id: '42',
     name: 'Bague 9',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 9.jpg'
@@ -610,7 +610,7 @@ export const products: Product[] = [
       {
     id: '43',
     name: 'Bague 10',
-    price: 129,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 10.jpg'
