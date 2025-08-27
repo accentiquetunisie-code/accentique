@@ -575,6 +575,84 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 89,
   },
+      {
+    id: '211',
+    name: 'manchette A1',
+    price: 30,
+    originalPrice: 45,
+    category: ['other'],
+    images: [
+      '/product_data/other/manchette A2.jpeg',
+      '/product_data/other/manchette A3.jpeg',
+      '/product_data/other/manchette A1.jpeg',
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Manchette precieuse',
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
+        {
+    id: '212',
+    name: 'manchette A4',
+    price: 30,
+    originalPrice: 45,
+    category: ['other'],
+    images: [
+      '/product_data/other/manchette A4.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Manchette precieuse',
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
+        {
+    id: '213',
+    name: 'manchette A5',
+    price: 30,
+    originalPrice: 45,
+    category: ['other'],
+    images: [
+      '/product_data/other/manchette A5.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Manchette precieuse',
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
+        {
+    id: '216',
+    name: 'manchette A6',
+    price: 30,
+    originalPrice: 45,
+    category: ['other'],
+    images: [
+      '/product_data/other/manchette A6.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Manchette precieuse',
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
    {
     id: '34',
     name: 'Bague 1',
