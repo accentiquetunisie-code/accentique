@@ -1571,7 +1571,26 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
-  
+  {
+    id: '300',
+    name: 'montre et bracelet 14',
+    price: 99,
+    category: ['package'],
+    images: [
+      '/product_data/earings/boucle a7.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
       {
     id: '96',
     name: 'montre 1',
