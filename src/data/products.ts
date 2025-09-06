@@ -1594,7 +1594,28 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
-  
+  {
+    id: '289',
+    name: 'bague 11',
+    price: 3,
+    originalPrice: 110,
+    category: ['rings'],
+    images: [
+      '/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
 
 ];
 
