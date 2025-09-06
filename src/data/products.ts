@@ -12,7 +12,7 @@ export interface Product {
   name: string;
   price: number;
   originalPrice?: number;
-  category: ('watches' | 'bracelets' | 'rings' | 'earings' | 'gift-sets' | 'fan' | 'necklace' | 'package' | 'other')[];
+  category: ('watches' | 'bracelets' | 'rings' | 'earings' | 'gift-sets' | 'fan' | 'necklace' | 'package' | 'other' | 'oussama' )[];
   images: string[];
   description: string;
   features: string[];
@@ -1631,5 +1631,6 @@ export const categories = [
   { id: 'earings', name: 'boucles d oreilles', count: products.filter(p => p.category.includes('earings')).length },
   { id: 'fan', name: 'Éventail', count: products.filter(p => p.category.includes('fan')).length },
   { id: 'package', name: 'pack', count: products.filter(p => p.category.includes('package')).length },
+  { id: 'oussama', name: 'X', count: products.filter(p => p.category.includes('package')).length },
   { id: 'other', name: 'autres', count: products.filter(p => p.category.includes('other')).length }
 ];
