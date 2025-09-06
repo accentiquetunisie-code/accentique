@@ -1577,7 +1577,7 @@ export const products: Product[] = [
     price: 99,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montre14.jpeg'
+      '/product_data/watches/montre+bracelet/C24F2CCE-FF0B-4F99-8F85-368A121DC352.jpeg'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
