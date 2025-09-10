@@ -1601,7 +1601,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images:[
-      ' product_data/watches/montre+bracelet/montre50.jpg
+      ' product_data/watches/montre+bracelet/montre50.jpeg
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
