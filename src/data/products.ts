@@ -1593,7 +1593,28 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
-  
+   {
+    id: '199',
+    name: 'montre 1',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    features: [
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (3ATM)',
+      'Cadran nacré avec cristaux',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    rating: 4.8,
+    reviews: 124,
+  },
 ];
 
 export const bundles: Bundle[] = [
