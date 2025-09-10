@@ -231,7 +231,7 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet12.jpeg'
     ],
-    description: 'Une montreet bracelet en acier inoxydable.',
+    description: 'Une montre et bracelet en acier inoxydable.',
     features: [
       'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
