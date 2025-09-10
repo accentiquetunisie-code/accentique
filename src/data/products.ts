@@ -45,11 +45,9 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable .',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
     ],
     inStock: true,
