@@ -1594,27 +1594,6 @@ export const products: Product[] = [
     reviews: 124,
   },
   
- {
-    id: '333',
-    name: 'montre 15',
-    price: 99,
-    originalPrice: 110,
-    category: ['package'],
-    images:[
-      ' product_data/watches/montre+bracelet/montre50.jpeg
-    ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
-    features: [
-      'Mouvement quartz de précision',
-      'Cadran nacré avec cristaux',
-      'Bracelet ajustable'
-    ],
-    inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
-  },
 ];
 
 export const bundles: Bundle[] = [
