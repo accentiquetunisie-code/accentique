@@ -71,7 +71,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: true,
     materials: ['Acier inoxydable'],
     rating: 4.8,
@@ -175,7 +175,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: true,
     materials: ['Acier inoxydable'],
     rating: 4.8,
