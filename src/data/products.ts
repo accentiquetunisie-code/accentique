@@ -52,7 +52,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 124,
   },
