@@ -1283,27 +1283,7 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
-  {
-    id: '70',
-    name: 'collier 9',
-    price: 23,
-    category: ['necklace'],
-    images: [
-      '/product_data/necklace/collier/collier9.jpeg'
-    ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
-    features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-      'Tailles 52-60 disponibles'
-    ],
-    inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
-  },
-
+  
   {
     id: '71',
     name: 'collier 10',
