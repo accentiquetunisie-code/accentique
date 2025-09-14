@@ -74,9 +74,10 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
           }`}>
             <button
               onClick={handleAddToCart}
-              className="btn-gold p-3 rounded-full shadow-lg hover:shadow-xl"
+              className="btn-gold px-4 py-2 rounded-full shadow-lg hover:shadow-xl flex items-center gap-2"
             >
               <ShoppingBag className="w-4 h-4" />
+              <span className="text-sm font-medium">Ajouter au panier</span>
             </button>
           </div>
 
