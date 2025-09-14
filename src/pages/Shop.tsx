@@ -1,8 +1,9 @@
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import { products, categories } from '../data/products';
+import { useIsMobile } from '../hooks/use-mobile';
 
 const Shop = () => {
   const [searchParams, setSearchParams] = useSearchParams();
@@ -10,6 +11,21 @@ const Shop = () => {
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'all');
   const [priceRange, setPriceRange] = useState([0, 500]);
   const [sortBy, setSortBy] = useState('name');
+  const productsRef = useRef<HTMLDivElement>(null);
+  const isMobile = useIsMobile();
+
+  // Auto-scroll to products on mobile when page loads
+  useEffect(() => {
+    if (isMobile && productsRef.current) {
+      const timer = setTimeout(() => {
+        productsRef.current?.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'start' 
+        });
+      }, 500);
+      return () => clearTimeout(timer);
+    }
+  }, [isMobile]);
 
   useEffect(() => {
     let filtered = [...products];
@@ -53,6 +69,16 @@ const Shop = () => {
       searchParams.set('category', category);
     }
     setSearchParams(searchParams);
+    
+    // Auto-scroll to products on mobile when category changes
+    if (isMobile && productsRef.current) {
+      setTimeout(() => {
+        productsRef.current?.scrollIntoView({ 
+          behavior: 'smooth', 
+          block: 'start' 
+        });
+      }, 100);
+    }
   };
 
   const getCategoryDisplayName = (category: string) => {
@@ -156,7 +182,7 @@ const Shop = () => {
           </div>
 
           {/* Products Grid */}
-          <div className="lg:w-3/4">
+          <div className="lg:w-3/4" ref={productsRef}>
             {/* Sort and Results */}
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
               <p className="text-gray-600">
