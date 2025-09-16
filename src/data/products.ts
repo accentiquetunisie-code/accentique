@@ -1578,6 +1578,24 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
+  {
+    id: '200',
+    name: 'Bague 12',
+    price: 18,
+    category: ['rings'],
+    images: [
+      '/product_data/rings/bague 1.jpg'
+    ],
+    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Acier inoxydable',
+      'Ajustable',
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
 ];
 
 export const bundles: Bundle[] = [
