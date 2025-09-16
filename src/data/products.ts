@@ -1584,9 +1584,9 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 1.jpg'
+      '/product_data/rings/bague 12.png'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague fleurs.',
     features: [
       'Acier inoxydable',
       'Ajustable',
