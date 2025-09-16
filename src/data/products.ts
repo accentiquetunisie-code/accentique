@@ -1584,8 +1584,7 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 12.png',
-      '/product_data/rings/bague 13.jpeg',
+      '/product_data/rings/bague 12.png'
     ],
     description: 'Bague fleurs.',
     features: [
