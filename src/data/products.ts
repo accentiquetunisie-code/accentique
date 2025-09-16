@@ -1602,8 +1602,7 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
-      '/product_data/earings/boucle1.jpeg',
-      '/product_data/earings/boucle2.jpeg'
+      '/product_data/earings/boucles 9.png'
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
