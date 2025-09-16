@@ -1596,6 +1596,26 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
+  {
+    id: '201',
+    name: 'boucle-d\'oreilles A9',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle1.jpeg',
+      '/product_data/earings/boucle2.jpeg'
+    ],
+    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
 ];
 
 export const bundles: Bundle[] = [
