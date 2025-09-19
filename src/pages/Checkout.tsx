@@ -23,7 +23,6 @@ interface CheckoutFormData {
   isGift: boolean;
 }
 
-
 const Checkout = () => {
   const { cartItems, getTotalPrice, clearCart } = useCart();
   const navigate = useNavigate();
@@ -48,9 +47,13 @@ const Checkout = () => {
 
   const subtotal = getTotalPrice();
   const discountAmount = (subtotal * discount) / 100;
-  const shipping = subtotal >= 200 ? 0 : 7;
+  
+  // Check if any item has free delivery or if order is over 99 DT
+  const hasFreeDeliveryItem = cartItems.some(item => item.product.isFreeDelivery);
+  const isEligibleForFreeDelivery = subtotal >= 99 || hasFreeDeliveryItem;
+  const shipping = isEligibleForFreeDelivery ? 0 : 8;
+  
   const total = subtotal - discountAmount + shipping;
-
 
   const applyPromoCode = () => {
     const validCodes = {
@@ -163,7 +166,7 @@ const Checkout = () => {
                   <div className="flex items-center mb-4">
                     <User className="w-5 h-5 text-gold-600 mr-2" />
                     <h3 className="font-serif text-lg font-semibold text-gray-800">
-                      Informations Personnelles et Produit
+                      Informations Personnelles
                     </h3>
                   </div>
                   
@@ -218,12 +221,11 @@ const Checkout = () => {
                     <FormField
                       control={form.control}
                       name="email"
-                      rules={{ required: "L'email est requis" }}
                       render={({ field }) => (
                         <FormItem>
-                          <FormLabel>Email *</FormLabel>
+                          <FormLabel>Email (optionnel)</FormLabel>
                           <FormControl>
-                            <Input placeholder="Email" {...field} />
+                            <Input type="email" placeholder="votre@email.com" {...field} />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
@@ -292,7 +294,7 @@ const Checkout = () => {
                 <div className="bg-beige-50 border border-beige-200 rounded-lg p-6">
                   <div className="flex items-center mb-4">
                     <Gift className="w-5 h-5 text-gold-600 mr-2" />
-                    <h3 className="font-semibold text-gray-800">Options Commande</h3>
+                    <h3 className="font-semibold text-gray-800">Options Cadeau</h3>
                   </div>
                   
                   <FormField
@@ -346,10 +348,10 @@ const Checkout = () => {
 
           {/* Order Summary */}
           <div className="space-y-6">
-            {/* code promo */}
+            {/* Promo Code */}
             <div className="bg-white rounded-lg shadow-md p-6">
               <h3 className="font-serif text-lg font-semibold text-gray-800 mb-4">
-                GIFT CODE
+                Code Promo
               </h3>
               <div className="flex">
                 <input
@@ -366,7 +368,6 @@ const Checkout = () => {
                 >
                   Appliquer
                 </button>
-                
               </div>
             </div>
 
