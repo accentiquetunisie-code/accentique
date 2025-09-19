@@ -61,6 +61,11 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
                 Bestseller
               </span>
             )}
+            {product.isFreeDelivery && (
+              <span className="bg-green-500 text-white text-xs px-2 py-1 rounded-full font-medium">
+                Livraison gratuite
+              </span>
+            )}
             {product.originalPrice && (
               <span className="bg-red-500 text-white text-xs px-2 py-1 rounded-full font-medium">
                 -{Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)}%
@@ -122,7 +127,7 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
             {product.description}
           </p>
           
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between mb-3">
             <div className="flex items-center space-x-2">
               <span className="text-xl font-bold text-gold-600">
                 {product.price} DT
@@ -140,6 +145,14 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
               </span>
             )}
           </div>
+          
+          <button
+            onClick={handleAddToCart}
+            disabled={!product.inStock}
+            className="w-full py-2 text-sm font-medium text-gold-600 border border-gold-600 rounded-md hover:bg-gold-600 hover:text-white transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+          >
+            Ajouter au panier
+          </button>
         </div>
       </Link>
     </div>
