@@ -67,6 +67,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     isNew: true,
+    isFreeDelivery: true,
     materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
@@ -112,6 +113,7 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
+    isFreeDelivery: true,
     isNew: true,
     materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
