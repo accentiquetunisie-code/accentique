@@ -19,9 +19,22 @@ export interface Product {
   inStock: boolean;
   isNew?: boolean;
   isBestSeller?: boolean;
+  isFreeDelivery?: boolean;
   materials: string[];
   rating: number;
   reviews: number;
+  variants?: ProductVariant[]; // Add variants support
+}
+
+export interface Bundle {
+  id: string;
+  name: string;
+  products: string[];
+  discount: number;
+  originalPrice: number;
+  bundlePrice: number;
+  image: string;
+  description: string;
 }
 
 export interface Bundle {
@@ -45,14 +58,16 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'
     ],
-    description: 'Une montre élégante et bracelet en acier inoxydable .',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
@@ -65,21 +80,23 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet2.jpeg'
     ],
-    description: 'Une montre en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
       'Mouvement quartz de précision',
-      'Résistante à l\'eau (3ATM)',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
     
       {
-    id: '4',
+    id: '3',
     name: 'montre et bracelet 4',
     price: 99,
     originalPrice: 110,
@@ -87,21 +104,22 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet5.jpeg'
     ],
-    description: 'Une montre en acier inoxydable plaqué or.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
       'Mouvement quartz de précision',
-      'Résistante à l\'eau (3ATM)',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
 
       {
-    id: '6',
+    id: '4',
     name: 'montre et bracelet 6',
     price: 99,
     originalPrice: 110,
@@ -109,19 +127,21 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet7.jpeg'
     ],
-    description: 'Une montre et bracelet en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
       {
-    id: '7',
+    id: '5',
     name: 'montre et bracelet 7',
     price: 99,
     originalPrice: 110,
@@ -129,19 +149,21 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet8.jpeg'
     ],
-    description: 'Une montre élégante  et bracelet en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
       {
-    id: '8',
+    id: '6',
     name: 'montre et bracelet 8',
     price: 99,
     originalPrice: 110,
@@ -149,19 +171,21 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet9.jpeg'
     ],
-    description: 'Une montre et bracelet en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
       {
-    id: '9',
+    id: '7',
     name: 'montre et bracelet 9',
     price: 99,
     originalPrice: 110,
@@ -169,21 +193,22 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet10.jpeg'
     ],
-    description: 'Une montre et bracelet en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
 
         {
-    id: '180',
+    id: '8',
     name: 'montre et bracelet 10',
     price: 99,
     originalPrice: 110,
@@ -191,19 +216,21 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet13.jpeg'
     ],
-    description: 'Une montre et bracelet en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
           {
-    id: '181',
+    id: '9',
     name: 'montre et bracelet 11',
     price: 99,
     originalPrice: 110,
@@ -211,19 +238,21 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet11.jpeg'
     ],
-    description: 'Une montre et bracelet en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
         {
-    id: '182',
+    id: '10',
     name: 'montre et bracelet 12',
     price: 99,
     originalPrice: 110,
@@ -231,20 +260,22 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet12.jpeg'
     ],
-    description: 'Une montre et bracelet en acier inoxydable.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (3ATM)',
+      'Mouvement quartz de précision',
+      'Résistante à l\'eau (30m)',
+      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable'],
+    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
     reviews: 124,
   },
 
   {
-    id: '10',
+    id: '11',
     name: '3 bracelet : van cleef noire + autre ...',
     price: 69,
     category: ['bracelets'],
@@ -265,7 +296,7 @@ export const products: Product[] = [
     reviews: 89,
   },
     {
-    id: '11',
+    id: '12',
     name: 'Bracelet 1',
     price: 27,
     category: ['bracelets'],
@@ -286,7 +317,7 @@ export const products: Product[] = [
     reviews: 89,
   },
     {
-    id: '12',
+    id: '13',
     name: 'Bracelet 2',
     price: 27,
     category: ['bracelets'],
@@ -307,7 +338,7 @@ export const products: Product[] = [
     reviews: 89,
   },
     {
-    id: '13',
+    id: '14',
     name: 'Bracelet 3',
     price: 27,
     category: ['bracelets'],
@@ -328,7 +359,7 @@ export const products: Product[] = [
     reviews: 89,
   },
     {
-    id: '14',
+    id: '15',
     name: 'Bracelet 4',
     price: 23,
     category: ['bracelets'],
@@ -349,7 +380,7 @@ export const products: Product[] = [
     reviews: 89,
   },
     {
-    id: '15',
+    id: '16',
     name: 'Bracelet 5',
     price: 23,
     category: ['bracelets'],
@@ -370,7 +401,7 @@ export const products: Product[] = [
     reviews: 89,
   },
       {
-    id: '16',
+    id: '17',
     name: '3 Bracelet : van cleef blanc + autre ...',
     price: 23,
     category: ['bracelets'],
@@ -391,7 +422,7 @@ export const products: Product[] = [
     reviews: 89,
   },
       {
-    id: '17',
+    id: '18',
     name: '3 Bracelet : van cleef doree + autre ...',
     price: 23,
     category: ['bracelets'],
@@ -412,7 +443,7 @@ export const products: Product[] = [
     reviews: 89,
   },
       {
-    id: '18',
+    id: '19',
     name: '2 Bracelet : van cleef noire + autre ...',
     price: 23,
     category: ['bracelets'],
@@ -433,7 +464,7 @@ export const products: Product[] = [
     reviews: 89,
   },
         {
-    id: '201',
+    id: '20',
     name: 'Bracelet A1',
     price: 69,
     category: ['bracelets'],
@@ -454,7 +485,7 @@ export const products: Product[] = [
     reviews: 89,
   },
           {
-    id: '202',
+    id: '21',
     name: 'Bracelet A2',
     price: 69,
     category: ['bracelets'],
@@ -475,7 +506,7 @@ export const products: Product[] = [
     reviews: 89,
   },
           {
-    id: '203',
+    id: '22',
     name: 'Bracelet A3',
     price: 69,
     category: ['bracelets'],
@@ -496,7 +527,7 @@ export const products: Product[] = [
     reviews: 89,
   },
           {
-    id: '204',
+    id: '23',
     name: 'Bracelet A4',
     price: 69,
     category: ['bracelets'],
@@ -517,7 +548,7 @@ export const products: Product[] = [
     reviews: 89,
   },
           {
-    id: '205',
+    id: '24',
     name: 'Bracelet A5',
     price: 69,
     category: ['bracelets'],
@@ -538,7 +569,7 @@ export const products: Product[] = [
     reviews: 89,
   },
         {
-    id: '206',
+    id: '25',
     name: 'Bracelet A6',
     price: 69,
     category: ['bracelets'],
@@ -559,7 +590,7 @@ export const products: Product[] = [
     reviews: 89,
   },
       {
-    id: '211',
+    id: '26',
     name: 'manchette A1',
     price: 30,
     category: ['bracelets'],
@@ -579,7 +610,7 @@ export const products: Product[] = [
     reviews: 124,
   },
         {
-    id: '212',
+    id: '27',
     name: 'manchette A4',
     price: 30,
     category: ['bracelets'],
@@ -597,7 +628,7 @@ export const products: Product[] = [
     reviews: 124,
   },
         {
-    id: '213',
+    id: '28',
     name: 'manchette A5',
     price: 30,
     category: ['bracelets'],
@@ -615,7 +646,7 @@ export const products: Product[] = [
     reviews: 124,
   },
         {
-    id: '216',
+    id: '29',
     name: 'manchette A6',
     price: 30,
     category: ['bracelets'],
@@ -633,7 +664,7 @@ export const products: Product[] = [
     reviews: 124,
   },
    {
-    id: '34',
+    id: '30',
     name: 'Bague 1',
     price: 18,
     category: ['rings'],
@@ -653,7 +684,7 @@ export const products: Product[] = [
     reviews: 67,
   },
    {
-    id: '35',
+    id: '31',
     name: 'Bague 2',
     price: 18,
     category: ['rings'],
@@ -673,7 +704,7 @@ export const products: Product[] = [
     reviews: 67,
   },
    {
-    id: '36',
+    id: '32',
     name: 'Bague 3',
     price: 18,
     category: ['rings'],
@@ -693,7 +724,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '37',
+    id: '33',
     name: 'Bague 4',
     price: 18,
     category: ['rings'],
@@ -713,7 +744,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '38',
+    id: '34',
     name: 'Bague 5',
     price: 18,
     category: ['rings'],
@@ -733,7 +764,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '39',
+    id: '35',
     name: 'Bague 6',
     price: 18,
     category: ['rings'],
@@ -753,7 +784,7 @@ export const products: Product[] = [
     reviews: 67,
   },
       {
-    id: '40',
+    id: '36',
     name: 'Bague 7',
     price: 18,
     category: ['rings'],
@@ -773,7 +804,7 @@ export const products: Product[] = [
     reviews: 67,
   },
       {
-    id: '41',
+    id: '37',
     name: 'Bague 8',
     price: 18,
     category: ['rings'],
@@ -793,7 +824,7 @@ export const products: Product[] = [
     reviews: 67,
   },
       {
-    id: '42',
+    id: '38',
     name: 'Bague 9',
     price: 18,
     category: ['rings'],
@@ -813,7 +844,7 @@ export const products: Product[] = [
     reviews: 67,
   },
       {
-    id: '43',
+    id: '39',
     name: 'Bague 10',
     price: 18,
     category: ['rings'],
@@ -834,7 +865,7 @@ export const products: Product[] = [
   },
 
   {
-    id: '51',
+    id: '40',
     name: 'Pack d\'accessoires 1',
     price: 43,
     category: ['gift-sets'],
@@ -854,7 +885,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '101',
+    id: '41',
     name: 'Pack d\'accessoires 2',
     price: 43,
     category: ['gift-sets'],
@@ -874,7 +905,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '102',
+    id: '42',
     name: 'Pack d\'accessoires 3',
     price: 43,
     category: ['gift-sets'],
@@ -894,7 +925,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '52',
+    id: '43',
     name: 'choker + bracelet',
     price: 68,
     category: ['gift-sets'],
@@ -917,7 +948,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '53',
+    id: '44',
     name: 'eventails 1',
     price: 22,
     category: ['fan'],
@@ -937,7 +968,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '54',
+    id: '45',
     name: 'eventails 2',
     price: 22,
     category: ['fan'],
@@ -957,7 +988,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '55',
+    id: '46',
     name: 'eventails 3',
     price: 22,
     category: ['fan'],
@@ -977,7 +1008,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '56',
+    id: '47',
     name: 'eventails 4',
     price: 22,
     category: ['fan'],
@@ -997,7 +1028,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '57',
+    id: '48',
     name: 'eventails 5',
     price: 22,
     category: ['fan'],
@@ -1017,7 +1048,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '58',
+    id: '49',
     name: 'eventails 6',
     price: 22,
     category: ['fan'],
@@ -1037,7 +1068,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '59',
+    id: '50',
     name: 'eventails 7',
     price: 22,
     category: ['fan'],
@@ -1058,7 +1089,7 @@ export const products: Product[] = [
   },
 
   {
-    id: '60',
+    id: '51',
     name: ' sets 1',
     price: 79,
     category: ['gift-sets'],
@@ -1083,7 +1114,7 @@ export const products: Product[] = [
     reviews: 67,
   },
     {
-    id: '61',
+    id: '52',
     name: ' sets 2',
     price: 69,
     category: ['gift-sets'],
@@ -1107,7 +1138,7 @@ export const products: Product[] = [
     reviews: 67,
   },
 {
-    id: '62',
+    id: '53',
     name: 'collier 1',
     price: 23,
     category: ['necklace'],
@@ -1127,7 +1158,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '63',
+    id: '54',
     name: 'collier 2',
     price: 23,
     category: ['necklace'],
@@ -1147,7 +1178,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '64',
+    id: '55',
     name: 'collier 3',
     price: 23,
     category: ['necklace'],
@@ -1167,7 +1198,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '65',
+    id: '56',
     name: 'collier 4',
     price: 23,
     category: ['necklace'],
@@ -1187,7 +1218,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '66',
+    id: '57',
     name: 'collier 5',
     price: 23,
     category: ['necklace'],
@@ -1207,7 +1238,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '67',
+    id: '58',
     name: 'collier 6',
     price: 23,
     category: ['necklace'],
@@ -1227,7 +1258,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '68',
+    id: '59',
     name: 'collier 7',
     price: 23,
     category: ['necklace'],
@@ -1247,7 +1278,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '69',
+    id: '60',
     name: 'collier 8',
     price: 23,
     category: ['necklace'],
@@ -1266,9 +1297,29 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
-  
   {
-    id: '71',
+    id: '61',
+    name: 'collier 9',
+    price: 23,
+    category: ['necklace'],
+    images: [
+      '/product_data/necklace/collier/collier9.jpeg'
+    ],
+    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    features: [
+      'Pierre centrale zircon cubique',
+      'Anneau en argent plaqué or',
+      'Design intemporel',
+      'Tailles 52-60 disponibles'
+    ],
+    inStock: true,
+    materials: ['Argent plaqué or', 'Zircon cubique'],
+    rating: 4.7,
+    reviews: 67,
+  },
+
+  {
+    id: '62',
     name: 'collier 10',
     price: 23,
     category: ['necklace'],
@@ -1293,7 +1344,7 @@ export const products: Product[] = [
 
 
 {
-    id: '91',
+    id: '63',
     name: 'boucle-d\'oreilles A1',
     price: 18,
     category: ['earings'],
@@ -1314,7 +1365,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '92',
+    id: '64',
     name: 'boucle-d\'oreilles 2',
     price: 18,
     category: ['earings'],
@@ -1335,7 +1386,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '93',
+    id: '65',
     name: 'boucle-d\'oreilles 3',
     price: 18,
     category: ['earings'],
@@ -1355,7 +1406,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '94',
+    id: '66',
     name: 'boucle-d\'oreilles 4',
     price: 18,
     category: ['earings'],
@@ -1375,7 +1426,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '95',
+    id: '67',
     name: 'boucle-d\'oreilles 5',
     price: 18,
     category: ['earings'],
@@ -1395,7 +1446,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '108',
+    id: '68',
     name: 'boucle-d\'oreilles 6',
     price: 18,
     category: ['earings'],
@@ -1415,7 +1466,7 @@ export const products: Product[] = [
     reviews: 67,
   },
 {
-    id: '191',
+    id: '69',
     name: 'boucle-d\'oreilles A1',
     price: 18,
     category: ['earings'],
@@ -1435,7 +1486,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '193',
+    id: '70',
     name: 'boucle-d\'oreilles A2',
     price: 18,
     category: ['earings'],
@@ -1455,7 +1506,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '194',
+    id: '71',
     name: 'boucle-d\'oreilles A3',
     price: 18,
     category: ['earings'],
@@ -1475,7 +1526,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '195',
+    id: '72',
     name: 'boucle-d\'oreilles A4',
     price: 18,
     category: ['earings'],
@@ -1495,7 +1546,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '196',
+    id: '73',
     name: 'boucle-d\'oreilles A5',
     price: 18,
     category: ['earings'],
@@ -1515,7 +1566,7 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '197',
+    id: '74',
     name: 'boucle-d\'oreilles A6',
     price: 18,
     category: ['earings'],
@@ -1534,8 +1585,9 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 67,
   },
+  
       {
-    id: '96',
+    id: '75',
     name: 'montre 1',
     price: 99,
     originalPrice: 110,
@@ -1556,65 +1608,8 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
-   {
-    id: '199',
-    name: 'montre 1',
-    price: 69,
-    originalPrice: 89,
-    category: ['watches'],
-    images: [
-      '/product_data/watches/montre/Montre44.jpeg'
-    ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
-    features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (3ATM)',
-      'Cadran nacré avec cristaux',
-      'Bracelet ajustable'
-    ],
-    inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
-  },
-  {
-    id: '200',
-    name: 'Bague 12',
-    price: 18,
-    category: ['rings'],
-    images: [
-      '/product_data/rings/bague 12.png'
-    ],
-    description: 'Bague fleurs.',
-    features: [
-      'Acier inoxydable',
-      'Ajustable',
-    ],
-    inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
-  },
-  {
-    id: '210',
-    name: 'boucle-d\'oreilles A9',
-    price: 18,
-    category: ['earings'],
-    images: [
-      '/product_data/earings/boucles 9.png'
-    ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
-    features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-    ],
-    inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
-  },
+  
+
 ];
 
 export const bundles: Bundle[] = [
