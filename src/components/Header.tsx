@@ -22,11 +22,6 @@ const Header = () => {
     path: '/about'
   }];
   return <>
-      {/* Flash Offer Banner */}
-      <div className="bg-gradient-gold text-white text-center py-2 text-sm font-medium">
-        ✨ OFFRE FLASH: -20% sur tous les coffrets cadeaux | Code: GIFT20 ✨
-      </div>
-      
       <header className="bg-white shadow-md sticky top-0 z-50">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
