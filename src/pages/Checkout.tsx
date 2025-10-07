@@ -298,22 +298,17 @@ const Checkout = () => {
                   </div>
                   
                   <FormField
-                    control={form.control}
-                    name="isGift"
-                    render={({ field }) => (
-                      <FormItem className="mb-4">
-                        <div className="flex items-center space-x-2">
-                          <input
-                            type="checkbox"
-                            checked={field.value}
-                            onChange={field.onChange}
-                            className="rounded border-gray-300"
-                          />
-                          <FormLabel className="!mt-0">C'est un cadeau (emballage gratuit)</FormLabel>
-                        </div>
-                      </FormItem>
-                    )}
-                  />
+  control={form.control}
+  name="isGift"
+  render={() => (
+    <FormItem className="mb-4">
+      <div className="flex items-center space-x-2">
+        <FormLabel className="!mt-0">C'est un cadeau (emballage gratuit)</FormLabel>
+      </div>
+    </FormItem>
+  )}
+/>
+
                   
                   <FormField
                     control={form.control}
