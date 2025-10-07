@@ -1,52 +1,58 @@
-import { useState, useEffect, useRef } from 'react';
-import { useSearchParams } from 'react-router-dom';
-import ProductCard from '../components/ProductCard';
-import { products, categories } from '../data/products';
-import { useIsMobile } from '../hooks/use-mobile';
+import { useState, useEffect, useRef } from "react";
+import { useSearchParams } from "react-router-dom";
+import ProductCard from "../components/ProductCard";
+import { products, categories } from "../data/products";
 
 const Shop = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [filteredProducts, setFilteredProducts] = useState(products);
-  const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'all');
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 500]);
-  const [sortBy, setSortBy] = useState('name');
-  const productsRef = useRef<HTMLDivElement | null>(null);
-  const isMobile = useIsMobile();
+  const [selectedCategory, setSelectedCategory] = useState(
+    searchParams.get("category") || "all"
+  );
+  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [sortBy, setSortBy] = useState("name");
+  const productsRef = useRef<HTMLDivElement>(null);
 
-  // Optional: Auto-scroll to products on mobile when page loads
-  useEffect(() => {
-    if (!isMobile) return;
-    const timer = setTimeout(() => {
-      if (productsRef.current) {
-        productsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }, 800);
-    return () => clearTimeout(timer);
-  }, [isMobile]);
+  // ✅ Scroll to products (for mobile users)
+  const scrollToProducts = () => {
+    if (window.innerWidth <= 900 && productsRef.current) {
+      setTimeout(() => {
+        const yOffset = -50; // adjust if header overlaps
+        const y =
+          productsRef.current.getBoundingClientRect().top +
+          window.pageYOffset +
+          yOffset;
+        window.scrollTo({ top: y, behavior: "smooth" });
+      }, 200); // short delay to allow DOM update
+    }
+  };
 
-  // Filter and sort products
+  // ✅ Filter and sort logic
   useEffect(() => {
     let filtered = [...products];
 
-    if (selectedCategory !== 'all') {
-      filtered = filtered.filter(product =>
+    // Category filter
+    if (selectedCategory !== "all") {
+      filtered = filtered.filter((product) =>
         product.category.includes(selectedCategory as any)
       );
     }
 
-    filtered = filtered.filter(product =>
-      product.price >= priceRange[0] && product.price <= priceRange[1]
+    // Price filter
+    filtered = filtered.filter(
+      (product) => product.price >= priceRange[0] && product.price <= priceRange[1]
     );
 
+    // Sort options
     filtered.sort((a, b) => {
       switch (sortBy) {
-        case 'price-low':
+        case "price-low":
           return a.price - b.price;
-        case 'price-high':
+        case "price-high":
           return b.price - a.price;
-        case 'rating':
+        case "rating":
           return b.rating - a.rating;
-        case 'newest':
+        case "newest":
           return (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0);
         default:
           return a.name.localeCompare(b.name);
@@ -56,40 +62,32 @@ const Shop = () => {
     setFilteredProducts(filtered);
   }, [selectedCategory, priceRange, sortBy]);
 
-  const scrollToProducts = (opts?: { offset?: number; delay?: number }) => {
-    if (!isMobile || !productsRef.current) return;
-    const offset = typeof opts?.offset === 'number' ? opts.offset : -80; // tweak -80 as needed
-    const delay = typeof opts?.delay === 'number' ? opts.delay : 200; // short delay to let DOM update
-
-    setTimeout(() => {
-      const top = productsRef.current!.getBoundingClientRect().top + window.pageYOffset + offset;
-      window.scrollTo({ top, behavior: 'smooth' });
-    }, delay);
-  };
-
+  // ✅ Handle Category Click
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
-
-    // Safely copy current search params, modify and set them
-    const params = new URLSearchParams(searchParams.toString());
-    if (category === 'all') {
-      params.delete('category');
+    if (category === "all") {
+      searchParams.delete("category");
     } else {
-      params.set('category', category);
+      searchParams.set("category", category);
     }
-    setSearchParams(params);
+    setSearchParams(searchParams);
 
-    // Scroll to products for mobile users after a short delay
-    scrollToProducts({ offset: -80, delay: 200 });
+    // Scroll only on mobile
+    scrollToProducts();
   };
 
   const getCategoryDisplayName = (category: string) => {
     switch (category) {
-      case 'gift-sets': return 'Coffret';
-      case 'watches': return 'Montre';
-      case 'bracelets': return 'Bracelet';
-      case 'rings': return 'Bague';
-      default: return category;
+      case "gift-sets":
+        return "Coffret";
+      case "watches":
+        return "Montre";
+      case "bracelets":
+        return "Bracelet";
+      case "rings":
+        return "Bague";
+      default:
+        return category;
     }
   };
 
@@ -113,7 +111,7 @@ const Shop = () => {
           <div className="lg:w-1/4">
             <div className="bg-white rounded-lg shadow-md p-6 sticky top-4">
               <h3 className="font-serif text-xl font-semibold mb-6">Filtres</h3>
-              
+
               {/* Categories */}
               <div className="mb-6">
                 <h4 className="font-semibold text-gray-800 mb-3">Catégories</h4>
@@ -124,13 +122,15 @@ const Shop = () => {
                       onClick={() => handleCategoryChange(category.id)}
                       className={`w-full text-left px-3 py-2 rounded-lg transition-colors ${
                         selectedCategory === category.id
-                          ? 'bg-gold-100 text-gold-800 font-medium'
-                          : 'text-gray-600 hover:bg-gray-100'
+                          ? "bg-gold-100 text-gold-800 font-medium"
+                          : "text-gray-600 hover:bg-gray-100"
                       }`}
                     >
                       <div className="flex justify-between items-center">
                         <span>{category.name}</span>
-                        <span className="text-sm text-gray-400">({category.count})</span>
+                        <span className="text-sm text-gray-400">
+                          ({category.count})
+                        </span>
                       </div>
                     </button>
                   ))}
@@ -142,15 +142,21 @@ const Shop = () => {
                 <h4 className="font-semibold text-gray-800 mb-3">Prix (DT)</h4>
                 <div className="space-y-3">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-gray-600">Min: {priceRange[0]} DT</span>
-                    <span className="text-sm text-gray-600">Max: {priceRange[1]} DT</span>
+                    <span className="text-sm text-gray-600">
+                      Min: {priceRange[0]} DT
+                    </span>
+                    <span className="text-sm text-gray-600">
+                      Max: {priceRange[1]} DT
+                    </span>
                   </div>
                   <input
                     type="range"
                     min="0"
                     max="500"
                     value={priceRange[1]}
-                    onChange={(e) => setPriceRange([priceRange[0], parseInt(e.target.value)])}
+                    onChange={(e) =>
+                      setPriceRange([priceRange[0], parseInt(e.target.value)])
+                    }
                     className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer slider"
                   />
                 </div>
@@ -158,22 +164,24 @@ const Shop = () => {
 
               {/* Quick Filters */}
               <div className="mb-6">
-                <h4 className="font-semibold text-gray-800 mb-3">Filtres Rapides</h4>
+                <h4 className="font-semibold text-gray-800 mb-3">
+                  Filtres Rapides
+                </h4>
                 <div className="space-y-2">
-                  <button 
-                    onClick={() => handleCategoryChange('all')}
+                  <button
+                    onClick={() => handleCategoryChange("all")}
                     className="w-full text-left px-3 py-2 text-sm text-gold-600 hover:bg-gold-50 rounded-lg transition-colors"
                   >
                     ✨ Nouveautés
                   </button>
-                  <button 
-                    onClick={() => handleCategoryChange('all')}
+                  <button
+                    onClick={() => handleCategoryChange("all")}
                     className="w-full text-left px-3 py-2 text-sm text-gold-600 hover:bg-gold-50 rounded-lg transition-colors"
                   >
                     🏆 Best-sellers
                   </button>
-                  <button 
-                    onClick={() => handleCategoryChange('gift-sets')}
+                  <button
+                    onClick={() => handleCategoryChange("gift-sets")}
                     className="w-full text-left px-3 py-2 text-sm text-gold-600 hover:bg-gold-50 rounded-lg transition-colors"
                   >
                     🎁 Idées cadeaux
@@ -188,9 +196,11 @@ const Shop = () => {
             {/* Sort and Results */}
             <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center mb-6 gap-4">
               <p className="text-gray-600">
-                {filteredProducts.length} produit{filteredProducts.length !== 1 ? 's' : ''} trouvé{filteredProducts.length !== 1 ? 's' : ''}
+                {filteredProducts.length} produit
+                {filteredProducts.length !== 1 ? "s" : ""} trouvé
+                {filteredProducts.length !== 1 ? "s" : ""}
               </p>
-              
+
               <select
                 value={sortBy}
                 onChange={(e) => setSortBy(e.target.value)}
@@ -204,7 +214,7 @@ const Shop = () => {
               </select>
             </div>
 
-            {/* Products */}
+            {/* Products List */}
             {filteredProducts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredProducts.map((product) => (
@@ -214,8 +224,18 @@ const Shop = () => {
             ) : (
               <div className="text-center py-12">
                 <div className="text-gray-400 mb-4">
-                  <svg className="w-16 h-16 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                  <svg
+                    className="w-16 h-16 mx-auto"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={1}
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    />
                   </svg>
                 </div>
                 <h3 className="text-xl font-semibold text-gray-600 mb-2">
@@ -226,12 +246,11 @@ const Shop = () => {
                 </p>
                 <button
                   onClick={() => {
-                    setSelectedCategory('all');
+                    setSelectedCategory("all");
                     setPriceRange([0, 500]);
-                    const params = new URLSearchParams(searchParams.toString());
-                    params.delete('category');
-                    setSearchParams(params);
-                    scrollToProducts({ offset: -80, delay: 200 });
+                    searchParams.delete("category");
+                    setSearchParams(searchParams);
+                    scrollToProducts();
                   }}
                   className="btn-gold px-6 py-2 rounded-lg"
                 >
