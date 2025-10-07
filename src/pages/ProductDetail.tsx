@@ -318,11 +318,11 @@ const ProductDetail = () => {
                   <div className="space-y-2">
                     <div className="flex justify-between">
                       <span className="text-gray-600">Livraison Express (Tunis)</span>
-                      <span className="font-medium">7 DT - 24h</span>
+                      <span className="font-medium">8 DT - 24h</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-600">Livraison Standard (Tunisie)</span>
-                      <span className="font-medium">5 DT - 2-3 jours</span>
+                      <span className="font-medium">8 DT - 2-3 jours</span>
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-600">Livraison Gratuite</span>
