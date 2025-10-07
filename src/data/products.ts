@@ -1176,13 +1176,13 @@ export const products: Product[] = [
   },
   {
     id: '55',
-    name: 'collier 3',
+    name: 'strawberry necklace',
     price: 20,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier3.jpeg'
     ],
-    description: 'strawberry necklace.',
+    description: 'collier 3.',
     features: [
       'Design intemporel',
     ],
