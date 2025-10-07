@@ -653,16 +653,17 @@ export const products: Product[] = [
     price: 30,
     category: ['bracelets'],
     images: [
-      '/product_data/other/manchette A6.jpeg',
-      '/product_data/bracelets/bracelet 7.jpeg'],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+      '/product_data/bracelets/bracelet 7.jpeg',
+      '/product_data/other/manchette A6.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
     features: [
       'Manchette precieuse',
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
     reviews: 124,
   },
     {
