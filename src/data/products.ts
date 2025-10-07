@@ -1141,23 +1141,21 @@ export const products: Product[] = [
   },
 {
     id: '53',
-    name: 'collier 1',
-    price: 23,
+    name: 'double chain necklace',
+    price: 25,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier1.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier 1',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
+      'Acier inoxydable',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
     materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    rating: 4.9,
+    reviews: 38,
   },
   {
     id: '54',
