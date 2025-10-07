@@ -801,9 +801,9 @@ export const products: Product[] = [
       'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 48,
   },
       {
     id: '37',
