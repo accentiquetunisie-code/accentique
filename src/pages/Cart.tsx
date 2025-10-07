@@ -162,8 +162,8 @@ const Cart = () => {
                   </span>
                 </div>
                 
-                {subtotal < 200 && <p className="text-sm text-gold-600">
-                    Ajoutez {(200 - subtotal).toFixed(2)} DT pour la livraison gratuite
+                {subtotal < 99 && <p className="text-sm text-gold-600">
+                    Ajoutez {(99 - subtotal).toFixed(2)} DT pour la livraison gratuite
                   </p>}
                 
                 <div className="border-t pt-3">
