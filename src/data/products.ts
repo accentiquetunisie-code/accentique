@@ -951,7 +951,7 @@ export const products: Product[] = [
       '/product_data/package/choker+bracelet/4.jpeg'
     ],
     description: '',
-    features: '',
+    features: [],
     inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.7,
