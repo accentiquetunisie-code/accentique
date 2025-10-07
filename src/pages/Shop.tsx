@@ -1,4 +1,3 @@
-
 import { useState, useEffect, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
@@ -9,39 +8,40 @@ const Shop = () => {
   const [searchParams, setSearchParams] = useSearchParams();
   const [filteredProducts, setFilteredProducts] = useState(products);
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'all');
-  const [priceRange, setPriceRange] = useState([0, 500]);
+  const [priceRange, setPriceRange] = useState<[number, number]>([0, 500]);
   const [sortBy, setSortBy] = useState('name');
   const productsRef = useRef<HTMLDivElement>(null);
   const isMobile = useIsMobile();
 
   // Auto-scroll to products on mobile when page loads
   useEffect(() => {
-    const handleAutoScroll = () => {
-      if (window.innerWidth < 768 && productsRef.current) {
-        productsRef.current.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'start' 
+    if (!isMobile) return; // Only on mobile devices
+
+    const timer = setTimeout(() => {
+      if (productsRef.current) {
+        productsRef.current.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
         });
       }
-    };
+    }, 800); // Small delay to ensure content renders first
 
-    // Wait for the page to be fully loaded
-    const timer = setTimeout(handleAutoScroll, 800);
     return () => clearTimeout(timer);
-  }, []); // Run only on mount
+  }, [isMobile]);
 
+  // Filter and sort products
   useEffect(() => {
     let filtered = [...products];
 
     // Category filter
     if (selectedCategory !== 'all') {
-      filtered = filtered.filter(product => 
+      filtered = filtered.filter(product =>
         product.category.includes(selectedCategory as any)
       );
     }
 
     // Price filter
-    filtered = filtered.filter(product => 
+    filtered = filtered.filter(product =>
       product.price >= priceRange[0] && product.price <= priceRange[1]
     );
 
@@ -62,7 +62,7 @@ const Shop = () => {
     });
 
     setFilteredProducts(filtered);
-  }, [selectedCategory, priceRange, sortBy, products]);
+  }, [selectedCategory, priceRange, sortBy]);
 
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
@@ -195,7 +195,7 @@ const Shop = () => {
               </select>
             </div>
 
-            {/* Products Grid */}
+            {/* Products */}
             {filteredProducts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredProducts.map((product) => (
