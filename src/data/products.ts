@@ -1162,42 +1162,34 @@ export const products: Product[] = [
   {
     id: '54',
     name: 'collier 2',
-    price: 23,
+    price: 20,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier2.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
-    features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-      'Tailles 52-60 disponibles'
-    ],
+    description: 'collier cerise.',
+    features: ['Design intemporel'],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
+    materials: ['Acier inoxydable'],
+    rating: 4.2,
     reviews: 67,
   },
   {
     id: '55',
     name: 'collier 3',
-    price: 23,
+    price: 20,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier3.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'strawberry necklace.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 27,
   },
   {
     id: '56',
