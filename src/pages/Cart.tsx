@@ -29,7 +29,7 @@ const Cart = () => {
   };
   const subtotal = getTotalPrice();
   const discountAmount = subtotal * discount / 100;
-  const shipping = subtotal >= 200 ? 0 : 7;
+  const shipping = subtotal >= 99 ? 0 : 8;
   const total = subtotal - discountAmount + shipping;
   const getCategoryDisplayName = (categories: string[]) => {
     const categoryNames = categories.map(cat => {
