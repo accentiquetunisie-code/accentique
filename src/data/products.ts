@@ -942,7 +942,7 @@ export const products: Product[] = [
   {
     id: '43',
     name: 'choker + bracelet',
-    price: 68,
+    price: 38,
     category: ['gift-sets'],
     images: [
       '/product_data/package/choker+bracelet/1.jpeg',
@@ -951,14 +951,8 @@ export const products: Product[] = [
       '/product_data/package/choker+bracelet/4.jpeg'
     ],
     description: '',
-    features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-      'Tailles 52-60 disponibles'
-    ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 67,
   },
