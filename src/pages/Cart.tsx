@@ -183,7 +183,6 @@ const Cart = () => {
               </div>
               <div className="space-y-3">
                 <label className="flex items-center">
-                  <input type="checkbox" className="mr-2" />
                   <span className="text-sm">Emballage cadeau (Gratuit)</span>
                 </label>
                 <textarea placeholder="Message personnalisé pour la carte cadeau..." className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm resize-none" rows={3} />
