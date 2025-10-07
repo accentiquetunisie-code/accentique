@@ -16,19 +16,21 @@ const Shop = () => {
 
   // Auto-scroll to products on mobile when page loads
   useEffect(() => {
-    if (isMobile && productsRef.current) {
-      const timer = setTimeout(() => {
-        productsRef.current?.scrollIntoView({ 
+    const handleAutoScroll = () => {
+      if (window.innerWidth < 768 && productsRef.current) {
+        productsRef.current.scrollIntoView({ 
           behavior: 'smooth', 
           block: 'start' 
         });
-      }, 500);
-      return () => clearTimeout(timer);
-    }
-  }, [isMobile]);
+      }
+    };
 
-  useEffect(() => {
-    let filtered = [...products];
+    // Wait for the page to be fully loaded
+    const timer = setTimeout(handleAutoScroll, 800);
+    return () => clearTimeout(timer);
+  }, []); // Run only on mount
+
+
 
     // Category filter
     if (selectedCategory !== 'all') {
@@ -69,17 +71,7 @@ const Shop = () => {
       searchParams.set('category', category);
     }
     setSearchParams(searchParams);
-    
-    // Auto-scroll to products on mobile when category changes
-    if (isMobile && productsRef.current) {
-      setTimeout(() => {
-        productsRef.current?.scrollIntoView({ 
-          behavior: 'smooth', 
-          block: 'start' 
-        });
-      }, 100);
-    }
-  };
+
 
   const getCategoryDisplayName = (category: string) => {
     switch (category) {
