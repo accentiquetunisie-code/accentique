@@ -10,22 +10,17 @@ const Shop = () => {
   const [selectedCategory, setSelectedCategory] = useState(searchParams.get('category') || 'all');
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 500]);
   const [sortBy, setSortBy] = useState('name');
-  const productsRef = useRef<HTMLDivElement>(null);
+  const productsRef = useRef<HTMLDivElement | null>(null);
   const isMobile = useIsMobile();
 
-  // Auto-scroll to products on mobile when page loads
+  // Optional: Auto-scroll to products on mobile when page loads
   useEffect(() => {
-    if (!isMobile) return; // Only on mobile devices
-
+    if (!isMobile) return;
     const timer = setTimeout(() => {
       if (productsRef.current) {
-        productsRef.current.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start',
-        });
+        productsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
-    }, 800); // Small delay to ensure content renders first
-
+    }, 800);
     return () => clearTimeout(timer);
   }, [isMobile]);
 
@@ -33,19 +28,16 @@ const Shop = () => {
   useEffect(() => {
     let filtered = [...products];
 
-    // Category filter
     if (selectedCategory !== 'all') {
       filtered = filtered.filter(product =>
         product.category.includes(selectedCategory as any)
       );
     }
 
-    // Price filter
     filtered = filtered.filter(product =>
       product.price >= priceRange[0] && product.price <= priceRange[1]
     );
 
-    // Sort
     filtered.sort((a, b) => {
       switch (sortBy) {
         case 'price-low':
@@ -64,14 +56,31 @@ const Shop = () => {
     setFilteredProducts(filtered);
   }, [selectedCategory, priceRange, sortBy]);
 
+  const scrollToProducts = (opts?: { offset?: number; delay?: number }) => {
+    if (!isMobile || !productsRef.current) return;
+    const offset = typeof opts?.offset === 'number' ? opts.offset : -80; // tweak -80 as needed
+    const delay = typeof opts?.delay === 'number' ? opts.delay : 200; // short delay to let DOM update
+
+    setTimeout(() => {
+      const top = productsRef.current!.getBoundingClientRect().top + window.pageYOffset + offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }, delay);
+  };
+
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
+
+    // Safely copy current search params, modify and set them
+    const params = new URLSearchParams(searchParams.toString());
     if (category === 'all') {
-      searchParams.delete('category');
+      params.delete('category');
     } else {
-      searchParams.set('category', category);
+      params.set('category', category);
     }
-    setSearchParams(searchParams);
+    setSearchParams(params);
+
+    // Scroll to products for mobile users after a short delay
+    scrollToProducts({ offset: -80, delay: 200 });
   };
 
   const getCategoryDisplayName = (category: string) => {
@@ -219,8 +228,10 @@ const Shop = () => {
                   onClick={() => {
                     setSelectedCategory('all');
                     setPriceRange([0, 500]);
-                    searchParams.delete('category');
-                    setSearchParams(searchParams);
+                    const params = new URLSearchParams(searchParams.toString());
+                    params.delete('category');
+                    setSearchParams(params);
+                    scrollToProducts({ offset: -80, delay: 200 });
                   }}
                   className="btn-gold px-6 py-2 rounded-lg"
                 >
