@@ -326,7 +326,7 @@ const ProductDetail = () => {
                     </div>
                     <div className="flex justify-between">
                       <span className="text-gray-600">Livraison Gratuite</span>
-                      <span className="font-medium">À partir de 200 DT</span>
+                      <span className="font-medium">À partir de 99 DT</span>
                     </div>
                   </div>
                 </div>
