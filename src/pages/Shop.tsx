@@ -30,7 +30,8 @@ const Shop = () => {
     return () => clearTimeout(timer);
   }, []); // Run only on mount
 
-
+  useEffect(() => {
+    let filtered = [...products];
 
     // Category filter
     if (selectedCategory !== 'all') {
@@ -61,7 +62,7 @@ const Shop = () => {
     });
 
     setFilteredProducts(filtered);
-  }, [selectedCategory, priceRange, sortBy]);
+  }, [selectedCategory, priceRange, sortBy, products]);
 
   const handleCategoryChange = (category: string) => {
     setSelectedCategory(category);
@@ -71,7 +72,7 @@ const Shop = () => {
       searchParams.set('category', category);
     }
     setSearchParams(searchParams);
-
+  };
 
   const getCategoryDisplayName = (category: string) => {
     switch (category) {
