@@ -850,17 +850,14 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 9.jpg'
+      '/product_data/rings/bague 13.jpeg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague n9 la reine.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 67,
   },
