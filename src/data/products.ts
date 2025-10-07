@@ -867,19 +867,16 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 10.jpg'
+      '/product_data/rings/bague 15.jpeg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague N10 la princesse.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 57,
   },
 
   {
