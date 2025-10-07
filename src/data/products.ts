@@ -665,6 +665,24 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
+    {
+    id: '1113',
+    name: 'manchette A7',
+    price: 30,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/Bracelet 6.jpeg'
+    ],
+    description: 'bracelet en acier inoxydable.',
+    features: [
+      'Manchette precieuse',
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 124,
+  },
    {
     id: '30',
     name: 'Bague 1',
