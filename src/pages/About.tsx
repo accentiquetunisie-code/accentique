@@ -51,23 +51,12 @@ const About = () => {
 
   const team = [
     {
-      name: "Amira Ben Salem",
-      role: "Fondatrice & Directrice Créative",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b93e0c79?w=400&h=400&fit=crop",
-      description: "Passionnée de mode depuis toujours, Amira a créé Accentique pour offrir l'élégance à toutes les femmes."
-    },
-    {
-      name: "Sara Khalil",
-      role: "Responsable Qualité",
-      image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop", 
-      description: "Garante de l'excellence de nos produits, Sara veille à ce que chaque pièce respecte nos standards élevés."
-    },
-    {
-      name: "Leila Mansouri",
-      role: "Service Client",
-      image: "https://images.unsplash.com/photo-1517841905240-472988babdf9?w=400&h=400&fit=crop",
-      description: "L'écoute et la satisfaction de nos clientes sont au cœur de la mission de Leila au quotidien."
+      name: "oussema",
+      role: "Fondateur & Directeur Créative",
+      image: "",
+      description: "Passionné de mode depuis toujours, oussema a créé Accentique pour offrir l'élégance à toutes les femmes."
     }
+
   ];
 
   return (
