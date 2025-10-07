@@ -653,8 +653,8 @@ export const products: Product[] = [
     price: 30,
     category: ['bracelets'],
     images: [
-      '/product_data/other/manchette A6.jpeg'
-    ],
+      '/product_data/other/manchette A6.jpeg',
+      '/product_data/bracelets/bracelet 7.jpeg'],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
       'Manchette precieuse',
