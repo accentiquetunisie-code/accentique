@@ -1149,11 +1149,10 @@ export const products: Product[] = [
     ],
     description: 'collier 1',
     features: [
-      'Acier inoxydable',
-      'Design intemporel',
+      'Design intemporel'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable'],
     rating: 4.9,
     reviews: 38,
   },
