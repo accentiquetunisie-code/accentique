@@ -694,7 +694,7 @@ export const products: Product[] = [
     ],
     description: 'Bague Papillon en Acier Inoxydable Doré.',
     features: [
-      'Taille ajustable
+      'Taille ajustable',
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
