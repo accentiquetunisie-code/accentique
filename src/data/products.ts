@@ -686,13 +686,13 @@ export const products: Product[] = [
   },
    {
     id: '30',
-    name: 'Bague Papillon en Acier Inoxydable Doré',
+    name: 'Bague 1',
     price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/bague 17.jpeg'
     ],
-    description: 'Légère et raffinée, cette bague en acier inoxydable doré met en avant un délicat papillon symbolisant la liberté et la féminité. Sa finition brillante et son design minimaliste apportent une touche d’élégance à toutes vos tenues. Résistante à l’eau et à l’usure, elle garde son éclat jour après jour..',
+    description: 'Bague Papillon en Acier Inoxydable Doré.',
     features: [
       'Taille ajustable
     ],
