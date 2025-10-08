@@ -17,7 +17,7 @@
     <meta property="og:url" content="https://accentique-tau.vercel.app/" />
     <meta property="og:image" content="/public/product_data/logo.jpg" />
 
-    <!-- ✅ Meta Pixel Code -->
+    <!-- ✅ Meta Pixel Code (only the script stays in head) -->
     <script>
       !function(f,b,e,v,n,t,s)
       {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -30,15 +30,18 @@
       fbq('init', '1196708355650950');
       fbq('track', 'PageView');
     </script>
-    <noscript>
-      <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1196708355650950&ev=PageView&noscript=1"/>
-    </noscript>
     <!-- ✅ End Meta Pixel Code -->
   </head>
 
   <body>
     <div id="root"></div>
+
+    <!-- ✅ noscript part moved here -->
+    <noscript>
+      <img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=1196708355650950&ev=PageView&noscript=1"/>
+    </noscript>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
