@@ -707,19 +707,16 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 2.jpg'
+      '/product_data/rings/bague 19.jpeg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague doré ajustable en acier inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable'],
     rating: 4.7,
-    reviews: 67,
+    reviews: 24,
   },
    {
     id: '32',
