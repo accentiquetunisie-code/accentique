@@ -686,23 +686,20 @@ export const products: Product[] = [
   },
    {
     id: '30',
-    name: 'Bague 1',
+    name: 'Bague Papillon en Acier Inoxydable Doré',
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 1.jpg'
+      '/product_data/rings/bague 17.jpeg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Légère et raffinée, cette bague en acier inoxydable doré met en avant un délicat papillon symbolisant la liberté et la féminité. Sa finition brillante et son design minimaliste apportent une touche d’élégance à toutes vos tenues. Résistante à l’eau et à l’usure, elle garde son éclat jour après jour..',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable'],
     rating: 4.7,
-    reviews: 67,
+    reviews: 0,
   },
    {
     id: '31',
