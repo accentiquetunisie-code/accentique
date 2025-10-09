@@ -1170,13 +1170,13 @@ export const products: Product[] = [
   },
   {
     id: '55',
-    name: 'strawberry necklace',
-    price: 20,
+    name: 'collier 1',
+    price: 18,
     category: ['necklace'],
     images: [
-      '/product_data/necklace/collier/collier3.jpeg'
+      '/product_data/necklace/collier/collier14.jpeg'
     ],
-    description: 'collier 3.',
+    description: 'collier gold en acier inoxydable.',
     features: [
       'Design intemporel',
     ],
