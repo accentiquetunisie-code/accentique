@@ -56,21 +56,20 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet1.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_1297.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante et 1 bracelet en acier inoxydablr.',
     features: [
       'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5ATM)',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
     isFreeDelivery: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 78,
   },
       {
     id: '2',
