@@ -1541,7 +1541,8 @@ export const products: Product[] = [
     category: ['earings'],
     images: [
       '/product_data/earings/boucle12.png',
-      '/product_data/earings/boucle a6.jpeg'
+      '/product_data/earings/boucle a6.jpeg',
+      '/product_data/earings/boucle5.jpeg'
     ],
     description: 'boucle-d\'oreilles en acier inoxydable.',
     features: [
