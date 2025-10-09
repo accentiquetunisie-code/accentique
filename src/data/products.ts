@@ -207,7 +207,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet10.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_1298.jpeg'
     ],
     description: 'Une montre élégante et 1 bracelet en acier inoxydable.',
     features: [
