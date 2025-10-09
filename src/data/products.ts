@@ -65,7 +65,7 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.6,
@@ -134,10 +134,11 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 111,
   },
       {
     id: '5',
@@ -148,18 +149,17 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet8.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 99,
   },
       {
     id: '6',
@@ -170,18 +170,17 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet9.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 89,
   },
       {
     id: '7',
@@ -198,7 +197,8 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
+    isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4,
     reviews: 79,
@@ -219,7 +219,8 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
+    isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.5,
     reviews: 89,
@@ -233,18 +234,17 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet11.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante et bracelet en acier inoxydable.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 112,
   },
         {
     id: '10',
@@ -257,14 +257,13 @@ export const products: Product[] = [
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 124,
   },
