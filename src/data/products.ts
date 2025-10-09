@@ -110,7 +110,7 @@ export const products: Product[] = [
     inStock: true,
     isFreeDelivery: true,
     isNew: true,
-    materials: ['Acier inoxydable''],
+    materials: ['Acier inoxydable'],
     rating: 4.1,
     reviews: 101,
   },
