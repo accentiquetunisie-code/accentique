@@ -724,19 +724,19 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 3.jpg'
+      '/product_data/rings/bague 21.jpeg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague Cœur Minimaliste en Acier Inoxydable Argenté.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
+      'Résistante à l’eau – ne noircit pas et ne change pas de couleur',
+      'Couleur : Argenté',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 13,
   },
     {
     id: '33',
