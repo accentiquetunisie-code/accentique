@@ -1345,7 +1345,7 @@ export const products: Product[] = [
 
 {
     id: '63',
-    name: 'boucle-d\'oreilles A1',
+    name: 'boucle-d\'oreilles 1',
     price: 18,
     category: ['earings'],
     images: [
@@ -1540,6 +1540,7 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
+      '/product_data/earings/boucle12.png',
       '/product_data/earings/boucle a6.jpeg'
     ],
     description: 'boucle-d\'oreilles en acier inoxydable.',
