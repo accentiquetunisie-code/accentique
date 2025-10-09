@@ -1467,27 +1467,25 @@ export const products: Product[] = [
   },
 {
     id: '69',
-    name: 'boucle-d\'oreilles A1',
+    name: 'boucle-d\'oreilles 7',
     price: 18,
     category: ['earings'],
     images: [
+      '/product_data/earings/boucle10.png',
       '/product_data/earings/boucle a1.jpeg'
     ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Boucles d’Oreilles Fleur Dorée en Acier Inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 38,
   },
   {
     id: '70',
-    name: 'boucle-d\'oreilles A2',
+    name: 'boucle-d\'oreilles 8',
     price: 18,
     category: ['earings'],
     images: [
@@ -1495,19 +1493,16 @@ export const products: Product[] = [
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 28,
   },
   {
     id: '71',
-    name: 'boucle-d\'oreilles A3',
+    name: 'boucle-d\'oreilles 9',
     price: 18,
     category: ['earings'],
     images: [
@@ -1515,75 +1510,63 @@ export const products: Product[] = [
     ],
     description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.5,
+    reviews: 46,
   },
   {
     id: '72',
-    name: 'boucle-d\'oreilles A4',
+    name: 'boucle-d\'oreilles 10',
     price: 18,
     category: ['earings'],
     images: [
       '/product_data/earings/boucle a5.jpeg'
     ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'boucle-d\'oreilles en acier inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 67,
   },
   {
     id: '73',
-    name: 'boucle-d\'oreilles A5',
+    name: 'boucle-d\'oreilles 11',
     price: 18,
     category: ['earings'],
     images: [
       '/product_data/earings/boucle a6.jpeg'
     ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'boucle-d\'oreilles en acier inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 52,
   },
   {
     id: '74',
-    name: 'boucle-d\'oreilles A6',
+    name: 'boucle-d\'oreilles 12',
     price: 18,
     category: ['earings'],
     images: [
       '/product_data/earings/boucle a7.jpeg'
     ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'boucle-d\'oreilles en acier inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable',],
     rating: 4.7,
-    reviews: 67,
+    reviews: 11,
   },
   
       {
