@@ -1288,22 +1288,19 @@ export const products: Product[] = [
   {
     id: '61',
     name: 'collier 9',
-    price: 23,
+    price: 18,
     category: ['necklace'],
     images: [
-      '/product_data/necklace/collier/collier9.jpeg'
+      '/product_data/necklace/collier/collier15.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier messika gold.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 22,
   },
 
   {
