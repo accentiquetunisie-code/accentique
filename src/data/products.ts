@@ -82,9 +82,7 @@ export const products: Product[] = [
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -126,11 +124,9 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre+bracelet/montreetbracelet7.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante et bracelet en acier inoxydable.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -151,7 +147,7 @@ export const products: Product[] = [
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable.',
     features: [
-      'Résistante à l\'eau (5atm)',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -172,7 +168,7 @@ export const products: Product[] = [
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable.',
     features: [
-      'Résistante à l\'eau (5atm)',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -193,7 +189,7 @@ export const products: Product[] = [
     ],
     description: 'Une montre avec 1 bracelet en acier inoxydable.',
     features: [
-      'Résistante à l\'eau (5ATM)',
+      'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -215,7 +211,7 @@ export const products: Product[] = [
     ],
     description: 'Une montre élégante et 1 bracelet en acier inoxydable.',
     features: [
-      'Résistante à l\'eau (5ATM)',
+      'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -236,7 +232,7 @@ export const products: Product[] = [
     ],
     description: 'Une montre élégante et bracelet en acier inoxydable.',
     features: [
-      'Résistante à l\'eau (5atm)',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -257,7 +253,7 @@ export const products: Product[] = [
     ],
     description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
     features: [
-      'Résistante à l\'eau (5atm)',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
