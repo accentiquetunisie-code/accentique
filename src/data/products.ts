@@ -102,21 +102,19 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet5.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_1299.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante et 1 bracelet en acier inoxydable.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5ATM)',
       'Bracelet ajustable'
     ],
     inStock: true,
     isFreeDelivery: true,
     isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    materials: ['Acier inoxydable''],
+    rating: 4.1,
+    reviews: 101,
   },
 
       {
@@ -192,20 +190,18 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet10.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_1302.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre avec 1 bracelet en acier inoxydable.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5ATM)',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    materials: ['Acier inoxydable'],
+    rating: 4,
+    reviews: 79,
   },
 
         {
@@ -215,20 +211,18 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet13.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_1298.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre élégante et 1 bracelet en acier inoxydable.',
     features: [
-      'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
+      'Résistante à l\'eau (5ATM)',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    materials: ['Acier inoxydable'],
+    rating: 4.5,
+    reviews: 89,
   },
           {
     id: '9',
