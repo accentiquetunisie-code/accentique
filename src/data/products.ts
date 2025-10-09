@@ -746,17 +746,16 @@ export const products: Product[] = [
     images: [
       '/product_data/rings/bague 4.jpg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague avec pierre noir centrale.',
     features: [
       'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.2,
+    reviews: 19,
   },
     {
     id: '34',
@@ -766,17 +765,15 @@ export const products: Product[] = [
     images: [
       '/product_data/rings/bague 5.jpg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague fleur en acier inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 38,
   },
     {
     id: '35',
@@ -784,19 +781,17 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 6.jpg'
+      '/product_data/rings/bague 20.jpeg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague Serpent en Acier Inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 47,
   },
       {
     id: '36',
@@ -806,17 +801,15 @@ export const products: Product[] = [
     images: [
       '/product_data/rings/bague 12.jpeg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague en Acier Inoxydable Doré – Élégance Moderne.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
-    rating: 4.6,
-    reviews: 48,
+    rating: 4.1,
+    reviews: 38,
   },
       {
     id: '37',
@@ -826,17 +819,15 @@ export const products: Product[] = [
     images: [
       '/product_data/rings/bague 8.jpg'
     ],
-    description: 'Bague solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'Bague van cleef blanc.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille ajustable'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.5,
+    reviews: 44,
   },
       {
     id: '38',
