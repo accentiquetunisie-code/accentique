@@ -164,9 +164,9 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet9.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_1303.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable.',
+    description: 'Une montre et bracelet en acier inoxydable.',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
