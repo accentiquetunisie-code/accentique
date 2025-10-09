@@ -1469,9 +1469,10 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
+      '/product_data/earings/boucle14.png',
       '/product_data/earings/boucle a3.jpeg'
     ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'boucle-d\'oreilles en acier inoxydable.',
     features: [
       'Design intemporel',
     ],
