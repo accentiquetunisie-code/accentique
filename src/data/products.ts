@@ -1628,6 +1628,6 @@ export const categories = [
   { id: 'earings', name: 'boucles d oreilles', count: products.filter(p => p.category.includes('earings')).length },
   { id: 'fan', name: 'Éventail', count: products.filter(p => p.category.includes('fan')).length },
   { id: 'package', name: 'pack', count: products.filter(p => p.category.includes('package')).length },
-  { id: 'other', name: 'autres', count: products.filter(p => p.category.includes('other')).length },
-  { id: 'mount', name: 'Montures', count: products.filter(p => p.category.includes('mount')).length }
+  { id: 'mount', name: 'Montures', count: products.filter(p => p.category.includes('mount')).length },
+  { id: 'other', name: 'autres', count: products.filter(p => p.category.includes('other')).length }
 ];
