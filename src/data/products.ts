@@ -1386,28 +1386,8 @@ export const products: Product[] = [
     reviews: 67,
   },
   {
-    id: '65',
-    name: 'boucle-d\'oreilles 3',
-    price: 18,
-    category: ['earings'],
-    images: [
-      '/product_data/earings/boucle5.jpeg'
-    ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
-    features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
-      'Design intemporel',
-      'Tailles 52-60 disponibles'
-    ],
-    inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
-  },
-  {
     id: '66',
-    name: 'boucle-d\'oreilles 4',
+    name: 'boucle-d\'oreilles 3',
     price: 18,
     category: ['earings'],
     images: [
@@ -1427,7 +1407,7 @@ export const products: Product[] = [
   },
   {
     id: '67',
-    name: 'boucle-d\'oreilles 5',
+    name: 'boucle-d\'oreilles 4',
     price: 18,
     category: ['earings'],
     images: [
@@ -1447,7 +1427,7 @@ export const products: Product[] = [
   },
   {
     id: '68',
-    name: 'boucle-d\'oreilles 6',
+    name: 'boucle-d\'oreilles 5',
     price: 18,
     category: ['earings'],
     images: [
@@ -1467,7 +1447,7 @@ export const products: Product[] = [
   },
 {
     id: '69',
-    name: 'boucle-d\'oreilles 7',
+    name: 'boucle-d\'oreilles 6',
     price: 18,
     category: ['earings'],
     images: [
@@ -1485,7 +1465,7 @@ export const products: Product[] = [
   },
   {
     id: '70',
-    name: 'boucle-d\'oreilles 8',
+    name: 'boucle-d\'oreilles 7',
     price: 18,
     category: ['earings'],
     images: [
@@ -1502,13 +1482,14 @@ export const products: Product[] = [
   },
   {
     id: '71',
-    name: 'boucle-d\'oreilles 9',
+    name: 'boucle-d\'oreilles 8',
     price: 18,
     category: ['earings'],
     images: [
+      '/product_data/earings/boucle11.png',
       '/product_data/earings/boucle a4.jpeg'
     ],
-    description: 'boucle-d\'oreilles solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'boucle-d\'oreilles en acier inoxydable.',
     features: [
       'Design intemporel',
     ],
@@ -1519,7 +1500,7 @@ export const products: Product[] = [
   },
   {
     id: '72',
-    name: 'boucle-d\'oreilles 10',
+    name: 'boucle-d\'oreilles 9',
     price: 18,
     category: ['earings'],
     images: [
@@ -1536,7 +1517,7 @@ export const products: Product[] = [
   },
   {
     id: '73',
-    name: 'boucle-d\'oreilles 11',
+    name: 'boucle-d\'oreilles 10',
     price: 18,
     category: ['earings'],
     images: [
@@ -1555,7 +1536,7 @@ export const products: Product[] = [
   },
   {
     id: '74',
-    name: 'boucle-d\'oreilles 12',
+    name: 'boucle-d\'oreilles 11',
     price: 18,
     category: ['earings'],
     images: [
