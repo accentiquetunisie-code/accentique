@@ -863,7 +863,23 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 57,
   },
-
+ {
+    id: '391',
+    name: 'Bague 11',
+    price: 18,
+    category: ['rings'],
+    images: [
+      '/product_data/rings/bague 11.png'
+    ],
+    description: 'Bague= fleur en acier inoxydable.',
+    features: [
+      'Taille ajustable',
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 3,
+  },
   {
     id: '40',
     name: 'Pack d\'accessoires 1',
