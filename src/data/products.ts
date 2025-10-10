@@ -1754,7 +1754,105 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 45,
   },
-  
+   {
+    id: '89',
+    name: 'Bracelet 6',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet-8.jpeg',
+      '/product_data/bracelets/bracelet-9.jpeg'
+    ],
+    description: 'Bracelet en acier inoxydable.',
+    features: [
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 25,
+  },
+  {
+    id: '90',
+    name: 'Bracelet 7',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet-12.jpeg',
+      '/product_data/bracelets/bracelet-10.jpeg',
+      '/product_data/bracelets/bracelet-11.jpeg'
+    ],
+    description: 'Bracelet en acier inoxydable.',
+    features: [
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 38,
+  },
+   {
+    id: '91',
+    name: 'Bracelet 8',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet-13.jpeg',
+      '/product_data/bracelets/bracelet-14.jpeg',
+      '/product_data/bracelets/bracelet-15.jpeg'
+    ],
+    description: 'Gourmette van vleef D en acier inoxydable.',
+    features: [
+      'Taille standard'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 41,
+  },
+  {
+    id: '92',
+    name: 'Bracelet 9',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet-17.jpeg',
+      '/product_data/bracelets/bracelet-16.jpeg',
+      '/product_data/bracelets/bracelet-18.jpeg'
+    ],
+    description: 'Bracelet en acier inoxydable.',
+    features: [
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.5,
+    reviews: 58,
+  },
+  {
+    id: '93',
+    name: 'Bracelet 10',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet-20.jpeg',
+      '/product_data/bracelets/bracelet-19.jpeg',
+      '/product_data/bracelets/bracelet-21.jpeg'
+    ],
+    description: 'Gourmette van cleef en acier inoxydable.',
+    features: [
+      'Taille standard'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 62,
+  },
 ];
 
 export const bundles: Bundle[] = [
