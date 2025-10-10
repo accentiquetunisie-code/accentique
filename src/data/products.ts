@@ -1846,13 +1846,13 @@ export const products: Product[] = [
     ],
     description: 'Monture optique pour femmes.',
     features: [
+      'Taille standard',
       'Confortable à porter',
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
     inStock: true,
     isBestSeller: false,
-    materials: [''],
     rating: 4.9,
     reviews: 27,
   },
