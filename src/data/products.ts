@@ -1138,13 +1138,13 @@ export const products: Product[] = [
   },
 {
     id: '53',
-    name: 'double chain necklace',
+    name: 'collier 1',
     price: 25,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier1.jpeg'
     ],
-    description: 'collier 1',
+    description: 'double chain necklace',
     features: [
       'Design intemporel'
     ],
@@ -1205,7 +1205,7 @@ export const products: Product[] = [
   {
     id: '57',
     name: 'collier 5',
-    price: 23,
+    price: 18,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier5.jpeg'
@@ -1222,7 +1222,7 @@ export const products: Product[] = [
   {
     id: '58',
     name: 'collier 6',
-    price: 23,
+    price: 18,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier6.jpeg'
@@ -1239,7 +1239,7 @@ export const products: Product[] = [
   {
     id: '59',
     name: 'collier 7',
-    price: 23,
+    price: 18,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier7.jpeg'
@@ -1256,7 +1256,7 @@ export const products: Product[] = [
   {
     id: '60',
     name: 'collier 8',
-    price: 23,
+    price: 18,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier8.jpeg'
@@ -1291,7 +1291,7 @@ export const products: Product[] = [
   {
     id: '62',
     name: 'collier 10',
-    price: 23,
+    price: 18,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier10.jpeg',
