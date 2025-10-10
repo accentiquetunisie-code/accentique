@@ -898,7 +898,7 @@ export const products: Product[] = [
   },
   {
     id: '43',
-    name: 'choker + bracelet',
+    name: 'choker + bracelet 1',
     price: 38,
     category: ['gift-sets'],
     images: [
@@ -1684,7 +1684,7 @@ export const products: Product[] = [
   },
    {
     id: '85',
-    name: 'choker + bracelet',
+    name: 'choker + bracelet 2',
     price: 38,
     category: ['gift-sets'],
     images: [
@@ -1701,7 +1701,7 @@ export const products: Product[] = [
   },
   {
     id: '86',
-    name: 'choker + bracelet',
+    name: 'choker + bracelet 3',
     price: 38,
     category: ['gift-sets'],
     images: [
