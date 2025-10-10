@@ -1834,6 +1834,28 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 62,
   },
+  {
+    id: '94',
+    name: 'monture 1',
+    price: 25,
+    category: ['mount'],
+    images: [
+      '/product_data/other/1.jpeg',
+      '/product_data/other/2.jpeg',
+      '/product_data/other/3.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: [''],
+    rating: 4.9,
+    reviews: 27,
+  },
 ];
 
 export const bundles: Bundle[] = [
