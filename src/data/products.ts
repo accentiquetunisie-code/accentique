@@ -588,25 +588,6 @@ export const products: Product[] = [
     reviews: 12,
   },
         {
-    id: '28',
-    name: 'manchette A5',
-    price: 28,
-    category: ['bracelets'],
-    images: [
-      '/product_data/other/manchette A5.jpeg'
-    ],
-    description: 'Manchette en acier inoxydable.',
-    features: [
-      'Manchette precieuse',
-      'Taille ajustable'
-    ],
-    inStock: true,
-    isNew: false,
-    materials: ['Acier inoxydable'],
-    rating: 4.6,
-    reviews: 29,
-  },
-        {
     id: '29',
     name: 'manchette A6',
     price: 28,
