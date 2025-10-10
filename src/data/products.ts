@@ -1657,6 +1657,25 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 124,
   },
+   {
+    id: '83',
+    name: 'Bracelet perle B',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_1368.jpeg',
+      '/product_data/bracelets/IMG_1364.jpeg'
+    ],
+    description: 'Bracelet perle B en acier inoxydable',
+    features: [
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 50,
+  },
 ];
 
 export const bundles: Bundle[] = [
