@@ -1853,6 +1853,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     isBestSeller: false,
+    materials: ['TR90'],
     rating: 4.9,
     reviews: 27,
   },
