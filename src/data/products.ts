@@ -1473,6 +1473,7 @@ export const products: Product[] = [
     price: 18,
     category: ['earings'],
     images: [
+      '/product_data/earings/boucle18.jpeg',
       '/product_data/earings/boucle a5.jpeg'
     ],
     description: 'boucle-d\'oreilles en acier inoxydable.',
@@ -1675,6 +1676,23 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.6,
     reviews: 50,
+  },
+   {
+    id: '84',
+    name: 'boucle-d\'oreilles 12',
+    price: 18,
+    category: ['earings'],
+    images: [
+      '/product_data/earings/boucle19.jpeg'
+    ],
+    description: 'boucle-d\'oreilles en acier inoxydable.',
+    features: [
+      'Design intemporel',
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 38,
   },
 ];
 
