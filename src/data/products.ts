@@ -1523,7 +1523,7 @@ export const products: Product[] = [
   
       {
     id: '75',
-    name: 'montre 1',
+    name: 'montre + 2 bracelets',
     price: 99,
     originalPrice: 110,
     category: ['package'],
@@ -1536,7 +1536,8 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
+    isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 14,
