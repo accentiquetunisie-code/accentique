@@ -1837,7 +1837,7 @@ export const products: Product[] = [
   {
     id: '94',
     name: 'monture 1',
-    price: 25,
+    price: 37,
     category: ['mount'],
     images: [
       '/product_data/other/1.jpeg',
@@ -1856,6 +1856,329 @@ export const products: Product[] = [
     materials: ['TR90'],
     rating: 4.9,
     reviews: 27,
+  },
+  {
+    id: '95',
+    name: 'monture 2',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/5.jpeg',
+      '/product_data/other/7.jpeg',
+      '/product_data/other/6.jpeg',
+      '/product_data/other/4.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+ {
+    id: '96',
+    name: 'monture 3',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/10.jpeg',
+      '/product_data/other/12.jpeg',
+      '/product_data/other/11.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '97',
+    name: 'monture 4',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/13.jpeg',
+      '/product_data/other/15.jpeg',
+      '/product_data/other/14.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '98',
+    name: 'monture 5',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/18.jpeg',
+      '/product_data/other/17.jpeg',
+      '/product_data/other/19.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '99',
+    name: 'monture 6',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/21.jpeg',
+      '/product_data/other/23.jpeg',
+      '/product_data/other/22.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '100',
+    name: 'monture 7',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/26.jpeg',
+      '/product_data/other/27.jpeg',
+      '/product_data/other/25.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '101',
+    name: 'monture 8',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/30.jpeg',
+      '/product_data/other/29.jpeg',
+      '/product_data/other/31.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '102',
+    name: 'monture 9',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/35.jpeg',
+      '/product_data/other/34.jpeg',
+      '/product_data/other/33.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '103',
+    name: 'monture 10',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/39.jpeg',
+      '/product_data/other/40.jpeg',
+      '/product_data/other/38.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '104',
+    name: 'monture 11',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/44.jpeg',
+      '/product_data/other/45.jpeg',
+      '/product_data/other/43.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '105',
+    name: 'monture 12',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/47.jpeg',
+      '/product_data/other/50.jpeg',
+      '/product_data/other/49.jpeg',
+      '/product_data/other/48.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '106',
+    name: 'monture 13',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/52.jpeg',
+      '/product_data/other/53.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+  {
+    id: '107',
+    name: 'monture 14',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/56.jpeg',
+      '/product_data/other/57.jpeg',
+      '/product_data/other/56.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
+  },
+   {
+    id: '108',
+    name: 'monture 15',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/other/59.jpeg',
+      '/product_data/other/60.jpeg',
+      '/product_data/other/61.jpeg'
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.7,
+    reviews: 35,
   },
 ];
 
