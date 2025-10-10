@@ -323,7 +323,7 @@ export const products: Product[] = [
     {
     id: '14',
     name: 'Bracelet 3',
-    price: 27,
+    price: 25,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet-3.jpeg'
