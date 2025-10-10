@@ -1494,7 +1494,7 @@ export const products: Product[] = [
   },
       {
     id: '75',
-    name: 'montre CFD + 2 bracelets',
+    name: 'montre CFB + 2 bracelets',
     price: 99,
     originalPrice: 110,
     category: ['package'],
@@ -2205,7 +2205,7 @@ export const products: Product[] = [
   },
   {
     id: '110',
-    name: 'montre CFB + 2 bracelets',
+    name: 'montre CFD + 2 bracelets',
     price: 99,
     originalPrice: 110,
     category: ['package'],
