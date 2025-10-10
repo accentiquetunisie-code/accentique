@@ -1754,25 +1754,7 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 45,
   },
-  {
-    id: '89',
-    name: 'Bracelet 6',
-    price: 22,
-    category: ['bracelets'],
-    images: [
-      '/public/product_data/bracelets/IMG_1655.jpeg'
-    ],
-    description: 'Bracelet van cleef noir.',
-    features: [
-      'Fermoir sécurisé',
-      'Longueur ajustable'
-    ],
-    inStock: true,
-    isBestSeller: false,
-    materials: ['Acier inoxydable'],
-    rating: 4.7,
-    reviews: 56,
-  },
+  
 ];
 
 export const bundles: Bundle[] = [
