@@ -1193,10 +1193,9 @@ export const products: Product[] = [
     images: [
       '/product_data/necklace/collier/collier4.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier coeur argent en acier inoxydable.',
     features: [
       'Design intemporel',
-
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
