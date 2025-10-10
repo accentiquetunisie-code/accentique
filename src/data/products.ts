@@ -855,7 +855,7 @@ export const products: Product[] = [
       'Design intemporel',
       'Tailles 52-60 disponibles'
     ],
-    inStock: true,
+    inStock: false,
     materials: ['Argent plaqué or', 'Zircon cubique'],
     rating: 4.7,
     reviews: 67,
