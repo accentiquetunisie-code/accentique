@@ -1060,7 +1060,7 @@ export const products: Product[] = [
 
   {
     id: '51',
-    name: ' sets 1',
+    name: ' Zircon set',
     price: 79,
     category: ['gift-sets'],
     images: [
@@ -1071,21 +1071,18 @@ export const products: Product[] = [
     ],
     description: '',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    isNew: true,
-    isBestSeller: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    isNew: false,
+    isBestSeller: false,
+    materials: ['Zircon'],
+    rating: 4.3,
+    reviews: 94,
   },
     {
     id: '52',
-    name: ' sets 2',
+    name: ' set etoile de mer',
     price: 69,
     category: ['gift-sets'],
     images: [
@@ -1095,17 +1092,14 @@ export const products: Product[] = [
     ],
     description: '',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
     isBestSeller: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Faux bijoux'],
+    rating: 4.1,
+    reviews: 44,
   },
 {
     id: '53',
