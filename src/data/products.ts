@@ -572,6 +572,7 @@ export const products: Product[] = [
     price: 28,
     category: ['bracelets'],
     images: [
+      '/product_data/bracelets/IMG_0741.jpeg',
       '/product_data/other/manchette A4.jpeg'
     ],
     description: 'Une manchette en acier inoxydable.',
@@ -1549,25 +1550,6 @@ export const products: Product[] = [
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/IMG_0738.jpeg'
-    ],
-    description: 'Manchette en acier inoxydable',
-    features: [
-      'Manchette precieuse',
-      'Taille ajustable'
-    ],
-    inStock: true,
-    isNew: false,
-    materials: ['Acier inoxydable'],
-    rating: 4.7,
-    reviews: 124,
-  },
-{
-    id: '77',
-    name: 'manchette A9',
-    price: 28,
-    category: ['bracelets'],
-    images: [
-      '/product_data/bracelets/IMG_0741.jpeg'
     ],
     description: 'Manchette en acier inoxydable',
     features: [
