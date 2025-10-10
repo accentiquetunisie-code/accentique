@@ -1492,15 +1492,15 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 11,
   },
-  
       {
     id: '75',
-    name: 'montre + 2 bracelets',
+    name: 'montre CFD + 2 bracelets',
     price: 99,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre/montre-1.jpeg'
+      '/product_data/watches/montre+bracelet/pack19.jpeg',
+      '/product_data/watches/montre+bracelet/pack20.jpeg',
     ],
     description: 'Une montre avec 2 bracelets.',
     features: [
@@ -1511,7 +1511,7 @@ export const products: Product[] = [
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
-    rating: 4.8,
+    rating: 4.1,
     reviews: 14,
   },
     {
@@ -2202,6 +2202,133 @@ export const products: Product[] = [
     materials: ['TR90'],
     rating: 4.4,
     reviews: 28,
+  },
+  {
+    id: '110',
+    name: 'montre CFB + 2 bracelets',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack21.jpeg',
+      '/product_data/watches/montre+bracelet/pack22.jpeg',
+    ],
+    description: 'Une montre avec 2 bracelets.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 24,
+  },
+  {
+    id: '111',
+    name: 'Pack accessoires 1',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack17.jpeg',
+    ],
+    description: 'Set montre + accessoires.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 36,
+  },
+  {
+    id: '112',
+    name: 'Pack accessoires 2',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack14.jpeg',
+    ],
+    description: 'Set montre + accessoires.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 96,
+  },
+   {
+    id: '113',
+    name: 'Pack accessoires 3',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack18.jpeg',
+    ],
+    description: 'Set montre + accessoires.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 96,
+  },
+  {
+    id: '114',
+    name: 'Pack accessoires 4',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack15.jpeg',
+    ],
+    description: 'Une montre avec 2 bracelets.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 96,
+  },
+   {
+    id: '115',
+    name: 'Pack accessoires 5',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack23.jpeg',
+    ],
+    description: 'Une montre avec 2 bracelets.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 67,
   },
 ];
 
