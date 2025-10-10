@@ -1170,7 +1170,7 @@ export const products: Product[] = [
   },
   {
     id: '55',
-    name: 'collier 1',
+    name: 'collier 3',
     price: 18,
     category: ['necklace'],
     images: [
@@ -1298,7 +1298,7 @@ export const products: Product[] = [
       '/product_data/necklace/collier/collier11.jpeg',
       '/product_data/necklace/collier/collier12.jpeg'
     ],
-    description: 'collier coeur double chaine.',
+    description: 'collier coeur simple.',
     features: [
       'Design intemporel',
     ],
@@ -1307,7 +1307,23 @@ export const products: Product[] = [
     rating: 4.1,
     reviews: 82,
   },
-   
+   {
+    id: '622',
+    name: 'collier 11',
+    price: 18,
+    category: ['necklace'],
+    images: [
+      '/product_data/necklace/collier/collier13.jpeg'
+    ],
+    description: 'collier perles.',
+    features: [
+      'Design intemporel',
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 42,
+  },
 
 
 {
