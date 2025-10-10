@@ -1146,7 +1146,8 @@ export const products: Product[] = [
     ],
     description: 'double chain necklace',
     features: [
-      'Design intemporel'
+      'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1162,7 +1163,10 @@ export const products: Product[] = [
       '/product_data/necklace/collier/collier2.jpeg'
     ],
     description: 'collier cerise.',
-    features: ['Design intemporel'],
+    features: [
+      'Design intemporel',
+      'taille standard 21cm'
+    ],
     inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.2,
@@ -1179,6 +1183,7 @@ export const products: Product[] = [
     description: 'collier gold en acier inoxydable.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1196,6 +1201,7 @@ export const products: Product[] = [
     description: 'collier coeur argent en acier inoxydable.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1213,6 +1219,7 @@ export const products: Product[] = [
     description: 'collier fraise en acier inoxydable.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1230,6 +1237,7 @@ export const products: Product[] = [
     description: 'collier coeur en acier inoxydable.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1247,6 +1255,7 @@ export const products: Product[] = [
     description: 'collier cerise.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1264,6 +1273,7 @@ export const products: Product[] = [
     description: 'collier piment rouge.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable',],
@@ -1281,6 +1291,7 @@ export const products: Product[] = [
     description: 'collier messika gold.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1301,6 +1312,7 @@ export const products: Product[] = [
     description: 'collier coeur simple.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
@@ -1318,6 +1330,7 @@ export const products: Product[] = [
     description: 'collier perles.',
     features: [
       'Design intemporel',
+      'taille standard 21cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
