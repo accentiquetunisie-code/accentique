@@ -868,17 +868,15 @@ export const products: Product[] = [
     images: [
       '/product_data/package/packdaccessoire/2.jpeg'
     ],
-    description: '',
+    description: 'Set coller et boucles en acier inoxydable',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
+      'Collier taille standard 21cm',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 22,
   },
     {
     id: '42',
@@ -888,15 +886,13 @@ export const products: Product[] = [
     images: [
       '/product_data/package/packdaccessoire/3.jpeg'
     ],
-    description: '',
+    description: 'Set coller et boucles en acier inoxydable',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
+      'Collier standard 21cm',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 67,
   },
