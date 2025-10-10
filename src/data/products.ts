@@ -907,12 +907,11 @@ export const products: Product[] = [
     category: ['gift-sets'],
     images: [
       '/product_data/package/choker+bracelet/1.jpeg',
-      '/product_data/package/choker+bracelet/2.jpeg',
-      '/product_data/package/choker+bracelet/3.jpeg',
-      '/product_data/package/choker+bracelet/4.jpeg'
     ],
-    description: '',
-    features: [],
+    description: 'choker et bracelet en acier inoxydable',
+    features: [
+      'taille ajustable'
+    ],
     inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.7,
@@ -1693,6 +1692,40 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.9,
     reviews: 38,
+  },
+   {
+    id: '85',
+    name: 'choker + bracelet',
+    price: 38,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/package/choker+bracelet/3.jpeg',
+    ],
+    description: 'choker et bracelet en acier inoxydable',
+    features: [
+      'taille ajustable'
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 67,
+  },
+  {
+    id: '86',
+    name: 'choker + bracelet',
+    price: 38,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/package/choker+bracelet/4.jpeg',
+    ],
+    description: 'choker et bracelet en acier inoxydable',
+    features: [
+      'taille ajustable'
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 67,
   },
 ];
 
