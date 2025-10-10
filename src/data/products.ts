@@ -281,9 +281,9 @@ export const products: Product[] = [
     ],
     inStock: true,
     isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 56,
   },
     {
     id: '12',
@@ -293,18 +293,16 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet-1.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet clou dorée avec strass.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 67,
   },
     {
     id: '13',
@@ -314,18 +312,16 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet-2.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet clou argent.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.2,
+    reviews: 67,
   },
     {
     id: '14',
@@ -335,18 +331,16 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet-3.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet cartier avec strass.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 99,
   },
     {
     id: '15',
@@ -356,102 +350,89 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet-4.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet van cleef doré.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
       'Longueur ajustable'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
     rating: 4.9,
     reviews: 89,
   },
     {
     id: '16',
     name: 'Bracelet 5',
-    price: 23,
+    price: 20,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet-5.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet van cleef blanc en acier inoxydable.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
       'Longueur ajustable'
     ],
     inStock: true,
     isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    materials: ['Acier inoxydable'],
+    rating: 3.4,
+    reviews: 21,
   },
       {
     id: '17',
-    name: '3 Bracelet : van cleef blanc + autre ...',
-    price: 23,
+    name: 'Bracelet perle',
+    price: 25,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/3-bracelet-3.jpeg'
+      '/product_data/bracelets/IMG_1366.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet perle en acier inoxydable',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
-      'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille ajustable'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 50,
   },
       {
     id: '18',
-    name: '3 Bracelet : van cleef doree + autre ...',
-    price: 23,
+    name: '3 Bracelets',
+    price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/3-bracelet-2.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet van cleef doree + clou et cartier avec strass.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
-      'Fermoir sécurisé',
-      'Longueur ajustable'
+      'taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 32,
   },
       {
     id: '19',
-    name: '2 Bracelet : van cleef noire + autre ...',
-    price: 23,
+    name: '2 Bracelets',
+    price: 50,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/3-bracelet-4.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: '2 Bracelets van cleef noire + cartier.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
-      'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 64,
   },
         {
     id: '20',
@@ -468,11 +449,11 @@ export const products: Product[] = [
       'Fermoir sécurisé',
       'Longueur ajustable'
     ],
-    inStock: true,
-    isBestSeller: true,
+    inStock: false,
+    isBestSeller: false,
     materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    rating: 4.6,
+    reviews: 77,
   },
           {
     id: '21',
@@ -482,18 +463,15 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet A2.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: '3 Bracelets en acier inoxydable.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
-      'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 37,
   },
           {
     id: '22',
@@ -503,18 +481,15 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet A3.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: '3 Bracelets en acier inoxydable.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
-      'Fermoir sécurisé',
-      'Longueur ajustable'
+      'taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 29,
   },
           {
     id: '23',
@@ -524,16 +499,14 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet A4.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: '3 Bracelets en acier inoxydable.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
     rating: 4.9,
     reviews: 89,
   },
@@ -547,16 +520,14 @@ export const products: Product[] = [
     ],
     description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 48,
   },
         {
     id: '25',
@@ -566,79 +537,80 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet A6.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: '3 Bracelets en acier inoxydable.',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille ajustable'
     ],
     inStock: true,
-    isBestSeller: true,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.9,
-    reviews: 89,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 45,
   },
       {
     id: '26',
     name: 'manchette A1',
-    price: 30,
+    price: 28,
     category: ['bracelets'],
     images: [
       '/product_data/other/manchette A2.jpeg',
       '/product_data/other/manchette A3.jpeg',
       '/product_data/other/manchette A1.jpeg',
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une manchette en acier inoxydable.',
     features: [
       'Manchette precieuse',
+      'Taille ajustable'
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    isNew: false,
+    materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 124,
   },
         {
     id: '27',
     name: 'manchette A4',
-    price: 30,
+    price: 28,
     category: ['bracelets'],
     images: [
       '/product_data/other/manchette A4.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une manchette en acier inoxydable.',
     features: [
       'Manchette precieuse',
+      'Taille ajustable'
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 12,
   },
         {
     id: '28',
     name: 'manchette A5',
-    price: 30,
+    price: 28,
     category: ['bracelets'],
     images: [
       '/product_data/other/manchette A5.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une manchette en acier inoxydable.',
     features: [
       'Manchette precieuse',
+      'Taille ajustable'
     ],
     inStock: true,
-    isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
-    rating: 4.8,
-    reviews: 124,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 29,
   },
         {
     id: '29',
     name: 'manchette A6',
-    price: 30,
+    price: 28,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet 7.jpeg',
@@ -647,6 +619,7 @@ export const products: Product[] = [
     description: 'Manchette en acier inoxydable',
     features: [
       'Manchette precieuse',
+      'Taille ajustable'
     ],
     inStock: true,
     isNew: false,
@@ -662,9 +635,10 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/Bracelet 6.jpeg'
     ],
-    description: 'bracelet en acier inoxydable.',
+    description: 'Manchette en acier inoxydable.',
     features: [
       'Manchette precieuse',
+      'Taille ajustable'
     ],
     inStock: true,
     isNew: false,
