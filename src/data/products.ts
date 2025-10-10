@@ -266,21 +266,18 @@ export const products: Product[] = [
 
   {
     id: '11',
-    name: '3 bracelet : van cleef noire + autre ...',
+    name: '3 bracelets',
     price: 69,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/3-bracelet.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: '3 Bracelet van cleef noire + cartier et clou simple',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
-      'Fermoir sécurisé',
-      'Longueur ajustable'
+      'Taille standard'
     ],
     inStock: true,
-    isBestSeller: true,
+    isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 56,
@@ -293,7 +290,7 @@ export const products: Product[] = [
     images: [
       '/product_data/bracelets/bracelet-1.jpeg'
     ],
-    description: 'Bracelet clou dorée avec strass.',
+    description: 'Bracelet clou doré avec strass.',
     features: [
       'Fermoir sécurisé',
       'Taille standard'
