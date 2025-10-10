@@ -1760,8 +1760,8 @@ export const products: Product[] = [
     price: 25,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/bracelet-8.jpeg',
-      '/product_data/bracelets/bracelet-9.jpeg'
+      '/product_data/bracelets/bracelet-9.jpeg',
+      '/product_data/bracelets/bracelet-8.jpeg'
     ],
     description: 'Bracelet en acier inoxydable.',
     features: [
