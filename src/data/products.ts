@@ -1542,8 +1542,139 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
-  
-
+    {
+    id: '76',
+    name: 'manchette A8',
+    price: 28,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_0738.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
+    features: [
+      'Manchette precieuse',
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 124,
+  },
+{
+    id: '77',
+    name: 'manchette A9',
+    price: 28,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_0741.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
+    features: [
+      'Manchette precieuse',
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 124,
+  },
+  {
+    id: '78',
+    name: 'manchette A10',
+    price: 28,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_0788.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
+    features: [
+      'Manchette precieuse',
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 124,
+  },
+  {
+    id: '79',
+    name: 'manchette A11',
+    price: 28,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_0792.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
+    features: [
+      'Manchette precieuse',
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 124,
+  },
+   {
+    id: '80',
+    name: 'manchette A12',
+    price: 28,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_0839.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
+    features: [
+      'Manchette precieuse',
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 124,
+  },
+  {
+    id: '81',
+    name: 'manchette A13',
+    price: 28,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_0849.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
+    features: [
+      'Manchette precieuse',
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 124,
+  },
+  {
+    id: '82',
+    name: 'manchette A14',
+    price: 28,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_0856.jpeg'
+    ],
+    description: 'Manchette en acier inoxydable',
+    features: [
+      'Manchette precieuse',
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 124,
+  },
 ];
 
 export const bundles: Bundle[] = [
