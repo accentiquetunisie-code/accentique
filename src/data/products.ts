@@ -342,7 +342,7 @@ export const products: Product[] = [
     {
     id: '15',
     name: 'Bracelet 4',
-    price: 23,
+    price: 22,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet-4.jpeg'
@@ -361,9 +361,10 @@ export const products: Product[] = [
     {
     id: '16',
     name: 'Bracelet 5',
-    price: 20,
+    price: 22,
     category: ['bracelets'],
     images: [
+      '/product_data/bracelets/IMG_1156.jpeg',
       '/product_data/bracelets/bracelet-5.jpeg'
     ],
     description: 'Bracelet van cleef blanc en acier inoxydable.',
@@ -1753,7 +1754,25 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 45,
   },
-  
+  {
+    id: '89',
+    name: 'Bracelet 6',
+    price: 22,
+    category: ['bracelets'],
+    images: [
+      '/public/product_data/bracelets/IMG_1655.jpeg'
+    ],
+    description: 'Bracelet van cleef noir.',
+    features: [
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 56,
+  },
 ];
 
 export const bundles: Bundle[] = [
