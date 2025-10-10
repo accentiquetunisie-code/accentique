@@ -52,7 +52,7 @@ export const products: Product[] = [
     {
     id: '1',
     name: 'montre et bracelet 1',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -74,7 +74,7 @@ export const products: Product[] = [
       {
     id: '2',
     name: 'montre et bracelet 2',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -96,7 +96,7 @@ export const products: Product[] = [
       {
     id: '3',
     name: 'montre et bracelet 4',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -118,7 +118,7 @@ export const products: Product[] = [
       {
     id: '4',
     name: 'montre et bracelet 6',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -139,7 +139,7 @@ export const products: Product[] = [
       {
     id: '5',
     name: 'montre et bracelet 7',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -160,7 +160,7 @@ export const products: Product[] = [
       {
     id: '6',
     name: 'montre et bracelet 8',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -181,7 +181,7 @@ export const products: Product[] = [
       {
     id: '7',
     name: 'montre et bracelet 9',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -203,7 +203,7 @@ export const products: Product[] = [
         {
     id: '8',
     name: 'montre et bracelet 10',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -224,7 +224,7 @@ export const products: Product[] = [
           {
     id: '9',
     name: 'montre et bracelet 11',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -245,7 +245,7 @@ export const products: Product[] = [
         {
     id: '10',
     name: 'montre et bracelet 12',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
@@ -1530,18 +1530,16 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre/montre-1.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre avec 2 bracelets.',
     features: [
       'Mouvement quartz de précision',
-      'Résistante à l\'eau (30m)',
-      'Cadran nacré avec cristaux',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    materials: ['Acier inoxydable'],
     rating: 4.8,
-    reviews: 124,
+    reviews: 14,
   },
     {
     id: '76',
