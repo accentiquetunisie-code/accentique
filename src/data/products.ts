@@ -1156,7 +1156,7 @@ export const products: Product[] = [
   {
     id: '54',
     name: 'collier 2',
-    price: 20,
+    price: 18,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier2.jpeg'
@@ -1188,22 +1188,20 @@ export const products: Product[] = [
   {
     id: '56',
     name: 'collier 4',
-    price: 23,
+    price: 18,
     category: ['necklace'],
     images: [
       '/product_data/necklace/collier/collier4.jpeg'
     ],
     description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 57,
   },
   {
     id: '57',
@@ -1213,17 +1211,14 @@ export const products: Product[] = [
     images: [
       '/product_data/necklace/collier/collier5.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier fraise en acier inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 28,
   },
   {
     id: '58',
@@ -1233,17 +1228,14 @@ export const products: Product[] = [
     images: [
       '/product_data/necklace/collier/collier6.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier coeur en acier inoxydable.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 17,
   },
   {
     id: '59',
@@ -1253,17 +1245,14 @@ export const products: Product[] = [
     images: [
       '/product_data/necklace/collier/collier7.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier cerise.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.2,
+    reviews: 15,
   },
   {
     id: '60',
@@ -1273,17 +1262,14 @@ export const products: Product[] = [
     images: [
       '/product_data/necklace/collier/collier8.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier piment rouge.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable',],
+    rating: 3.7,
+    reviews: 34,
   },
   {
     id: '61',
@@ -1313,17 +1299,14 @@ export const products: Product[] = [
       '/product_data/necklace/collier/collier11.jpeg',
       '/product_data/necklace/collier/collier12.jpeg'
     ],
-    description: 'collier solitaire avec pierre centrale et anneau doré finement ciselé.',
+    description: 'collier coeur double chaine.',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
     ],
     inStock: true,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 82,
   },
    
 
