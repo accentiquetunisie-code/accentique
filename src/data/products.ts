@@ -575,7 +575,7 @@ export const products: Product[] = [
       '/product_data/bracelets/IMG_0741.jpeg',
       '/product_data/other/manchette A4.jpeg'
     ],
-    description: 'Une manchette en acier inoxydable.',
+    description: 'Manchette en acier inoxydable.',
     features: [
       'Manchette precieuse',
       'Taille ajustable'
@@ -594,7 +594,7 @@ export const products: Product[] = [
     images: [
       '/product_data/other/manchette A5.jpeg'
     ],
-    description: 'Une manchette en acier inoxydable.',
+    description: 'Manchette en acier inoxydable.',
     features: [
       'Manchette precieuse',
       'Taille ajustable'
