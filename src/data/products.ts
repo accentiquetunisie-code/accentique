@@ -857,8 +857,8 @@ export const products: Product[] = [
     ],
     inStock: false,
     materials: ['Argent plaqué or', 'Zircon cubique'],
-    rating: 4.7,
-    reviews: 67,
+    rating: 4.8,
+    reviews: 57,
   },
     {
     id: '41',
@@ -1725,6 +1725,61 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 67,
+  },
+  {
+    id: '87',
+    name: 'collier et boucles en acier inoxydable',
+    price: 38,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/gift-sets/coffret/sets11.jpeg'
+    ],
+    description: '',
+    features: [
+      'Collier standard 22cm',
+      'Design intemporel',
+    ],
+    inStock: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 45,
+  },
+  {
+    id: '88',
+    name: 'collier et boucles noir en acier inoxydable',
+    price: 38,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/gift-sets/coffret/sets8.jpeg',
+      '/product_data/gift-sets/coffret/sets9.jpeg'
+    ],
+    description: '',
+    features: [
+      'Collier standard 22cm',
+      'Design intemporel',
+    ],
+    inStock: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 45,
+  },
+  {
+    id: '89',
+    name: 'collier et boucles avec strass',
+    price: 39,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/gift-sets/coffret/sets10.png'
+    ],
+    description: '',
+    features: [
+      'Collier standard 22cm',
+      'Design intemporel',
+    ],
+    inStock: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.2,
+    reviews: 59,
   },
 ];
 
