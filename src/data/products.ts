@@ -1053,7 +1053,7 @@ export const products: Product[] = [
       'Design intemporel',
     ],
     inStock: true,
-    isNew: false,
+    isFreeDelivery: true,
     isBestSeller: false,
     materials: ['Zircon'],
     rating: 4.3,
