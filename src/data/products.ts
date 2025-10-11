@@ -713,6 +713,7 @@ export const products: Product[] = [
       'Taille ajustable'
     ],
     inStock: true,
+    isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.1,
     reviews: 38,
@@ -1074,7 +1075,8 @@ export const products: Product[] = [
     ],
     inStock: true,
     isNew: false,
-    isBestSeller: true,
+    isFreeDelivery: true,
+    isBestSeller: false,
     materials: ['Faux bijoux'],
     rating: 4.1,
     reviews: 44,
