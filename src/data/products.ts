@@ -713,7 +713,7 @@ export const products: Product[] = [
       'Taille ajustable'
     ],
     inStock: true,
-    isFreeDelivery: true,
+    isFreeDelivery: false,
     materials: ['Acier inoxydable'],
     rating: 4.1,
     reviews: 38,
