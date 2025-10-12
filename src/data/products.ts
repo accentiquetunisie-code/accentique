@@ -2332,6 +2332,27 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 67,
   },
+  {
+    id: '116',
+    name: 'montre et bracelet 13',
+    price: 89,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack24.jpeg'
+    ],
+    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable.',
+    features: [
+      'Résistante à l\'eau (3atm)',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 89,
+  },
 ];
 
 export const bundles: Bundle[] = [
