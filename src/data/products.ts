@@ -207,7 +207,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_1298.jpeg'
+      '/product_data/watches/montre+bracelet/pack25.jpeg'
     ],
     description: 'Une montre élégante et 1 bracelet en acier inoxydable.',
     features: [
@@ -2331,27 +2331,6 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.9,
     reviews: 67,
-  },
-  {
-    id: '117',
-    name: 'montre et bracelet 14',
-    price: 89,
-    originalPrice: 110,
-    category: ['package'],
-    images: [
-      '/product_data/watches/montre+bracelet/pack25.jpeg'
-    ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable.',
-    features: [
-      'Résistante à l\'eau (3atm)',
-      'Bracelet ajustable'
-    ],
-    inStock: true,
-    isNew: false,
-    isFreeDelivery: true,
-    materials: ['Acier inoxydable'],
-    rating: 4.7,
-    reviews: 84,
   },
 ];
 
