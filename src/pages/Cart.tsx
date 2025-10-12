@@ -16,8 +16,8 @@ const Cart = () => {
     // Simulate promo code validation
     const validCodes = {
       'GIFT20': 20,
-      'WELCOME10': 10,
-      'VIP15': 15
+      'GIFT10': 10,
+      'GIFT30': 30
     };
     if (validCodes[promoCode as keyof typeof validCodes]) {
       const discountPercent = validCodes[promoCode as keyof typeof validCodes];
