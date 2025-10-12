@@ -58,8 +58,8 @@ const Checkout = () => {
   const applyPromoCode = () => {
     const validCodes = {
       'GIFT20': 20,
-      'WELCOME10': 10,
-      'VIP15': 15
+      'GIFT10': 10,
+      'GIFT30': 30
     };
     
     if (validCodes[promoCode as keyof typeof validCodes]) {
@@ -353,7 +353,7 @@ const Checkout = () => {
                   type="text"
                   value={promoCode}
                   onChange={(e) => setPromoCode(e.target.value.toUpperCase())}
-                  placeholder="GIFT20"
+                  placeholder=""
                   className="flex-1 px-4 py-2 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent"
                 />
                 <button
