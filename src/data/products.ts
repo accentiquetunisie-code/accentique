@@ -2015,7 +2015,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.0,
@@ -2108,7 +2108,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.3,
