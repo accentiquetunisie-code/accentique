@@ -2370,6 +2370,25 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 88,
   },
+  {
+    id: '118',
+    name: 'Bracelet 12',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet26.jpeg',
+      '/product_data/bracelets/bracelet27.jpeg'
+    ],
+    description: 'Bracelet clou doré en acier inoxydable.',
+    features: [
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 79,
+  },
 ];
 
 export const bundles: Bundle[] = [
