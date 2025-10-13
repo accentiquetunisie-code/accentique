@@ -266,7 +266,7 @@ export const products: Product[] = [
 
   {
     id: '11',
-    name: '3 bracelets',
+    name: 'set 3 bracelets',
     price: 69,
     category: ['bracelets'],
     images: [
@@ -2331,6 +2331,44 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.9,
     reviews: 67,
+  },
+   {
+    id: '116',
+    name: 'Set 2 Bracelets',
+    price: 50,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet22.jpeg'
+    ],
+    description: '2 Bracelets clou + cartier love.',
+    features: [
+      'Taille standard'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 78,
+  },
+  {
+    id: '117',
+    name: 'Bracelet 11',
+    price: 25,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/bracelet23',
+      '/product_data/bracelets/bracelet24',
+      '/product_data/bracelets/bracelet25'
+    ],
+    description: 'Bracelet en acier inoxydable.',
+    features: [
+      'Taille ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.5,
+    reviews: 88,
   },
 ];
 
