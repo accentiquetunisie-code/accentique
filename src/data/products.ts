@@ -2389,6 +2389,25 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 79,
   },
+  {
+    id: '119',
+    name: 'Bracelet 13',
+    price: 22,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_1951.jpeg'
+    ],
+    description: 'Bracelet van cleef noir en acier inoxydable.',
+    features: [
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 3.4,
+    reviews: 21,
+  },
 ];
 
 export const bundles: Bundle[] = [
