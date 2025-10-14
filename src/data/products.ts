@@ -2405,8 +2405,8 @@ export const products: Product[] = [
     inStock: true,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
-    rating: 3.4,
-    reviews: 21,
+    rating: 4.2,
+    reviews: 51,
   },
   {
     id: '120',
@@ -2425,8 +2425,8 @@ export const products: Product[] = [
     inStock: true,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
-    rating: 3.4,
-    reviews: 21,
+    rating: 4.8,
+    reviews: 64,
   },
 ];
 
