@@ -1075,7 +1075,7 @@ export const products: Product[] = [
     ],
     inStock: true,
     isNew: false,
-    isFreeDelivery: false,
+    isFreeDelivery: true,
     isBestSeller: false,
     materials: ['Faux bijoux'],
     rating: 4.1,
