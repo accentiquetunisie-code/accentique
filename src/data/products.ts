@@ -2408,6 +2408,26 @@ export const products: Product[] = [
     rating: 3.4,
     reviews: 21,
   },
+  {
+    id: '120',
+    name: 'Bracelet 14',
+    price: 22,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_1950.jpeg',
+      '/product_data/bracelets/IMG_1949.jpeg'
+    ],
+    description: 'Bracelet van cleef rouge burgundy en acier inoxydable.',
+    features: [
+      'Fermoir sécurisé',
+      'Longueur ajustable'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['Acier inoxydable'],
+    rating: 3.4,
+    reviews: 21,
+  },
 ];
 
 export const bundles: Bundle[] = [
