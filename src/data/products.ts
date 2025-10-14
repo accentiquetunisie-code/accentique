@@ -483,7 +483,7 @@ export const products: Product[] = [
     features: [
       'taille standard'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.1,
