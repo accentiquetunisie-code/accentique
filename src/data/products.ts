@@ -434,23 +434,21 @@ export const products: Product[] = [
   },
         {
     id: '20',
-    name: 'Bracelet A1',
-    price: 69,
+    name: 'Set 3 Bracelets van cleef BN',
+    price: 55,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/bracelet A1.jpeg'
+      '/product_data/bracelets/IMG_1952.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: '3 Bracelet van cleef en acier inoxydable .',
     features: [
-      'Chaîne en laiton plaqué or',
-      'Pendentifs cristaux Swarovski',
       'Fermoir sécurisé',
       'Longueur ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
-    materials: ['Laiton plaqué or', 'Cristaux Swarovski'],
-    rating: 4.6,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
     reviews: 77,
   },
           {
@@ -473,17 +471,17 @@ export const products: Product[] = [
   },
           {
     id: '22',
-    name: 'Bracelet A3',
-    price: 69,
+    name: 'Set 3 Bracelets van cleef BND',
+    price: 55,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/bracelet A3.jpeg'
+      '/product_data/bracelets/IMG_1953.jpeg'
     ],
-    description: '3 Bracelets en acier inoxydable.',
+    description: '3 Bracelets van cleef en acier inoxydable.',
     features: [
-      'taille standard'
+      'taille ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.1,
