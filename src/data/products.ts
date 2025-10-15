@@ -2013,7 +2013,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.0,
@@ -2425,6 +2425,31 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 64,
+  },
+  {
+    id: '121',
+    name: 'Golden Oval Sunglasses ✨ Retro-Chic & Glamour',
+    price: 41,
+    category: ['mount'],
+    images: [
+      '/product_data/monture/65.jpeg',
+      '/product_data/monture/66.jpeg',
+      '/product_data/monture/67.jpeg',
+      '/product_data/monture/68.jpeg',
+      '/product_data/monture/69.jpeg',
+      '/product_data/monture/70.jpeg'
+    ],
+    description: 'Démarquez-vous avec ces lunettes de soleil sophistiquées. Elles allient une monture ovale en métal doré à des verres noirs fumés pour un look glamour et vintage',
+    features: [
+      'Forme : Ovale / Elliptique',
+      'Détail : Logo Miu Miu doré sur les branches',
+      'Style : Rétro Chic et Luxueux',
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.0,
+    reviews: 68,
   },
 ];
 
