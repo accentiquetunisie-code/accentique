@@ -1044,7 +1044,6 @@ export const products: Product[] = [
       '/product_data/gift-sets/coffret/sets6.jpeg',
       '/product_data/gift-sets/coffret/sets5.jpeg',
       '/product_data/gift-sets/coffret/sets1.jpeg',
-      '/product_data/gift-sets/coffret/sets7.jpeg'
     ],
     description: '',
     features: [
