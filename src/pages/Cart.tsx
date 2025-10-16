@@ -167,10 +167,6 @@ const Cart = () => {
                   </p>}
                 
                 <div className="border-t pt-3">
-                  <div className="flex justify-between text-lg font-bold">
-                    <span>Total</span>
-                    <span className="text-gold-600">{total.toFixed(2)} DT</span>
-                  </div>
                 </div>
               </div>
             </div>
