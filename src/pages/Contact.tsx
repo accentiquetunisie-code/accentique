@@ -233,7 +233,7 @@ const Contact = () => {
                 Pour une réponse immédiate, contactez-nous sur WhatsApp
               </p>
               <button className="bg-white text-gold-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                📱 WhatsApp: +216 XX XXX XXX
+                📱 WhatsApp: +21654 538 318
               </button>
             </div>
 
