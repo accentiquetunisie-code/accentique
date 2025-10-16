@@ -232,9 +232,14 @@ const Contact = () => {
               <p className="mb-4 opacity-90">
                 Pour une réponse immédiate, contactez-nous sur WhatsApp
               </p>
-              <button className="bg-white text-gold-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-                📱 WhatsApp: +21654 538 318
-              </button>
+              <a 
+                href="https://wa.me/21654538318" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block bg-white text-gold-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
+              >
+                📱 WhatsApp: 54 538 318
+              </a>
             </div>
 
             {/* Newsletter */}
