@@ -155,12 +155,6 @@ const Cart = () => {
                     <span>-{discountAmount.toFixed(2)} DT</span>
                   </div>}
                 
-                <div className="flex justify-between">
-                  <span className="text-gray-600">Livraison</span>
-                  <span className="font-medium">
-                    {shipping === 0 ? 'Gratuite' : `${shipping} DT`}
-                  </span>
-                </div>
                 
                 {subtotal < 99 && <p className="text-sm text-gold-600">
                     Ajoutez {(99 - subtotal).toFixed(2)} DT pour la livraison gratuite
