@@ -67,7 +67,7 @@ const Footer = () => {
               </div>
               <div className="text-sm text-gray-600">
                 <p>📧 contact@accentique.tn</p>
-                <p>📱 WhatsApp: +216 54 538 318</p>
+                <p>📱 WhatsApp: <a href="https://wa.me/21654538318" target="_blank" rel="noopener noreferrer" className="hover:text-gold-600 transition-colors">54 538 318</a></p>
               </div>
               <div className="flex items-center space-x-2">
                 <Gift className="w-4 h-4 text-gold-600" />
