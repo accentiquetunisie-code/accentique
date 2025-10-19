@@ -2294,7 +2294,7 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack15.jpeg',
+      '/product_data/watches/montre+bracelet/pack16.jpeg',
     ],
     description: 'Une montre avec 2 bracelets.',
     features: [
