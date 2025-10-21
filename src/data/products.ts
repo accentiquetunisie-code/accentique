@@ -2714,6 +2714,28 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 66,
   },
+  {
+    id: '134',
+    name: 'Montre 13',
+    price: 79,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/131.jpeg',
+      '/product_data/watches/montre/132.jpeg',
+    ],
+    description: 'Une montre Casio en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 74,
+  },
 ];
 
 export const bundles: Bundle[] = [
