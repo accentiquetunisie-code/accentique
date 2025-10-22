@@ -1700,10 +1700,11 @@ export const products: Product[] = [
   {
     id: '87',
     name: 'collier et boucles en acier inoxydable',
-    price: 38,
+    price: 42,
     category: ['gift-sets'],
     images: [
-      '/product_data/gift-sets/coffret/sets11.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_2302.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_2297.jpeg'
     ],
     description: '',
     features: [
