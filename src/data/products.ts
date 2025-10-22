@@ -823,21 +823,21 @@ export const products: Product[] = [
   },
   {
     id: '40',
-    name: 'Pack d\'accessoires 1',
-    price: 43,
+    name: 'Collier et boucles B',
+    price: 42,
     category: ['gift-sets'],
     images: [
-      '/product_data/package/packdaccessoire/1.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_2299.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_2296.jpeg'
     ],
     description: '',
     features: [
-      'Pierre centrale zircon cubique',
-      'Anneau en argent plaqué or',
+      'Acier inoxydable',
       'Design intemporel',
-      'Tailles 52-60 disponibles'
+      'Taille collier standard : 21cm'
     ],
-    inStock: false,
-    materials: ['Argent plaqué or', 'Zircon cubique'],
+    inStock: true,
+    materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 57,
   },
@@ -1718,11 +1718,13 @@ export const products: Product[] = [
   {
     id: '88',
     name: 'collier et boucles noir en acier inoxydable',
-    price: 38,
+    price: 42,
     category: ['gift-sets'],
     images: [
+      '/product_data/watches/montre+bracelet/IMG_2300.jpeg',
       '/product_data/gift-sets/coffret/sets8.jpeg',
-      '/product_data/gift-sets/coffret/sets9.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_2295.jpeg',
+      '/product_data/gift-sets/coffret/sets9.jpeg',
     ],
     description: '',
     features: [
