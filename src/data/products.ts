@@ -834,7 +834,7 @@ export const products: Product[] = [
     features: [
       'Acier inoxydable',
       'Design intemporel',
-      'Taille collier standard : 21cm'
+      'Taille collier standard : 22cm'
     ],
     inStock: true,
     materials: ['Acier inoxydable'],
