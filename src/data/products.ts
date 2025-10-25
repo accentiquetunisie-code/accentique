@@ -2739,6 +2739,160 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 74,
   },
+  {
+    id: '135',
+    name: 'Montre 14',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG1.jpeg',
+      '/product_data/watches/montre/IMG2.jpeg',
+    ],
+    description: 'Une montre Koushi en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.1,
+    reviews: 57,
+  },
+  {
+    id: '136',
+    name: 'Montre 15',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG3.jpeg',
+      '/product_data/watches/montre/IMG4.jpeg',
+    ],
+    description: 'Une montre Koushi en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 53,
+  },
+  {
+    id: '137',
+    name: 'Montre 16',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG5.jpeg',
+      '/product_data/watches/montre/IMG6.jpeg',
+    ],
+    description: 'Une montre Koushi en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 64,
+  },
+  {
+    id: '138',
+    name: 'Montre 17',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG7.jpeg',
+      '/product_data/watches/montre/IMG8.jpeg',
+    ],
+    description: 'Une montre Koushi en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 44,
+  },
+  {
+    id: '139',
+    name: 'Montre 18',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG9.jpeg',
+      '/product_data/watches/montre/IMG10.jpeg',
+    ],
+    description: 'Une montre Koushi en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.2,
+    reviews: 78,
+  },
+  {
+    id: '140',
+    name: 'Montre 19',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG11.jpeg',
+      '/product_data/watches/montre/IMG12.jpeg',
+    ],
+    description: 'Une montre Koushi en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 94,
+  },
+  {
+    id: '141',
+    name: 'Montre 20',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG13.jpeg',
+      '/product_data/watches/montre/IMG14.jpeg',
+    ],
+    description: 'Une montre Koushi en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.5,
+    reviews: 71,
+  },
 ];
 
 export const bundles: Bundle[] = [
