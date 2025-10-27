@@ -107,7 +107,7 @@ const Checkout = () => {
 
       // Clear cart and redirect
       clearCart();
-      navigate('/order-confirmation');
+      navigate('/order-confirmation', { state: { orderDetails } });
     } catch (error) {
       console.error('Error sending order:', error);
       toast({
