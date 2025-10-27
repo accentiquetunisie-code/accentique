@@ -1,60 +1,5 @@
 
-import { useState } from 'react';
-import { Clock, Gift, Star, User } from 'lucide-react';
-
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    subject: '',
-    message: ''
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Merci pour votre message ! Nous vous répondrons dans les plus brefs délais.');
-    setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
-  };
-
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const contactInfo = [
-    {
-      icon: <Clock className="w-6 h-6 text-gold-500" />,
-      title: "Horaires d'Ouverture",
-      details: [
-        "Lundi - Samedi: 9h - 18h",
-        "Dimanche: 10h - 16h",
-        "Service client disponible"
-      ]
-    },
-    {
-      icon: <Gift className="w-6 h-6 text-gold-500" />,
-      title: "Services",
-      details: [
-        "Emballage cadeau gratuit",
-        "Livraison express 24h",
-        "Retour sous 14 jours"
-      ]
-    },
-    {
-      icon: <User className="w-6 h-6 text-gold-500" />,
-      title: "Support Personnalisé",
-      details: [
-        "Conseils style personnalisés",
-        "Aide au choix de cadeaux",
-        "Support après-vente"
-      ]
-    }
-  ];
 
   const faqItems = [
     {
@@ -94,173 +39,23 @@ const Contact = () => {
       </section>
 
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Contact Form */}
-          <div className="lg:col-span-2">
-            <div className="bg-white rounded-xl shadow-lg p-8">
-              <h2 className="font-serif text-2xl font-bold text-gray-800 mb-6">
-                Envoyez-nous un Message
-              </h2>
-              
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Nom Complet *
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      required
-                      value={formData.name}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-colors"
-                      placeholder="Votre nom"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-                      Email *
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      value={formData.email}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-colors"
-                      placeholder="votre@email.com"
-                    />
-                  </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  <div>
-                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-2">
-                      Téléphone
-                    </label>
-                    <input
-                      type="tel"
-                      id="phone"
-                      name="phone"
-                      value={formData.phone}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-colors"
-                      placeholder="+216 XX XXX XXX"
-                    />
-                  </div>
-                  
-                  <div>
-                    <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                      Sujet *
-                    </label>
-                    <select
-                      id="subject"
-                      name="subject"
-                      required
-                      value={formData.subject}
-                      onChange={handleInputChange}
-                      className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-colors"
-                    >
-                      <option value="">Choisir un sujet</option>
-                      <option value="product">Question sur un produit</option>
-                      <option value="order">Suivi de commande</option>
-                      <option value="return">Retour/Échange</option>
-                      <option value="gift">Conseil cadeau</option>
-                      <option value="other">Autre</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                    Message *
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    required
-                    rows={6}
-                    value={formData.message}
-                    onChange={handleInputChange}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent transition-colors resize-none"
-                    placeholder="Décrivez votre demande en détail..."
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="btn-gold px-8 py-4 rounded-lg font-semibold text-lg w-full md:w-auto"
-                >
-                  Envoyer le Message
-                </button>
-              </form>
-            </div>
-          </div>
-
-          {/* Contact Info Sidebar */}
-          <div className="space-y-8">
-            {/* Contact Cards */}
-            <div className="space-y-6">
-              {contactInfo.map((info, index) => (
-                <div key={index} className="bg-white rounded-xl shadow-lg p-6">
-                  <div className="flex items-center mb-4">
-                    {info.icon}
-                    <h3 className="font-serif text-lg font-semibold text-gray-800 ml-3">
-                      {info.title}
-                    </h3>
-                  </div>
-                  <ul className="space-y-2">
-                    {info.details.map((detail, idx) => (
-                      <li key={idx} className="text-gray-600 text-sm">
-                        {detail}
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))}
-            </div>
-
-            {/* WhatsApp Contact */}
-            <div className="bg-gradient-gold text-white rounded-xl p-6 text-center">
-              <h3 className="font-serif text-xl font-semibold mb-3">
-                Contact Direct
-              </h3>
-              <p className="mb-4 opacity-90">
-                Pour une réponse immédiate, contactez-nous sur WhatsApp
-              </p>
-              <a 
-                href="https://wa.me/21654538318" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-white text-gold-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-              >
-                📱 WhatsApp: 54 538 318
-              </a>
-            </div>
-
-            {/* Newsletter */}
-            <div className="bg-beige-50 border border-beige-200 rounded-xl p-6">
-              <h3 className="font-serif text-lg font-semibold text-gray-800 mb-3">
-                Newsletter
-              </h3>
-              <p className="text-sm text-gray-600 mb-4">
-                Recevez nos nouveautés et offres exclusives
-              </p>
-              <div className="flex">
-                <input
-                  type="email"
-                  placeholder="Votre email"
-                  className="flex-1 px-3 py-2 border border-gray-300 rounded-l-lg focus:ring-2 focus:ring-gold-500 focus:border-transparent text-sm"
-                />
-                <button className="bg-gold-500 text-white px-4 py-2 rounded-r-lg hover:bg-gold-600 transition-colors text-sm font-medium">
-                  S'abonner
-                </button>
-              </div>
-            </div>
+        {/* WhatsApp Contact - Centered */}
+        <div className="max-w-2xl mx-auto mb-16">
+          <div className="bg-gradient-gold text-white rounded-2xl p-12 text-center shadow-xl">
+            <h2 className="font-serif text-3xl font-bold mb-4">
+              Contact Direct
+            </h2>
+            <p className="text-lg mb-8 opacity-95">
+              Pour une réponse immédiate, contactez-nous sur WhatsApp
+            </p>
+            <a 
+              href="https://wa.me/21654538318" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3 bg-white text-gold-600 px-10 py-5 rounded-xl font-bold text-xl hover:bg-gray-100 transition-all hover:scale-105 shadow-lg"
+            >
+              📱 WhatsApp: 54 538 318
+            </a>
           </div>
         </div>
 
