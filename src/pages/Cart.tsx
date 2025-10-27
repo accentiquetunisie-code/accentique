@@ -171,7 +171,7 @@ const Cart = () => {
                 <label className="flex items-center">
                   <span className="text-sm">Emballage cadeau (Gratuit)</span>
                 </label>
-                <textarea placeholder="Notes pour le cadeau..." className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm resize-none" rows={3} />
+                <textarea placeholder="Notes ..." className="w-full px-3 py-2 border border-gray-300 rounded-lg text-sm resize-none" rows={3} />
               </div>
             </div>
 
