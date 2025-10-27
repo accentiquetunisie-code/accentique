@@ -315,10 +315,10 @@ const Checkout = () => {
                     name="giftMessage"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>Message personnalisé (optionnel)</FormLabel>
+                        <FormLabel>Notes :</FormLabel>
                         <FormControl>
                           <Textarea
-                            placeholder="Notes pour le cadeau..."
+                            placeholder="Notes ..."
                             className="resize-none"
                             rows={3}
                             {...field}
