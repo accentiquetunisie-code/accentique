@@ -318,7 +318,7 @@ const Checkout = () => {
                         <FormLabel>Message personnalisé (optionnel)</FormLabel>
                         <FormControl>
                           <Textarea
-                            placeholder="Votre message pour la carte cadeau..."
+                            placeholder="Notes pour le cadeau..."
                             className="resize-none"
                             rows={3}
                             {...field}
