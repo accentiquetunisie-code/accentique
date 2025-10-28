@@ -1711,7 +1711,7 @@ export const products: Product[] = [
       'Collier standard 22cm',
       'Design intemporel',
     ],
-    inStock: true,
+    inStock: false,
     materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 45,
