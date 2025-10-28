@@ -896,7 +896,7 @@ export const products: Product[] = [
   },
     {
     id: '44',
-    name: 'eventails 1',
+    name: 'eventail 1',
     price: 22,
     category: ['fan'],
     images: [
@@ -909,14 +909,14 @@ export const products: Product[] = [
       'Design intemporel',
       'Tailles 52-60 disponibles'
     ],
-    inStock: true,
+    inStock: false,
     materials: ['Argent plaqué or', 'Zircon cubique'],
     rating: 4.7,
     reviews: 67,
   },
     {
     id: '45',
-    name: 'eventails 2',
+    name: 'eventail 2',
     price: 22,
     category: ['fan'],
     images: [
@@ -936,7 +936,7 @@ export const products: Product[] = [
   },
     {
     id: '46',
-    name: 'eventails 3',
+    name: 'eventail 3',
     price: 22,
     category: ['fan'],
     images: [
@@ -956,7 +956,7 @@ export const products: Product[] = [
   },
     {
     id: '47',
-    name: 'eventails 4',
+    name: 'eventail 4',
     price: 22,
     category: ['fan'],
     images: [
@@ -976,7 +976,7 @@ export const products: Product[] = [
   },
     {
     id: '48',
-    name: 'eventails 5',
+    name: 'eventail 5',
     price: 22,
     category: ['fan'],
     images: [
@@ -996,7 +996,7 @@ export const products: Product[] = [
   },
     {
     id: '49',
-    name: 'eventails 6',
+    name: 'eventail 6',
     price: 22,
     category: ['fan'],
     images: [
@@ -1016,7 +1016,7 @@ export const products: Product[] = [
   },
   {
     id: '50',
-    name: 'eventails 7',
+    name: 'eventail 7',
     price: 22,
     category: ['fan'],
     images: [
