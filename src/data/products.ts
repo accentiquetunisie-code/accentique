@@ -2610,20 +2610,21 @@ export const products: Product[] = [
   {
     id: '129',
     name: 'Montre 8',
-    price: 69,
-    originalPrice: 89,
+    price: 99,
+    originalPrice: 109,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/81.jpeg',
-      '/product_data/watches/montre/82.jpeg',
+      '/product_data/watches/montre/IMG29.jpeg',
+      '/product_data/watches/montre/IMG30.jpeg',
+      '/product_data/watches/montre/IMG31.jpeg'
     ],
-    description: 'Une montre Cartier en acier inoxydable.',
+    description: 'bvlgari watch en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
-    isNew: false,
+    inStock: true,
+    isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.5,
