@@ -2923,6 +2923,52 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 57,
   },
+  {
+    id: '143',
+    name: 'Montre 21',
+    price: 79,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG33.jpeg',
+      '/product_data/watches/montre/IMG32.jpeg',
+      '/product_data/watches/montre/IMG34.jpeg',
+    ],
+    description: 'Une montre Bvlgari en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 66,
+  },
+  {
+    id: '144',
+    name: 'Montre 22',
+    price: 79,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG35.jpeg',
+      '/product_data/watches/montre/IMG36.jpeg',
+      '/product_data/watches/montre/IMG37.jpeg',
+    ],
+    description: 'Une montre Bvlgari en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 87,
+  },
 ];
 
 export const bundles: Bundle[] = [
