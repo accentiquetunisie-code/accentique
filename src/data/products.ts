@@ -2681,9 +2681,9 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG15.jpeg',
-      '/product_data/watches/montre/IMG16.jpeg',
       '/product_data/watches/montre/IMG17.jpeg',
+      '/product_data/watches/montre/IMG16.jpeg',
+      '/product_data/watches/montre/IMG15.jpeg',
     ],
     description: 'Une montre Cartier FB en acier inoxydable.',
     features: [
