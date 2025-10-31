@@ -2899,6 +2899,30 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 71,
   },
+  {
+    id: '142',
+    name: 'Montre 20',
+    price: 99,
+    originalPrice: 109,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG26.jpeg',
+      '/product_data/watches/montre/IMG27.jpeg',
+      '/product_data/watches/montre/IMG28.jpeg',
+      '/product_data/watches/montre/IMG25.jpeg'
+    ],
+    description: 'Une montre IEKE en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 57,
+  },
 ];
 
 export const bundles: Bundle[] = [
