@@ -2636,17 +2636,18 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/91.jpeg',
-      '/product_data/watches/montre/92.jpeg',
+      '/product_data/watches/montre/IMG18.jpeg',
+      '/product_data/watches/montre/IMG19.jpeg',
+      '/product_data/watches/montre/IMG20.jpeg',
     ],
-    description: 'Une montre Chanel en acier inoxydable.',
+    description: 'Une montre Cartier FD en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
-      'Bracelet ajustable'
+      'Bracelet taille standard'
     ],
-    inStock: false,
-    isNew: false,
-    isFreeDelivery: true,
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
     materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 85,
@@ -2676,21 +2677,22 @@ export const products: Product[] = [
   {
     id: '132',
     name: 'Montre 11',
-    price: 69,
-    originalPrice: 89,
+    price: 79,
+    originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/111.jpeg',
-      '/product_data/watches/montre/112.jpeg',
+      '/product_data/watches/montre/IMG15.jpeg',
+      '/product_data/watches/montre/IMG16.jpeg',
+      '/product_data/watches/montre/IMG17.jpeg',
     ],
-    description: 'Une montre Rolex en acier inoxydable.',
+    description: 'Une montre Cartier FB en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
-      'Bracelet ajustable'
+      'Bracelet taille standard'
     ],
-    inStock: false,
-    isNew: false,
-    isFreeDelivery: true,
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
     materials: ['Acier inoxydable'],
     rating: 4.1,
     reviews: 64,
