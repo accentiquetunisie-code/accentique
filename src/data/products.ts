@@ -2588,20 +2588,23 @@ export const products: Product[] = [
   {
     id: '128',
     name: 'Montre 7',
-    price: 69,
-    originalPrice: 89,
+    price: 99,
+    originalPrice: 109,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/71.jpeg',
-      '/product_data/watches/montre/72.jpeg',
+      '/product_data/watches/montre/IMG21.jpeg',
+      '/product_data/watches/montre/IMG22.jpeg',
+      '/product_data/watches/montre/IMG23.jpeg',
+      '/product_data/watches/montre/IMG24.jpeg',
+      '/product_data/watches/montre/IMG25.jpeg'
     ],
-    description: 'Une montre Cartier en acier inoxydable.',
+    description: 'Une montre IEKE en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
-    isNew: false,
+    inStock: true,
+    isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.4,
