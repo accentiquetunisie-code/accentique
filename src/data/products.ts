@@ -192,7 +192,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -235,7 +235,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -599,7 +599,7 @@ export const products: Product[] = [
       'Manchette precieuse',
       'Taille ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     materials: ['Acier inoxydable'],
     rating: 4.7,
@@ -1506,7 +1506,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -1830,7 +1830,7 @@ export const products: Product[] = [
     features: [
       'Taille standard'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.9,
@@ -2220,7 +2220,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -2754,7 +2754,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
