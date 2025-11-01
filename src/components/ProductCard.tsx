@@ -18,7 +18,9 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
   const handleAddToCart = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
-    addToCart(product);
+    if (product.inStock) {
+      addToCart(product);
+    }
   };
 
   const getCategoryDisplayName = (categories: string[]) => {
@@ -74,17 +76,19 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
           </div>
 
           {/* Quick Add Button */}
-          <div className={`absolute bottom-3 right-3 transition-all duration-300 ${
-            isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'
-          }`}>
-            <button
-              onClick={handleAddToCart}
-              className="btn-gold px-4 py-2 rounded-full shadow-lg hover:shadow-xl flex items-center gap-2"
-            >
-              <ShoppingBag className="w-4 h-4" />
-              <span className="text-sm font-medium">Ajouter au panier</span>
-            </button>
-          </div>
+          {product.inStock && (
+            <div className={`absolute bottom-3 right-3 transition-all duration-300 ${
+              isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'
+            }`}>
+              <button
+                onClick={handleAddToCart}
+                className="btn-gold px-4 py-2 rounded-full shadow-lg hover:shadow-xl flex items-center gap-2"
+              >
+                <ShoppingBag className="w-4 h-4" />
+                <span className="text-sm font-medium">Ajouter au panier</span>
+              </button>
+            </div>
+          )}
 
           {/* Image Dots */}
           {product.images.length > 1 && (
