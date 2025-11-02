@@ -2901,7 +2901,7 @@ export const products: Product[] = [
   },
   {
     id: '142',
-    name: 'Montre 20',
+    name: 'Montre 23',
     price: 99,
     originalPrice: 109,
     category: ['watches'],
