@@ -710,7 +710,7 @@ export const products: Product[] = [
       'Design intemporel',
       'Taille ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isFreeDelivery: false,
     materials: ['Acier inoxydable'],
     rating: 4.1,
@@ -1274,7 +1274,7 @@ export const products: Product[] = [
       'Design intemporel',
       'taille standard 21cm'
     ],
-    inStock: true,
+    inStock: false,
     materials: ['Acier inoxydable'],
     rating: 4.4,
     reviews: 42,
