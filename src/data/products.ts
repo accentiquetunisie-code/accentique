@@ -2015,7 +2015,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.0,
@@ -2968,6 +2968,195 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 87,
+  },
+  {
+    id: '145',
+    name: 'Montre 24',
+    price: 79,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG42.jpeg',
+      '/product_data/watches/montre/IMG39.jpeg',
+      '/product_data/watches/montre/IMG38.jpeg',
+      '/product_data/watches/montre/IMG41.jpeg'
+    ],
+    description: 'Une montre DW en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 5.8,
+    reviews: 97,
+  },
+  {
+    id: '146',
+    name: 'Montre 25',
+    price: 79,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG45.jpeg',
+      '/product_data/watches/montre/IMG46.jpeg',
+      '/product_data/watches/montre/IMG43.jpeg',
+      '/product_data/watches/montre/IMG44.jpeg'
+    ],
+    description: 'Une montre DW en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 66,
+  },
+  {
+    id: '147',
+    name: 'Montre 26',
+    price: 79,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG49.jpeg',
+      '/product_data/watches/montre/IMG47.jpeg',
+      '/product_data/watches/montre/IMG48.jpeg',
+    ],
+    description: 'Une montre IEKE en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 87,
+  },
+  {
+    id: '148',
+    name: 'Montre 27',
+    price: 79,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG50.jpeg',
+      '/product_data/watches/montre/IMG51.jpeg',
+      '/product_data/watches/montre/IMG54.jpeg',
+      '/product_data/watches/montre/IMG52.jpeg'
+    ],
+    description: 'Une montre IEKE en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 49.3,
+    reviews: 64,
+  },
+  {
+    id: '149',
+    name: 'Montre 28',
+    price: 69,
+    originalPrice: 89,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG55.jpeg',
+      '/product_data/watches/montre/IMG56.jpeg',
+      '/product_data/watches/montre/IMG57.jpeg',
+      '/product_data/watches/montre/IMG58.jpeg'
+    ],
+    description: 'Une montre GUCCI en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 54,
+  },
+  {
+    id: '150',
+    name: 'Montre 29',
+    price: 69,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG59.jpeg',
+      '/product_data/watches/montre/IMG60.jpeg',
+      '/product_data/watches/montre/IMG63.jpeg',
+      '/product_data/watches/montre/IMG62.jpeg'
+    ],
+    description: 'Une montre TISSOT en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 7.4,
+    reviews: 75,
+  },
+  {
+    id: '151',
+    name: 'Montre 30',
+    price: 69,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG64.jpeg',
+      '/product_data/watches/montre/IMG65.jpeg',
+      '/product_data/watches/montre/IMG66.jpeg',
+    ],
+    description: 'Une montre CARTIER en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 6.5,
+    reviews: 77,
+  },
+  {
+    id: '152',
+    name: 'Montre 31',
+    price: 69,
+    originalPrice: 99,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG67.jpeg',
+      '/product_data/watches/montre/IMG69.jpeg',
+      '/product_data/watches/montre/IMG68.jpeg',
+    ],
+    description: 'Une montre KOUSHI en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: true,
+    isFreeDelivery: false,
+    materials: ['Acier inoxydable'],
+    rating: 6.2,
+    reviews: 81,
   },
 ];
 
