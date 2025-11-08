@@ -3233,7 +3233,7 @@ export const products: Product[] = [
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack33.jpeg',
-      '/product_data/watches/montre+bracelet/pack34.jpeg',
+      '/product_data/watches/montre+bracelet/pack31.jpeg',
       '/product_data/watches/montre+bracelet/pack32.jpeg',
     ],
     description: 'Une montre avec 2 bracelets.',
