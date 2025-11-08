@@ -3161,8 +3161,8 @@ export const products: Product[] = [
   {
     id: '153',
     name: 'Pack accessoires 6',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack24.jpeg',
@@ -3183,8 +3183,8 @@ export const products: Product[] = [
   {
     id: '154',
     name: 'Pack accessoires 7',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack26.jpeg',
@@ -3251,8 +3251,8 @@ export const products: Product[] = [
   {
     id: '157',
     name: 'Pack accessoires 10',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack34.jpeg',
@@ -3319,8 +3319,8 @@ export const products: Product[] = [
   {
     id: '160',
     name: 'Pack accessoires 13',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack43.jpeg',
