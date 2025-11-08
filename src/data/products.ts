@@ -2230,8 +2230,8 @@ export const products: Product[] = [
   {
     id: '111',
     name: 'Pack accessoires 1',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack17.jpeg',
