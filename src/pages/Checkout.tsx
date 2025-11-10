@@ -206,12 +206,22 @@ const Checkout = () => {
                     <FormField
                       control={form.control}
                       name="phone"
-                      rules={{ required: "Le numéro de téléphone est requis" }}
+                      rules={{ 
+                        required: "Le numéro de téléphone est requis",
+                        pattern: {
+                          value: /^[0-9]{8}$/,
+                          message: "Le numéro doit contenir exactement 8 chiffres"
+                        }
+                      }}
                       render={({ field }) => (
                         <FormItem>
                           <FormLabel>Téléphone *</FormLabel>
                           <FormControl>
-                            <Input placeholder="+216 XX XXX XXX" {...field} />
+                            <Input 
+                              placeholder="XX XXX XXX" 
+                              {...field}
+                              maxLength={8}
+                            />
                           </FormControl>
                           <FormMessage />
                         </FormItem>
