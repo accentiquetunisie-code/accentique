@@ -85,8 +85,8 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
-    isNew: true,
+    inStock: false,
+    isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
     rating: 4.8,
