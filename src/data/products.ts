@@ -2617,7 +2617,9 @@ export const products: Product[] = [
     originalPrice: 109,
     category: ['watches'],
     images: [
+      '/product_data/watches/montre/IMG30B.jpeg', 
       '/product_data/watches/montre/IMG29.jpeg',
+      '/product_data/watches/montre/IMG31A.jpeg',
       '/product_data/watches/montre/IMG30.jpeg',
       '/product_data/watches/montre/IMG31.jpeg'
     ],
@@ -2627,7 +2629,7 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.5,
@@ -2953,9 +2955,10 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG35.jpeg',
+      '/product_data/watches/montre/IMG35B.jpeg',
+      '/product_data/watches/montre/IMG35A.jpeg',
       '/product_data/watches/montre/IMG36.jpeg',
-      '/product_data/watches/montre/IMG37.jpeg',
+      '/product_data/watches/montre/IMG35.jpeg',
     ],
     description: 'Une montre Bvlgari en acier inoxydable.',
     features: [
@@ -3365,6 +3368,97 @@ export const products: Product[] = [
     materials: ['TR90'],
     rating: 4.9,
     reviews: 99,
+  },
+  {
+    id: '162',
+    name: 'Montre 32',
+    price: 109,
+    originalPrice: 109,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG72.jpeg', 
+      '/product_data/watches/montre/IMG73.jpeg',
+      '/product_data/watches/montre/IMG74.jpeg',
+      '/product_data/watches/montre/IMG75.jpeg',
+    ],
+    description: 'bvlgari watch en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 68,
+  },
+  {
+    id: '163',
+    name: 'Montre 33',
+    price: 99,
+    originalPrice: 109,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG77.jpeg', 
+      '/product_data/watches/montre/IMG76.jpeg',
+      '/product_data/watches/montre/IMG78.jpeg',
+    ],
+    description: 'GUCCI GB watch en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 72,
+  },
+   {
+    id: '164',
+    name: 'Montre 34',
+    price: 99,
+    originalPrice: 109,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG79.jpeg', 
+      '/product_data/watches/montre/IMG80.jpeg',
+    ],
+    description: 'GUCCI GR watch en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 80,
+  },
+  {
+    id: '165',
+    name: 'Montre 35',
+    price: 99,
+    originalPrice: 109,
+    category: ['watches'],
+    images: [
+      '/product_data/watches/montre/IMG81.jpeg', 
+      '/product_data/watches/montre/IMG82.jpeg',
+    ],
+    description: 'GUCCI GD watch en acier inoxydable.',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 88,
   },
 ];
 
