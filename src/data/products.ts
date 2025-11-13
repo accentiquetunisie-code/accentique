@@ -3344,11 +3344,11 @@ export const products: Product[] = [
     price: 78,
     category: ['mount'],
     images: [
+      '/product_data/other/miumiu5.jpeg',
       '/product_data/other/miumiu1.jpeg',
       '/product_data/other/miumiu2.jpeg',
       '/product_data/other/miumiu3.jpeg',
       '/product_data/other/miumiu4.jpeg',
-      '/product_data/other/miumiu5.jpeg',
       '/product_data/other/miumiu6.jpeg',
       '/product_data/other/miumiu7.jpeg',
       '/product_data/other/miumiu8.jpeg',
