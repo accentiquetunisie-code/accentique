@@ -3338,6 +3338,34 @@ export const products: Product[] = [
     rating: 4.4,
     reviews: 75,
   },
+  {
+    id: '161',
+    name: 'monture miu miu',
+    price: 78,
+    category: ['mount'],
+    images: [
+      '/product_data/other/miumiu1.jpeg',
+      '/product_data/other/miumiu2.jpeg',
+      '/product_data/other/miumiu3.jpeg',
+      '/product_data/other/miumiu4.jpeg',
+      '/product_data/other/miumiu5.jpeg',
+      '/product_data/other/miumiu6.jpeg',
+      '/product_data/other/miumiu7.jpeg',
+      '/product_data/other/miumiu8.jpeg',
+    ],
+    description: 'La monture Miu Miu arrive avec son packaging complet : boîte, étui et pochette officielle.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['TR90'],
+    rating: 4.9,
+    reviews: 99,
+  },
 ];
 
 export const bundles: Bundle[] = [
