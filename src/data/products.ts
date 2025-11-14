@@ -1900,7 +1900,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.2,
@@ -2512,7 +2512,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -2696,7 +2696,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet taille standard'
     ],
-    inStock: false,
+    inStock: true,
     isNew: true,
     isFreeDelivery: false,
     materials: ['Acier inoxydable'],
@@ -3013,7 +3013,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
