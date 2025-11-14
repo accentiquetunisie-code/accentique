@@ -1264,17 +1264,19 @@ export const products: Product[] = [
    {
     id: '622',
     name: 'collier 11',
-    price: 18,
+    price: 24,
     category: ['necklace'],
     images: [
-      '/product_data/necklace/collier/collier13.jpeg'
+      '/product_data/necklace/collier/C17.jpeg',
+      '/product_data/necklace/collier/C19.jpeg',
+      '/product_data/necklace/collier/C18.jpeg'
     ],
-    description: 'collier perles.',
+    description: 'collier poisson.',
     features: [
       'Design intemporel',
       'taille standard 21cm'
     ],
-    inStock: false,
+    inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.4,
     reviews: 42,
@@ -3464,6 +3466,47 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 88,
   },
+  {
+    id: '166',
+    name: 'collier 12',
+    price: 24,
+    category: ['necklace'],
+    images: [
+      '/product_data/necklace/collier/C22.jpeg',
+      '/product_data/necklace/collier/C21.jpeg',
+      '/product_data/necklace/collier/C23.jpeg',
+      '/product_data/necklace/collier/C24.jpeg'
+    ],
+    description: 'collier love.',
+    features: [
+      'Design intemporel',
+      'taille standard 21cm'
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 84,
+  },
+  {
+    id: '167',
+    name: 'collier 13',
+    price: 22,
+    category: ['necklace'],
+    images: [
+      '/product_data/necklace/collier/C25.jpeg',
+      '/product_data/necklace/collier/C26.jpeg',
+    ],
+    description: 'collier love.',
+    features: [
+      'Design intemporel',
+      'taille standard 21cm'
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.5,
+    reviews: 56,
+  },
+  
 ];
 
 export const bundles: Bundle[] = [
