@@ -3403,6 +3403,8 @@ export const products: Product[] = [
       '/product_data/watches/montre/IMG77.jpeg', 
       '/product_data/watches/montre/IMG76.jpeg',
       '/product_data/watches/montre/IMG78.jpeg',
+      '/product_data/watches/montre/IMG83.jpeg',
+      '/product_data/watches/montre/IMG84.jpeg',
     ],
     description: 'GUCCI GB watch en acier inoxydable.',
     features: [
@@ -3425,6 +3427,8 @@ export const products: Product[] = [
     images: [
       '/product_data/watches/montre/IMG79.jpeg', 
       '/product_data/watches/montre/IMG80.jpeg',
+      '/product_data/watches/montre/IMG80A.jpeg',
+      '/product_data/watches/montre/IMG79A.jpeg',
     ],
     description: 'GUCCI GR watch en acier inoxydable.',
     features: [
