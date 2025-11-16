@@ -2698,7 +2698,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet taille standard'
     ],
-    inStock: true,
+    inStock: false,
     isNew: true,
     isFreeDelivery: false,
     materials: ['Acier inoxydable'],
