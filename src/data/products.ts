@@ -245,13 +245,18 @@ export const products: Product[] = [
         {
     id: '10',
     name: 'montre et bracelet 12',
-    price: 89,
+    price: 99,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet12.jpeg'
+      '/product_data/watches/montre+bracelet/IMG87.jpeg',
+      '/product_data/watches/montre+bracelet/IMG88.jpeg',
+      '/product_data/watches/montre+bracelet/IMG89.jpeg',
+      '/product_data/watches/montre+bracelet/IMG90.jpeg',
+      '/product_data/watches/montre+bracelet/IMG91.jpeg'
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Montre + bracelet en burgundy, finition acier inoxydable, dans un coffret LOVE garni de roses ❤
+.',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
