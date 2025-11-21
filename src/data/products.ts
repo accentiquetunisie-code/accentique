@@ -249,11 +249,10 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG87.jpeg',
-      '/product_data/watches/montre+bracelet/IMG88.jpeg',
-      '/product_data/watches/montre+bracelet/IMG89.jpeg',
-      '/product_data/watches/montre+bracelet/IMG90.jpeg',
-      '/product_data/watches/montre+bracelet/IMG91.jpeg'
+      '/product_data/watches/montre+bracelet/IMG105.jpeg',
+      '/product_data/watches/montre+bracelet/IMG106.jpeg',
+      '/product_data/watches/montre+bracelet/IMG107.jpeg',
+      '/product_data/watches/montre+bracelet/IMG108.jpeg'
     ],
     description: 'Montre + bracelet en burgundy, finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3516,6 +3515,54 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.5,
     reviews: 56,
+  },
+  {
+    id: '168',
+    name: 'montre et bracelet 13',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/IMG109.jpeg',
+      '/product_data/watches/montre+bracelet/IMG110.jpeg',
+      '/product_data/watches/montre+bracelet/IMG111.jpeg',
+      '/product_data/watches/montre+bracelet/IMG112.jpeg'
+    ],
+    description: 'Montre + bracelet en noir, finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    features: [
+      'Résistante à l\'eau (3atm)',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 124,
+  },
+  {
+    id: '169',
+    name: 'montre et bracelet 14',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/IMG113.jpeg',
+      '/product_data/watches/montre+bracelet/IMG114.jpeg',
+      '/product_data/watches/montre+bracelet/IMG115.jpeg',
+      '/product_data/watches/montre+bracelet/IMG116.jpeg'
+    ],
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    features: [
+      'Résistante à l\'eau (3atm)',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.8,
+    reviews: 124,
   },
   
 ];
