@@ -249,10 +249,10 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG105.jpeg',
-      '/product_data/watches/montre+bracelet/IMG106.jpeg',
-      '/product_data/watches/montre+bracelet/IMG107.jpeg',
-      '/product_data/watches/montre+bracelet/IMG108.jpeg'
+      '/product_data/watches/IMG105.jpeg',
+      '/product_data/watches/IMG106.jpeg',
+      '/product_data/watches/IMG107.jpeg',
+      '/product_data/watches/IMG108.jpeg'
     ],
     description: 'Montre + bracelet en burgundy, finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3523,10 +3523,10 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG109.jpeg',
-      '/product_data/watches/montre+bracelet/IMG110.jpeg',
-      '/product_data/watches/montre+bracelet/IMG111.jpeg',
-      '/product_data/watches/montre+bracelet/IMG112.jpeg'
+      '/product_data/watches/IMG109.jpeg',
+      '/product_data/watches/IMG110.jpeg',
+      '/product_data/watches/IMG111.jpeg',
+      '/product_data/watches/IMG112.jpeg'
     ],
     description: 'Montre + bracelet en noir, finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3547,10 +3547,10 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG113.jpeg',
-      '/product_data/watches/montre+bracelet/IMG114.jpeg',
-      '/product_data/watches/montre+bracelet/IMG115.jpeg',
-      '/product_data/watches/montre+bracelet/IMG116.jpeg'
+      '/product_data/watches/IMG113.jpeg',
+      '/product_data/watches/IMG114.jpeg',
+      '/product_data/watches/IMG115.jpeg',
+      '/product_data/watches/IMG116.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
