@@ -2837,7 +2837,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -2992,7 +2992,7 @@ export const products: Product[] = [
       '/product_data/watches/montre/IMG94.jpeg',
       '/product_data/watches/montre/IMG95.jpeg',
       '/product_data/watches/montre/IMG96.jpeg',
-      '/product_data/watches/montre/IMG96.jpeg'
+      '/product_data/watches/montre/IMG97.jpeg'
     ],
     description: 'Une montre cartier en acier inoxydable.',
     features: [
