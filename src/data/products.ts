@@ -2822,14 +2822,17 @@ export const products: Product[] = [
   {
     id: '138',
     name: 'Montre 17',
-    price: 69,
-    originalPrice: 89,
+    price: 79,
+    originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG7.jpeg',
-      '/product_data/watches/montre/IMG8.jpeg',
+      '/product_data/watches/montre/IMG99.jpeg',
+      '/product_data/watches/montre/IMG100.jpeg',
+      '/product_data/watches/montre/IMG101.jpeg',
+      '/product_data/watches/montre/IMG102.jpeg',
+      '/product_data/watches/montre/IMG103.jpeg',
     ],
-    description: 'Une montre Koushi en acier inoxydable.',
+    description: 'Une montre Dior en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
@@ -2985,12 +2988,13 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG42.jpeg',
-      '/product_data/watches/montre/IMG39.jpeg',
-      '/product_data/watches/montre/IMG38.jpeg',
-      '/product_data/watches/montre/IMG41.jpeg'
+      '/product_data/watches/montre/IMG93.jpeg',
+      '/product_data/watches/montre/IMG94.jpeg',
+      '/product_data/watches/montre/IMG95.jpeg',
+      '/product_data/watches/montre/IMG96.jpeg',
+      '/product_data/watches/montre/IMG96.jpeg'
     ],
-    description: 'Une montre DW en acier inoxydable.',
+    description: 'Une montre cartier en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
