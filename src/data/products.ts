@@ -2691,11 +2691,11 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG18.jpeg',
-      '/product_data/watches/montre/IMG19.jpeg',
-      '/product_data/watches/montre/IMG20.jpeg',
+      '/product_data/watches/montre/IMG17.jpeg',
+      '/product_data/watches/montre/IMG16.jpeg',
+      '/product_data/watches/montre/IMG15.jpeg',
     ],
-    description: 'Une montre Cartier FD en acier inoxydable.',
+    description: 'Une montre Cartier FB en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet taille standard'
@@ -2758,11 +2758,11 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG17.jpeg',
-      '/product_data/watches/montre/IMG16.jpeg',
-      '/product_data/watches/montre/IMG15.jpeg',
+      '/product_data/watches/montre/IMG18.jpeg',
+      '/product_data/watches/montre/IMG19.jpeg',
+      '/product_data/watches/montre/IMG20.jpeg',
     ],
-    description: 'Une montre Koushi en acier inoxydable.',
+    description: 'Une montre cartier FD en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
