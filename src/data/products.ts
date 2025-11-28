@@ -78,17 +78,21 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet2.jpeg'
+      '/public/product_data/watches/montre+bracelet/pack44.jpeg',
+      '/public/product_data/watches/montre+bracelet/pack45.jpeg',
+      '/public/product_data/watches/montre+bracelet/pack46.jpeg',
+      '/public/product_data/watches/montre+bracelet/pack47.jpeg',
+      '/public/product_data/watches/montre+bracelet/pack48.jpeg',
     ],
-    description: 'Une montre élégante avec cadran nacré et bracelet en acier inoxydable plaqué or.',
+    description: 'Une montre cartier avec bracelet en acier inoxydable .',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
-    materials: ['Acier inoxydable plaqué or', 'Cadran nacré', 'Cristaux'],
+    materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 124,
   },
@@ -185,14 +189,17 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_1302.jpeg'
+      '/product_data/watches/montre+bracelet/pack49.jpeg',
+      '/product_data/watches/montre+bracelet/pack50.jpeg',
+      '/product_data/watches/montre+bracelet/pack51.jpeg',
+      '/product_data/watches/montre+bracelet/pack52.jpeg'
     ],
-    description: 'Une montre avec 1 bracelet en acier inoxydable.',
+    description: 'Une montre Cartier noir avec bracelet van cleef en acier inoxydable.',
     features: [
       'Résistante à l\'eau (3ATM)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -228,14 +235,17 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/montreetbracelet11.jpeg'
+     '/product_data/watches/montre+bracelet/pack53.jpeg',
+     '/product_data/watches/montre+bracelet/pack54.jpeg',
+     '/product_data/watches/montre+bracelet/pack55.jpeg',
+      '/product_data/watches/montre+bracelet/pack56.jpeg',
     ],
-    description: 'Une montre élégante et bracelet en acier inoxydable.',
+    description: 'Une montre IEKE et bracelet van cleef en acier inoxydable.',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -245,21 +255,21 @@ export const products: Product[] = [
         {
     id: '10',
     name: 'montre et bracelet 12',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/IMG105.jpeg',
-      '/product_data/watches/IMG106.jpeg',
-      '/product_data/watches/IMG107.jpeg',
-      '/product_data/watches/IMG108.jpeg'
+     '/product_data/watches/montre+bracelet/pack57.jpeg',
+      '/product_data/watches/montre+bracelet/pack58.jpeg',
+      '/product_data/watches/montre+bracelet/pack59.jpeg',
+      '/product_data/watches/montre+bracelet/pack60.jpeg'
     ],
-    description: 'Montre + bracelet en burgundy, finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    description: 'Une montre BVLGARI et bracelet van cleef en acier inoxydable',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -1498,20 +1508,23 @@ export const products: Product[] = [
   },
       {
     id: '75',
-    name: 'montre CFB + 2 bracelets',
-    price: 99,
+    name: 'montre et bracelet 15',
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack19.jpeg',
-      '/product_data/watches/montre+bracelet/pack20.jpeg',
+      '/product_data/watches/montre+bracelet/pack61.jpeg',
+      '/product_data/watches/montre+bracelet/pack62.jpeg',
+      '/product_data/watches/montre+bracelet/pack63.jpeg',
+      '/product_data/watches/montre+bracelet/pack64.jpeg',
+      
     ],
-    description: 'Une montre avec 2 bracelets.',
+    description: 'Une montre BVLGARI et bracelet van cleef en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -2212,20 +2225,22 @@ export const products: Product[] = [
   },
   {
     id: '110',
-    name: 'montre CFD + 2 bracelets',
-    price: 99,
+    name: 'montre et bracelet 16',
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack21.jpeg',
-      '/product_data/watches/montre+bracelet/pack22.jpeg',
+      '/product_data/watches/montre+bracelet/pack65.jpeg',
+      '/product_data/watches/montre+bracelet/pack66.jpeg',
+      '/product_data/watches/montre+bracelet/pack67.jpeg',
+      '/product_data/watches/montre+bracelet/pack68.jpeg',
     ],
-    description: 'Une montre avec 2 bracelets.',
+    description: 'Une montre Cartier NFN et bracelet van cleef en acier inoxydable..',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3537,8 +3552,8 @@ export const products: Product[] = [
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
-    rating: 4.8,
-    reviews: 124,
+    rating: 4.7,
+    reviews: 64,
   },
   {
     id: '169',
@@ -3564,7 +3579,127 @@ export const products: Product[] = [
     rating: 4.8,
     reviews: 124,
   },
-  
+   {
+    id: '170',
+    name: 'montre et bracelet 17',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack69.jpeg',
+      '/product_data/watches/montre+bracelet/pack70.jpeg',
+      '/product_data/watches/montre+bracelet/pack71.jpeg',
+      '/product_data/watches/montre+bracelet/pack72.jpeg',
+    ],
+    description: 'Une montre Cartier et bracelet en acier inoxydable..',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.3,
+    reviews: 74,
+  },
+  {
+    id: '171',
+    name: 'montre et bracelet 18',
+    price: 89,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack73.jpeg',
+      '/product_data/watches/montre+bracelet/pack74.jpeg',
+      '/product_data/watches/montre+bracelet/pack75.jpeg',
+      '/product_data/watches/montre+bracelet/pack76.jpeg',
+    ],
+    description: 'Une montre DW et bracelet en acier inoxydable..',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.6,
+    reviews: 54,
+  },
+  {
+    id: '172',
+    name: 'montre et bracelet 19',
+    price: 89,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack77.jpeg',
+      '/product_data/watches/montre+bracelet/pack78.jpeg',
+      '/product_data/watches/montre+bracelet/pack79.jpeg',
+      '/product_data/watches/montre+bracelet/pack80.jpeg',
+    ],
+    description: 'Une montre IEKE et bracelet en acier inoxydable..',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 98,
+  },
+  {
+    id: '173',
+    name: 'montre et bracelet 20',
+    price: 89,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack81.jpeg',
+      '/product_data/watches/montre+bracelet/pack82.jpeg',
+      '/product_data/watches/montre+bracelet/pack83.jpeg',
+      '/product_data/watches/montre+bracelet/pack84.jpeg',
+    ],
+    description: 'Une montre BVLGARI et bracelet en acier inoxydable..',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.4,
+    reviews: 84,
+  },
+
+ {
+    id: '174',
+    name: 'montre et bracelet 21',
+    price: 89,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/pack85.jpeg',
+      '/product_data/watches/montre+bracelet/pack86.jpeg',
+      '/product_data/watches/montre+bracelet/pack87.jpeg',
+      '/product_data/watches/montre+bracelet/pack88.jpeg',
+    ],
+    description: 'Une montre BVLGARI et bracelet en acier inoxydable..',
+    features: [
+      'Mouvement quartz de précision',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 54,
+  },
 ];
 
 export const bundles: Bundle[] = [
