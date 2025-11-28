@@ -78,11 +78,11 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/public/product_data/watches/montre+bracelet/pack44.jpeg',
-      '/public/product_data/watches/montre+bracelet/pack45.jpeg',
-      '/public/product_data/watches/montre+bracelet/pack46.jpeg',
-      '/public/product_data/watches/montre+bracelet/pack47.jpeg',
-      '/public/product_data/watches/montre+bracelet/pack48.jpeg',
+      '/product_data/watches/montre+bracelet/pack44.jpeg',
+      '/product_data/watches/montre+bracelet/pack45.jpeg',
+      '/product_data/watches/montre+bracelet/pack46.jpeg',
+      '/product_data/watches/montre+bracelet/pack47.jpeg',
+      '/product_data/watches/montre+bracelet/pack48.jpeg',
     ],
     description: 'Une montre cartier avec bracelet en acier inoxydable .',
     features: [
