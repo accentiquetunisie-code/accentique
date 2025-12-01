@@ -3700,6 +3700,30 @@ export const products: Product[] = [
     rating: 4.9,
     reviews: 54,
   },
+  {
+    id: '175',
+    name: 'montre et bracelet 22',
+    price: 99,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/IMG105.jpeg',
+      '/product_data/watches/IMG106.jpeg',
+      '/product_data/watches/IMG107.jpeg',
+      '/product_data/watches/IMG108.jpeg'
+    ],
+    description: 'Montre + bracelet en noir, finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    features: [
+      'Résistante à l\'eau (3atm)',
+      'Bracelet ajustable'
+    ],
+    inStock: true,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 64,
+  },
 ];
 
 export const bundles: Bundle[] = [
