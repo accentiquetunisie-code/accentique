@@ -1768,7 +1768,7 @@ export const products: Product[] = [
     features: [
       'Longueur ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: true,
     materials: ['Acier inoxydable'],
     rating: 4.8,
@@ -2384,7 +2384,7 @@ export const products: Product[] = [
     features: [
       'Taille ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.5,
@@ -3620,7 +3620,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
