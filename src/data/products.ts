@@ -1930,9 +1930,11 @@ export const products: Product[] = [
     price: 37,
     category: ['mount'],
     images: [
-      '/product_data/other/13.jpeg',
-      '/product_data/other/15.jpeg',
-      '/product_data/other/14.jpeg'
+      '/product_data/monture/82.jpeg',
+      '/product_data/monture/83.jpeg',
+      '/product_data/monture/84.jpeg',
+      '/product_data/monture/85.jpeg',
+      '/product_data/monture/86.jpeg',
     ],
     description: 'Monture optique pour femmes.',
     features: [
@@ -1941,7 +1943,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.6,
@@ -2138,8 +2140,11 @@ export const products: Product[] = [
     price: 37,
     category: ['mount'],
     images: [
-      '/product_data/other/52.jpeg',
-      '/product_data/other/53.jpeg'
+      '/product_data/monture/73.jpeg',
+      '/product_data/monture/74.jpeg',
+      '/product_data/monture/71.jpeg',
+      '/product_data/monture/75.jpeg',
+      '/product_data/monture/76.jpeg',
     ],
     description: 'Monture optique pour femmes.',
     features: [
@@ -2148,7 +2153,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.6,
@@ -2160,9 +2165,11 @@ export const products: Product[] = [
     price: 37,
     category: ['mount'],
     images: [
-      '/product_data/other/56.jpeg',
-      '/product_data/other/57.jpeg',
-      '/product_data/other/56.jpeg'
+      '/product_data/monture/87.jpeg',
+      '/product_data/monture/88.jpeg',
+      '/product_data/monture/89.jpeg',
+      '/product_data/monture/90.jpeg',
+      '/product_data/monture/91.jpeg'
     ],
     description: 'Monture optique pour femmes.',
     features: [
@@ -2206,9 +2213,11 @@ export const products: Product[] = [
     price: 37,
     category: ['mount'],
     images: [
-      '/product_data/other/62.jpeg',
-      '/product_data/other/63.jpeg',
-      '/product_data/other/64.jpeg'
+      '/product_data/monture/77.jpeg',
+      '/product_data/monture/78.jpeg',
+      '/product_data/monture/79.jpeg',
+      '/product_data/monture/80.jpeg',
+      '/product_data/monture/81.jpeg'
     ],
     description: 'Monture optique pour femmes.',
     features: [
@@ -2217,7 +2226,7 @@ export const products: Product[] = [
       'Légère et résistante',
       'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['TR90'],
     rating: 4.4,
@@ -3724,6 +3733,57 @@ export const products: Product[] = [
     rating: 4.7,
     reviews: 64,
   },
+       {
+    id: '176',
+    name: 'monture 17',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/monture/92.jpeg',
+      '/product_data/monture/93.jpeg',
+      '/product_data/monture/94.jpeg',
+      '/product_data/monture/95.jpeg',
+      '/product_data/monture/96.jpeg',
+      '/product_data/monture/97.jpeg',
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.3,
+    reviews: 86,
+  },
+  {
+    id: '177',
+    name: 'monture 18',
+    price: 37,
+    category: ['mount'],
+    images: [
+      '/product_data/monture/99.jpeg',
+      '/product_data/monture/100.jpeg',
+      '/product_data/monture/101.jpeg',
+      '/product_data/monture/102.jpeg',
+      '/product_data/monture/103.jpeg',
+    ],
+    description: 'Monture optique pour femmes.',
+    features: [
+      'Taille standard',
+      'Confortable à porter',
+      'Légère et résistante',
+      'Adaptée à tous types de verres (vue ou anti-lumière bleue)'
+    ],
+    inStock: true,
+    isBestSeller: false,
+    materials: ['TR90'],
+    rating: 4.5,
+    reviews: 91,
+    ],
 ];
 
 export const bundles: Bundle[] = [
