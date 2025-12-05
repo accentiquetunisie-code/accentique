@@ -3784,7 +3784,6 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 91,
     },
-    ],
 ];
 
 export const bundles: Bundle[] = [
