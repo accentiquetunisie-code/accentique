@@ -3783,6 +3783,7 @@ export const products: Product[] = [
     materials: ['TR90'],
     rating: 4.5,
     reviews: 91,
+    },
     ],
 ];
 
