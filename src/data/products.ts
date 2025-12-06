@@ -2280,8 +2280,8 @@ export const products: Product[] = [
   {
     id: '112',
     name: 'Pack accessoires 2',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack14.jpeg',
@@ -2343,8 +2343,8 @@ export const products: Product[] = [
    {
     id: '115',
     name: 'Pack accessoires 5',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack23.jpeg',
@@ -3299,7 +3299,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3367,7 +3367,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
