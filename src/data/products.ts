@@ -2393,7 +2393,7 @@ export const products: Product[] = [
     features: [
       'Taille ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.5,
