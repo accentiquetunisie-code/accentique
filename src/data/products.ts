@@ -849,7 +849,7 @@ export const products: Product[] = [
       'Design intemporel',
       'Taille collier standard : 22cm'
     ],
-    inStock: true,
+    inStock: false,
     materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 57,
@@ -3557,7 +3557,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
