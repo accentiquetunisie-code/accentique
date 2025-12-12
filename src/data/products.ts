@@ -643,16 +643,20 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 17.jpeg'
+      '/product_data/rings/IMG_4391.jpeg',
+      '/product_data/rings/IMG_4392.jpeg',
+      '/product_data/rings/IMG_4393.jpeg',
+      '/product_data/rings/IMG_4394.jpeg',
+      '/product_data/rings/IMG_4395.jpeg',
     ],
-    description: 'Bague Papillon en Acier Inoxydable Doré.',
+    description: 'Bague en Acier Inoxydable .',
     features: [
       'Taille ajustable',
     ],
-    inStock: false,
+    inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.7,
-    reviews: 0,
+    reviews: 68,
   },
    {
     id: '31',
@@ -697,7 +701,10 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 4.jpg'
+      '/product_data/rings/IMG_4383.jpeg',
+      '/product_data/rings/IMG_4384.jpeg',
+      '/product_data/rings/IMG_4385.jpeg',
+      '/product_data/rings/IMG_4386.jpeg',
     ],
     description: 'Bague avec pierre noir centrale.',
     features: [
@@ -705,7 +712,7 @@ export const products: Product[] = [
       'Design intemporel',
       'Taille ajustable'
     ],
-    inStock: false,
+    inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.2,
     reviews: 19,
@@ -716,14 +723,16 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 5.jpg'
+      '/product_data/rings/IMG_4375.jpeg',
+      '/product_data/rings/IMG_4376.jpeg',
+      '/product_data/rings/IMG_4377.jpeg',
     ],
-    description: 'Bague fleur en acier inoxydable.',
+    description: 'Bague en acier inoxydable.',
     features: [
       'Design intemporel',
       'Taille ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isFreeDelivery: false,
     materials: ['Acier inoxydable'],
     rating: 4.1,
@@ -753,14 +762,18 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 12.jpeg'
+      '/product_data/rings/IMG_4378.jpeg',
+      '/product_data/rings/IMG_4379.jpeg',  
+      '/product_data/rings/IMG_4380.jpeg',
+      '/product_data/rings/IMG_4381.jpeg',
+      '/product_data/rings/IMG_4382.jpeg',
     ],
     description: 'Bague en Acier Inoxydable Doré – Élégance Moderne.',
     features: [
       'Design intemporel',
       'Taille ajustable'
     ],
-    inStock: false,
+    inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.1,
     reviews: 38,
@@ -3784,6 +3797,27 @@ export const products: Product[] = [
     rating: 4.5,
     reviews: 91,
     },
+  {
+    id: '178',
+    name: 'Bague 12',
+    price: 18,
+    category: ['rings'],
+    images: [
+      '/product_data/rings/IMG_4396.jpeg',
+      '/product_data/rings/IMG_4397.jpeg',
+      '/product_data/rings/IMG_4398.jpeg',
+      '/product_data/rings/IMG_4399.jpeg',
+      '/product_data/rings/IMG_4400.jpeg',
+    ],
+    description: 'Bague en Acier Inoxydable .',
+    features: [
+      'Taille ajustable',
+    ],
+    inStock: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 45,
+  },
 ];
 
 export const bundles: Bundle[] = [
