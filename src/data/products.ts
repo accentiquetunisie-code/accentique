@@ -3563,17 +3563,17 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/IMG109.jpeg',
-      '/product_data/watches/IMG110.jpeg',
-      '/product_data/watches/IMG111.jpeg',
-      '/product_data/watches/IMG112.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_117.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_121.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_119.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_118.jpeg'
     ],
     description: 'Montre + bracelet en noir, finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
