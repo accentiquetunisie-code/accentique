@@ -802,7 +802,10 @@ export const products: Product[] = [
     price: 18,
     category: ['rings'],
     images: [
-      '/product_data/rings/bague 13.jpeg'
+      '/product_data/rings/IMG_4387.jpeg',
+      '/product_data/rings/IMG_4388.jpeg',
+      '/product_data/rings/IMG_4389.jpeg',
+      '/product_data/rings/IMG_4390.jpeg'
     ],
     description: 'Bague n9 la reine.',
     features: [
