@@ -264,7 +264,7 @@ export const products: Product[] = [
       '/product_data/watches/IMG111.jpeg',
       '/product_data/watches/IMG112.jpeg',
     ],
-    description: 'Une montre BVLGARI et bracelet van cleef en acier inoxydable',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
