@@ -3568,7 +3568,7 @@ export const products: Product[] = [
       '/product_data/watches/montre+bracelet/IMG_119.jpeg',
       '/product_data/watches/montre+bracelet/IMG_118.jpeg'
     ],
-    description: 'Montre + bracelet en noir, finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
