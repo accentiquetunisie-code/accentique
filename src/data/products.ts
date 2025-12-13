@@ -3631,21 +3631,22 @@ export const products: Product[] = [
   {
     id: '171',
     name: 'montre et bracelet 18',
-    price: 89,
+    price: 99,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack73.jpeg',
-      '/product_data/watches/montre+bracelet/pack74.jpeg',
-      '/product_data/watches/montre+bracelet/pack75.jpeg',
-      '/product_data/watches/montre+bracelet/pack76.jpeg',
+      '/product_data/watches/montre+bracelet/IMG87.jpeg',
+      '/product_data/watches/montre+bracelet/IMG88.jpeg',
+      '/product_data/watches/montre+bracelet/IMG89.jpeg',
+      '/product_data/watches/montre+bracelet/IMG90.jpeg',
+      '/product_data/watches/montre+bracelet/IMG91.jpeg',
     ],
-    description: 'Une montre DW et bracelet en acier inoxydable..',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3742,7 +3743,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
