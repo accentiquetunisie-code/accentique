@@ -255,21 +255,21 @@ export const products: Product[] = [
         {
     id: '10',
     name: 'montre et bracelet 12',
-    price: 89,
+    price: 99,
     originalPrice: 110,
     category: ['package'],
     images: [
-     '/product_data/watches/montre+bracelet/pack57.jpeg',
-      '/product_data/watches/montre+bracelet/pack58.jpeg',
-      '/product_data/watches/montre+bracelet/pack59.jpeg',
-      '/product_data/watches/montre+bracelet/pack60.jpeg'
+     '/product_data/watches/IMG109.jpeg',
+      '/product_data/watches/IMG110.jpeg',
+      '/product_data/watches/IMG111.jpeg',
+      '/product_data/watches/IMG112.jpeg',
     ],
     description: 'Une montre BVLGARI et bracelet van cleef en acier inoxydable',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3737,7 +3737,7 @@ export const products: Product[] = [
       '/product_data/watches/IMG107.jpeg',
       '/product_data/watches/IMG108.jpeg'
     ],
-    description: 'Montre + bracelet en noir, finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
