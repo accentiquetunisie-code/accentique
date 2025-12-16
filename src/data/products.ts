@@ -231,26 +231,26 @@ export const products: Product[] = [
           {
     id: '9',
     name: 'montre et bracelet 11',
-    price: 89,
+    price: 99,
     originalPrice: 110,
     category: ['package'],
     images: [
-     '/product_data/watches/montre+bracelet/pack53.jpeg',
-     '/product_data/watches/montre+bracelet/pack54.jpeg',
-     '/product_data/watches/montre+bracelet/pack55.jpeg',
-      '/product_data/watches/montre+bracelet/pack56.jpeg',
+      '/product_data/watches/IMG105.jpeg',
+      '/product_data/watches/IMG106.jpeg',
+      '/product_data/watches/IMG107.jpeg',
+      '/product_data/watches/IMG108.jpeg'
     ],
-    description: 'Une montre IEKE et bracelet van cleef en acier inoxydable.',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
-    rating: 4.3,
-    reviews: 112,
+    rating: 4.7,
+    reviews: 64,
   },
         {
     id: '10',
@@ -3729,26 +3729,26 @@ export const products: Product[] = [
   {
     id: '175',
     name: 'montre et bracelet 22',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/IMG105.jpeg',
-      '/product_data/watches/IMG106.jpeg',
-      '/product_data/watches/IMG107.jpeg',
-      '/product_data/watches/IMG108.jpeg'
+     '/product_data/watches/montre+bracelet/pack53.jpeg',
+     '/product_data/watches/montre+bracelet/pack54.jpeg',
+     '/product_data/watches/montre+bracelet/pack55.jpeg',
+      '/product_data/watches/montre+bracelet/pack56.jpeg',
     ],
-    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    description: 'Une montre IEKE et bracelet van cleef en acier inoxydable.',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: false,
+    isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
-    rating: 4.7,
-    reviews: 64,
+    rating: 4.3,
+    reviews: 112,
   },
        {
     id: '176',
