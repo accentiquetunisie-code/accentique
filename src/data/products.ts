@@ -1541,7 +1541,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3248,7 +3248,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3258,8 +3258,8 @@ export const products: Product[] = [
   {
     id: '155',
     name: 'Pack accessoires 8',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack30.jpeg',
@@ -3294,7 +3294,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3326,8 +3326,8 @@ export const products: Product[] = [
    {
     id: '158',
     name: 'Pack accessoires 11',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack37.jpeg',
@@ -3598,7 +3598,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
