@@ -111,7 +111,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (5ATM)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isFreeDelivery: true,
     isNew: true,
     materials: ['Acier inoxydable'],
@@ -2308,7 +2308,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -2763,7 +2763,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
