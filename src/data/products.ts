@@ -3086,7 +3086,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3110,7 +3110,7 @@ export const products: Product[] = [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
