@@ -2851,10 +2851,10 @@ export const products: Product[] = [
     originalPrice: 89,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG_5138.jpeg',
       '/product_data/watches/montre/IMG_5142.jpeg',
-      '/product_data/watches/montre/IMG_5143.jpeg',
+      '/product_data/watches/montre/IMG_5138.jpeg',
       '/product_data/watches/montre/IMG_5148.jpeg',
+      '/product_data/watches/montre/IMG_5143.jpeg',
       '/product_data/watches/montre/IMG_5149.jpeg',
     ],
     description: 'Une montre Louis Vuitton en acier inoxydable.',
