@@ -2318,18 +2318,22 @@ export const products: Product[] = [
    {
     id: '113',
     name: 'Pack accessoires 3',
-    price: 99,
-    originalPrice: 110,
+    price: 129,
+    originalPrice: 149,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack18.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5385.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5386.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5391.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5394.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5399.jpeg'
     ],
-    description: 'Set montre + accessoires.',
+    description: '1 montre raffinée + 2 bracelets assortis, présentés dans un coffret cadeau avec roses décoratives.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
