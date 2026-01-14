@@ -235,11 +235,10 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG87.jpeg',
-      '/product_data/watches/montre+bracelet/IMG88.jpeg',
-      '/product_data/watches/montre+bracelet/IMG89.jpeg',
-      '/product_data/watches/montre+bracelet/IMG90.jpeg',
-      '/product_data/watches/montre+bracelet/IMG91.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5476.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5477.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5485.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5486.jpeg',
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
