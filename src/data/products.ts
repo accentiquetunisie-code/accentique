@@ -235,9 +235,9 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
+      '/product_data/watches/montre+bracelet/IMG_5485.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5476.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5477.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5485.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5486.jpeg',
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
@@ -245,7 +245,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -2944,19 +2944,21 @@ export const products: Product[] = [
   {
     id: '141',
     name: 'Montre 20',
-    price: 69,
-    originalPrice: 89,
+    price: 79,
+    originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG13.jpeg',
-      '/product_data/watches/montre/IMG14.jpeg',
+      '/product_data/watches/montre/IMG_5400.jpeg',
+      '/product_data/watches/montre/IMG_5409.jpeg',
+      '/product_data/watches/montre/IMG_5188.jpeg',
+      '/product_data/watches/montre/IMG_5407.jpeg',
     ],
-    description: 'Une montre Koushi en acier inoxydable.',
+    description: 'Une montre Cartier fond blanc en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3461,18 +3463,16 @@ export const products: Product[] = [
   {
     id: '163',
     name: 'Montre 33',
-    price: 99,
-    originalPrice: 109,
+    price: 79,
+    originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/IMG77.jpeg', 
-      '/product_data/watches/montre/IMG84.jpeg',
-      '/product_data/watches/montre/IMG76.jpeg',
-      '/product_data/watches/montre/IMG78.jpeg',
-      '/product_data/watches/montre/IMG83.jpeg',
-      
+      '/product_data/watches/montre/IMG_5422.jpeg', 
+      '/product_data/watches/montre/IMG_5424.jpeg', 
+      '/product_data/watches/montre/IMG_5188.jpeg', 
+      '/product_data/watches/montre/IMG_5423.jpeg'
     ],
-    description: 'GUCCI GB watch en acier inoxydable.',
+    description: 'Une montre cartier fond noir en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
