@@ -1091,9 +1091,11 @@ export const products: Product[] = [
     price: 99,
     category: ['gift-sets'],
     images: [
-      '/product_data/gift-sets/coffret/sets2.jpeg',
-      '/product_data/gift-sets/coffret/sets3.jpeg',
-      '/product_data/gift-sets/coffret/sets4.jpeg'
+      '/product_data/package/packdaccessoire/IMG_5568.jpeg',
+      '/product_data/package/packdaccessoire/IMG_5565.jpeg',
+      '/product_data/package/packdaccessoire/IMG_5569.jpeg',
+      '/product_data/package/packdaccessoire/IMG_5570.jpeg',
+
     ],
     description: 'Un coffret élégant avec bijoux raffinés en acier inoxydable, accompagné de roses décoratives',
     features: [
