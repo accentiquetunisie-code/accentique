@@ -1087,23 +1087,23 @@ export const products: Product[] = [
   },
     {
     id: '52',
-    name: ' set etoile de mer',
-    price: 69,
+    name: ' set tiffany',
+    price: 99,
     category: ['gift-sets'],
     images: [
       '/product_data/gift-sets/coffret/sets2.jpeg',
       '/product_data/gift-sets/coffret/sets3.jpeg',
       '/product_data/gift-sets/coffret/sets4.jpeg'
     ],
-    description: '',
+    description: 'Un coffret élégant avec bijoux raffinés en acier inoxydable, accompagné de roses décoratives',
     features: [
       'Design intemporel',
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     isBestSeller: false,
-    materials: ['Faux bijoux'],
+    materials: ['acier inoxydable'],
     rating: 4.1,
     reviews: 44,
   },
