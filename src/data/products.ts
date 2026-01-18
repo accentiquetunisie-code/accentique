@@ -2722,10 +2722,12 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/product_data/watches/montre/101.jpeg',
-      '/product_data/watches/montre/102.jpeg',
+      '/public/product_data/watches/montre/IMG_5703.jpeg',
+      '/public/product_data/watches/montre/IMG_5702.jpeg',
+      '/public/product_data/watches/montre/IMG_5710.jpeg',
+      '/public/product_data/watches/montre/IMG_5712.jpeg',
     ],
-    description: 'Une montre Chanel en acier inoxydable.',
+    description: 'Une montre DW en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
