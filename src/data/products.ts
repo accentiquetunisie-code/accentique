@@ -2722,10 +2722,10 @@ export const products: Product[] = [
     originalPrice: 99,
     category: ['watches'],
     images: [
-      '/public/product_data/watches/montre/IMG_5703.jpeg',
-      '/public/product_data/watches/montre/IMG_5702.jpeg',
-      '/public/product_data/watches/montre/IMG_5710.jpeg',
-      '/public/product_data/watches/montre/IMG_5712.jpeg',
+      '/product_data/watches/montre/IMG_5703.jpeg',
+      '/product_data/watches/montre/IMG_5702.jpeg',
+      '/product_data/watches/montre/IMG_5710.jpeg',
+      '/product_data/watches/montre/IMG_5712.jpeg',
     ],
     description: 'Une montre DW en acier inoxydable.',
     features: [
