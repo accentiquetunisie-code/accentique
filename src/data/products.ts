@@ -791,7 +791,7 @@ export const products: Product[] = [
       'Design intemporel',
       'Taille ajustable'
     ],
-    inStock: true,
+    inStock: false,
     materials: ['Acier inoxydable'],
     rating: 4.5,
     reviews: 44,
