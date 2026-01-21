@@ -852,20 +852,22 @@ export const products: Product[] = [
   },
   {
     id: '40',
-    name: 'Collier et boucles B',
+    name: 'Parure Cœur – Acier Inoxydable',
     price: 42,
     category: ['gift-sets'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_2299.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_2296.jpeg'
+      '/product_data/gift-sets/coffret/IMG_5737.jpeg',
+      '/product_data/gift-sets/coffret/IMG_5738.jpeg',
+      '/product_data/gift-sets/coffret/IMG_5736.jpeg',
+      '/product_data/gift-sets/coffret/IMG_5739.jpeg'
     ],
-    description: '',
+    description: 'Parure élégante composée d’un collier et d’un bracelet en acier inoxydable,',
     features: [
       'Acier inoxydable',
       'Design intemporel',
       'Taille collier standard : 22cm'
     ],
-    inStock: false,
+    inStock: true,
     materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 57,
