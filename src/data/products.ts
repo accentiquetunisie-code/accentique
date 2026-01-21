@@ -2346,18 +2346,21 @@ export const products: Product[] = [
   {
     id: '114',
     name: 'Pack accessoires 4',
-    price: 99,
-    originalPrice: 110,
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack16.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5462.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5468.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5463.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5467.jpeg',
     ],
-    description: 'Une montre avec 2 bracelets.',
+    description: 'Coffret raffiné comprenant une montre dorée accompagnée de bracelets élégants, en acier inoxydable',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3308,16 +3311,17 @@ export const products: Product[] = [
     originalPrice: 129,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack33.jpeg',
-      '/product_data/watches/montre+bracelet/pack31.jpeg',
-      '/product_data/watches/montre+bracelet/pack32.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5451.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5453.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5454.jpeg',
+   
     ],
-    description: 'Une montre avec 2 bracelets.',
+    description: 'Coffret raffiné comprenant une montre dorée fond noir accompagnée de bracelets élégants, en acier inoxydable.',
     features: [
       'Mouvement quartz de précision',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
