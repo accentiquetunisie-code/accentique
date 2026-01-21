@@ -856,7 +856,7 @@ export const products: Product[] = [
     price: 42,
     category: ['gift-sets'],
     images: [
-      '/product_data/gift-sets/coffret/IMG_5737.jpeg',
+      '/product_data/gift-sets/coffret/IMG_5740.jpeg',
       '/product_data/gift-sets/coffret/IMG_5738.jpeg',
       '/product_data/gift-sets/coffret/IMG_5736.jpeg',
       '/product_data/gift-sets/coffret/IMG_5739.jpeg'
@@ -3605,21 +3605,21 @@ export const products: Product[] = [
   {
     id: '169',
     name: 'montre et bracelet 14',
-    price: 99,
+    price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/IMG113.jpeg',
-      '/product_data/watches/IMG114.jpeg',
-      '/product_data/watches/IMG115.jpeg',
-      '/product_data/watches/IMG116.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_5493.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5494.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5492.jpeg',
+      
     ],
-    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
+    description: 'Montre + bracelet , finition acier inoxydable',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3874,7 +3874,7 @@ export const categories = [
   { id: 'bracelets', name: 'Bracelets', count: products.filter(p => p.category.includes('bracelets')).length },
   { id: 'necklace', name: 'collier', count: products.filter(p => p.category.includes('necklace')).length },
   { id: 'rings', name: 'Bagues', count: products.filter(p => p.category.includes('rings')).length },
-  { id: 'gift-sets', name: 'Coffrets', count: products.filter(p => p.category.includes('gift-sets')).length },
+  { id: 'gift-sets', name: 'Parures', count: products.filter(p => p.category.includes('gift-sets')).length },
   { id: 'earings', name: 'boucles d oreilles', count: products.filter(p => p.category.includes('earings')).length },
   { id: 'fan', name: 'Éventail', count: products.filter(p => p.category.includes('fan')).length },
   { id: 'package', name: 'pack', count: products.filter(p => p.category.includes('package')).length },
