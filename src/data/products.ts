@@ -2350,10 +2350,10 @@ export const products: Product[] = [
     originalPrice: 129,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_5462.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5468.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5463.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5467.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5468.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5462.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5467.jpeg'
     ],
     description: 'Coffret raffiné comprenant une montre dorée accompagnée de bracelets élégants, en acier inoxydable',
     features: [
@@ -2561,8 +2561,8 @@ export const products: Product[] = [
   {
     id: '124',
     name: 'Montre 3',
-    price: 79,
-    originalPrice: 99,
+    price: 99,
+    originalPrice: 109,
     category: ['watches'],
     images: [
       '/product_data/watches/montre/IMG_5246.jpeg',
@@ -3311,9 +3311,9 @@ export const products: Product[] = [
     originalPrice: 129,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_5451.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5453.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5454.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5453.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5451.jpeg'
    
     ],
     description: 'Coffret raffiné comprenant une montre dorée fond noir accompagnée de bracelets élégants, en acier inoxydable.',
