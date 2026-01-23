@@ -78,13 +78,13 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack44.jpeg',
-      '/product_data/watches/montre+bracelet/pack45.jpeg',
-      '/product_data/watches/montre+bracelet/pack46.jpeg',
-      '/product_data/watches/montre+bracelet/pack47.jpeg',
-      '/product_data/watches/montre+bracelet/pack48.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5888.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5890.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5889.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5892.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5891.jpeg'
     ],
-    description: 'Une montre cartier avec bracelet en acier inoxydable .',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
@@ -93,8 +93,8 @@ export const products: Product[] = [
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
-    rating: 4.8,
-    reviews: 124,
+    rating: 4.9,
+    reviews: 74,
   },
     
       {
@@ -3699,14 +3699,15 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack77.jpeg',
-      '/product_data/watches/montre+bracelet/pack78.jpeg',
-      '/product_data/watches/montre+bracelet/pack79.jpeg',
-      '/product_data/watches/montre+bracelet/pack80.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6089.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6092.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6090.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6093.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6094.jpeg'
     ],
-    description: 'Une montre IEKE et bracelet en acier inoxydable..',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
-      'Mouvement quartz de précision',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
@@ -3714,7 +3715,7 @@ export const products: Product[] = [
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.9,
-    reviews: 98,
+    reviews: 74,
   },
   {
     id: '173',
@@ -3723,22 +3724,23 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/pack81.jpeg',
-      '/product_data/watches/montre+bracelet/pack82.jpeg',
-      '/product_data/watches/montre+bracelet/pack83.jpeg',
-      '/product_data/watches/montre+bracelet/pack84.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5911.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5917.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5920.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5921.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5924.jpeg'
     ],
-    description: 'Une montre BVLGARI et bracelet en acier inoxydable..',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
-      'Mouvement quartz de précision',
+      'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
-    rating: 4.4,
-    reviews: 84,
+    rating: 4.9,
+    reviews: 74,
   },
 
  {
@@ -3773,22 +3775,22 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-     '/product_data/watches/montre+bracelet/pack53.jpeg',
-     '/product_data/watches/montre+bracelet/pack54.jpeg',
-     '/product_data/watches/montre+bracelet/pack55.jpeg',
-      '/product_data/watches/montre+bracelet/pack56.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6031.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6032.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6035.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6033.jpeg'
     ],
-    description: 'Une montre IEKE et bracelet van cleef en acier inoxydable.',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
     inStock: true,
-    isNew: true,
+    isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
-    rating: 4.3,
-    reviews: 112,
+    rating: 4.9,
+    reviews: 74,
   },
        {
     id: '176',
