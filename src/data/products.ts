@@ -129,11 +129,10 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_6056.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6058.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6059.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6061.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6060.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_6043.jpeg',                     
+      '/product_data/watches/montre+bracelet/IMG_6041.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6040.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6042.jpeg',
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3400,10 +3399,11 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_6043.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6041.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6040.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6042.jpeg',
+       '/product_data/watches/montre+bracelet/IMG_6056.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6058.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6059.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6061.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6060.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3905,9 +3905,9 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
+      '/product_data/watches/montre+bracelet/IMG_6106.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6103.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6105.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6106.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6107.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6108.jpeg'
     ],
