@@ -3881,8 +3881,6 @@ export const products: Product[] = [
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/IMG_5978.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5979.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5981.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5984.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5985.jpeg'
     ],
