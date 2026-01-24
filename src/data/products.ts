@@ -1542,8 +1542,8 @@ export const products: Product[] = [
       {
     id: '75',
     name: 'montre et bracelet 15',
-    price: 99,
-    originalPrice: 110,
+    price: 89,
+    originalPrice: 109,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/IMG_6002.jpeg',
@@ -3882,7 +3882,9 @@ export const products: Product[] = [
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/IMG_5978.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5981.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5984.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5979.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5985.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
@@ -3905,8 +3907,6 @@ export const products: Product[] = [
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/IMG_6106.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6103.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6105.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6107.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6108.jpeg'
     ],
