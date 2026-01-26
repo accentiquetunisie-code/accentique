@@ -68,15 +68,15 @@ const Home = () => {
               Découvrez notre collection d'accessoires élégants, parfaits pour sublimer votre style ou offrir avec amour. Qualité premium, emballage luxueux.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                to="/shop" 
+              <Link
+                to="/shop"
                 className="btn-gold px-8 py-4 rounded-lg font-semibold text-lg inline-flex items-center justify-center space-x-2"
               >
                 <ShoppingBag className="w-5 h-5" />
                 <span>Découvrir la Collection</span>
               </Link>
-              <Link 
-                to="/shop?category=gift-sets" 
+              <Link
+                to="/shop?category=gift-sets"
                 className="btn-elegant px-8 py-4 rounded-lg font-semibold text-lg inline-flex items-center justify-center space-x-2"
               >
                 <Gift className="w-5 h-5" />
@@ -96,7 +96,7 @@ const Home = () => {
           <p className="text-xl mb-8 opacity-90">
             Coffrets exclusifs disponibles pour une durée limitée
           </p>
-          
+
           <div className="flex justify-center items-center space-x-8 mb-8">
             <div className="text-center">
               <div className="bg-white/20 rounded-lg p-4 min-w-[80px]">
@@ -119,9 +119,9 @@ const Home = () => {
               <span className="text-sm mt-2 block">Secondes</span>
             </div>
           </div>
-          
-          <Link 
-            to="/shop?category=gift-sets" 
+
+          <Link
+            to="/shop?category=gift-sets"
             className="bg-white text-gold-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors inline-flex items-center space-x-2"
           >
             <Gift className="w-5 h-5" />
@@ -141,16 +141,16 @@ const Home = () => {
               Découvrez notre sélection des pièces les plus appréciées par nos clientes
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
             {featuredProducts.map((product) => (
               <ProductCard key={product.id} product={product} />
             ))}
           </div>
-          
+
           <div className="text-center">
-            <Link 
-              to="/shop" 
+            <Link
+              to="/shop"
               className="btn-elegant px-8 py-3 rounded-lg font-semibold inline-flex items-center space-x-2"
             >
               <span>Voir Toute la Collection</span>
@@ -171,14 +171,18 @@ const Home = () => {
               Économisez en achetant nos sets coordonnés
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {bundles.map((bundle) => (
               <div key={bundle.id} className="card-elegant p-6">
                 <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
-                  <img 
-                    src={bundle.image} 
+                  <img
+                    src={bundle.image}
                     alt={bundle.name}
+                    loading="lazy"
+                    decoding="async"
+                    width={128}
+                    height={128}
                     className="w-32 h-32 object-cover rounded-lg"
                   />
                   <div className="flex-1 text-center md:text-left">
@@ -195,7 +199,7 @@ const Home = () => {
                       </span>
                       <span className="bg-gold-100 text-gold-800 text-sm px-2 py-1 rounded-full font-medium">
                         -{bundle.discount}%
-                      </span>  
+                      </span>
                     </div>
                     <button className="btn-gold px-6 py-2 rounded-lg font-semibold">
                       Ajouter au Panier
@@ -219,7 +223,7 @@ const Home = () => {
               Plus de 1000 femmes nous font confiance
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (
               <div key={index} className="card-elegant p-6 text-center">
@@ -252,17 +256,17 @@ const Home = () => {
             <p className="text-lg text-gray-600 mb-6">
               Partagez votre style et inspirez la communauté
             </p>
-            <a 
-              href="https://instagram.com/accentique.tn" 
+            <a
+              href="https://instagram.com/accentique.tn"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gold-600 hover:text-gold-700 font-semibold inline-flex items-center space-x-2"
             >
               <span>@accentique.tn</span>
               <ArrowRight className="w-4 h-4" />
-            </a> 
+            </a>
           </div>
-          
+
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
               '/product_data/package/95/1.jpeg',
@@ -271,9 +275,13 @@ const Home = () => {
               '/product_data/other/18/1.jpeg'
             ].map((image, index) => (
               <div key={index} className="relative group cursor-pointer overflow-hidden rounded-lg">
-                <img 
+                <img
                   src={image}
                   alt={`Instagram post ${index + 1}`}
+                  loading="lazy"
+                  decoding="async"
+                  width={200}
+                  height={192}
                   className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
@@ -296,8 +304,8 @@ const Home = () => {
           <p className="text-xl mb-8 opacity-90">
             Rejoignez des milliers de femmes qui ont choisi l'élégance Accentique
           </p>
-          <Link 
-            to="/shop" 
+          <Link
+            to="/shop"
             className="bg-white text-gold-600 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-gray-100 transition-colors inline-flex items-center space-x-2"
           >
             <ShoppingBag className="w-5 h-5" />
