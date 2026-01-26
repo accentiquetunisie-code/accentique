@@ -37,7 +37,7 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
   };
 
   return (
-    <div 
+    <div
       className={`card-elegant group cursor-pointer overflow-hidden ${className}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -48,9 +48,13 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
           <img
             src={product.images[imageIndex]}
             alt={product.name}
+            loading="lazy"
+            decoding="async"
+            width={320}
+            height={256}
             className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-105"
           />
-          
+
           {/* Badges */}
           <div className="absolute top-3 left-3 flex flex-col gap-2">
             {product.isNew && (
@@ -77,9 +81,8 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
 
           {/* Quick Add Button */}
           {product.inStock && (
-            <div className={`absolute bottom-3 right-3 transition-all duration-300 ${
-              isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'
-            }`}>
+            <div className={`absolute bottom-3 right-3 transition-all duration-300 ${isHovered ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-2'
+              }`}>
               <button
                 onClick={handleAddToCart}
                 className="btn-gold px-4 py-2 rounded-full shadow-lg hover:shadow-xl flex items-center gap-2"
@@ -101,9 +104,8 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
                     e.stopPropagation();
                     setImageIndex(index);
                   }}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    index === imageIndex ? 'bg-white' : 'bg-white/50'
-                  }`}
+                  className={`w-2 h-2 rounded-full transition-colors ${index === imageIndex ? 'bg-white' : 'bg-white/50'
+                    }`}
                 />
               ))}
             </div>
@@ -122,15 +124,15 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
               <span className="text-xs text-gray-400">({product.reviews})</span>
             </div>
           </div>
-          
+
           <h3 className="font-serif text-lg font-semibold text-gray-800 mb-2 group-hover:text-gold-600 transition-colors">
             {product.name}
           </h3>
-          
+
           <p className="text-sm text-gray-600 mb-3 line-clamp-2">
             {product.description}
           </p>
-          
+
           <div className="flex items-center justify-between mb-3">
             <div className="flex items-center space-x-2">
               <span className="text-xl font-bold text-gold-600">
@@ -142,14 +144,14 @@ const ProductCard = ({ product, className = '' }: ProductCardProps) => {
                 </span>
               )}
             </div>
-            
+
             {!product.inStock && (
               <span className="text-xs text-red-500 font-medium">
                 Rupture de stock
               </span>
             )}
           </div>
-          
+
           <button
             onClick={handleAddToCart}
             disabled={!product.inStock}
