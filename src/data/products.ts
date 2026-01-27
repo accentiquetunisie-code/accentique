@@ -103,20 +103,22 @@ export const products: Product[] = [
       {
     id: '3',
     name: 'montre et bracelet 4',
-    price: 89,
+price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_5493.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5494.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5492.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6021.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6022.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6024.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6028.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6026.jpeg'
     ],
-    description: 'Montre + bracelet , finition acier inoxydable',
+    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -174,32 +176,6 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_6021.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6022.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6024.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6028.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6026.jpeg'
-    ],
-    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
-    features: [
-      'Résistante à l\'eau (3atm)',
-      'Bracelet ajustable'
-    ],
-    inStock: true,
-    isNew: false,
-    isFreeDelivery: true,
-    materials: ['Acier inoxydable'],
-    rating: 4.7,
-    reviews: 64,
-  },
-
-      {
-    id: '7',
-    name: 'montre et bracelet 9',
-        price: 89,
-    originalPrice: 110,
-    category: ['package'],
-    images: [
       '/product_data/watches/montre+bracelet/IMG_1303.jpeg'
     ],
     description: 'Une montre et bracelet en acier inoxydable.',
@@ -213,6 +189,29 @@ export const products: Product[] = [
     materials: ['Acier inoxydable'],
     rating: 4.4,
     reviews: 89,
+  },
+      {
+    id: '7',
+    name: 'montre et bracelet 9',
+    price: 89,
+    originalPrice: 110,
+    category: ['package'],
+    images: [
+      '/product_data/watches/montre+bracelet/IMG_5493.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5494.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5492.jpeg',
+    ],
+    description: 'Montre + bracelet , finition acier inoxydable',
+    features: [
+      'Résistante à l\'eau (3atm)',
+      'Bracelet ajustable'
+    ],
+    inStock: false,
+    isNew: false,
+    isFreeDelivery: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 64,
   },
 
         {
