@@ -1878,7 +1878,7 @@ price: 89,
       '/product_data/bracelets/IMG_6236.jpeg',
       '/product_data/bracelets/IMG_6242.jpeg',
       '/product_data/bracelets/IMG_6195.jpeg',
-      '/product_data/bracelets/IMG_6194.jpeg',
+      '/product_data/bracelets/IMG_61944.jpeg',
     ],
     description: 'Lot de bracelets spirales aux finitions dorée, argentée et rose gold en acier inoxydable.',
     features: [
