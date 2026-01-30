@@ -239,30 +239,6 @@ price: 89,
     rating: 4.7,
     reviews: 64,
   },
-          {
-    id: '9',
-    name: 'montre et bracelet 11',
-    price: 99,
-    originalPrice: 110,
-    category: ['package'],
-    images: [
-      '/product_data/watches/IMG111.jpeg',
-      '/product_data/watches/IMG112.jpeg',
-      '/product_data/watches/IMG110.jpeg',
-      '/product_data/watches/IMG109.jpeg'
-    ],
-    description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
-    features: [
-      'Résistante à l\'eau (3atm)',
-      'Bracelet ajustable'
-    ],
-    inStock: true,
-    isNew: false,
-    isFreeDelivery: true,
-    materials: ['Acier inoxydable'],
-    rating: 4.7,
-    reviews: 64,
-  },
         {
     id: '10',
     name: 'montre et bracelet 12',
