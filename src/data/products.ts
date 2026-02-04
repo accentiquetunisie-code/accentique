@@ -92,7 +92,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3664,11 +3664,9 @@ price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_5987.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5988.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5991.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5992.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5993.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_6106.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6107.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6108.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3886,16 +3884,18 @@ price: 89,
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_6106.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6107.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6108.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_5987.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5988.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5991.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5992.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5993.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
