@@ -3709,7 +3709,7 @@ price: 89,
       'Bracelet ajustable'
     ],
     inStock: true,
-    isBestSeller: true,
+    isBestSeller: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
