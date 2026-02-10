@@ -51,7 +51,7 @@ export interface Bundle {
 export const products: Product[] = [
     {
     id: '1',
-    name: 'montre et bracelet 13',
+    name: 'montre et bracelet 10',
     price: 89,
     originalPrice: 110,
     category: ['package'],
@@ -77,7 +77,7 @@ export const products: Product[] = [
   },
       {
     id: '2',
-    name: 'montre et bracelet 16',
+    name: 'montre et bracelet 1',
     price: 89,
     originalPrice: 110,
     category: ['package'],
@@ -3668,7 +3668,7 @@ price: 89,
   },
   {
     id: '171',
-    name: 'montre et bracelet 1',
+    name: 'montre et bracelet 16',
     price: 89,
     originalPrice: 110,
     category: ['package'],
@@ -3692,7 +3692,7 @@ price: 89,
   },
   {
     id: '172',
-    name: 'montre et bracelet 10',
+    name: 'montre et bracelet 13',
     price: 89,
     originalPrice: 110,
     category: ['package'],
