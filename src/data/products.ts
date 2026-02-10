@@ -82,9 +82,9 @@ export const products: Product[] = [
     originalPrice: 110,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_5888.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5890.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5889.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5890.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_5888.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5892.jpeg',
       '/product_data/watches/montre+bracelet/IMG_5891.jpeg'
     ],
