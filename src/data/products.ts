@@ -68,6 +68,7 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
+    isBestSeller: true,  
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -93,6 +94,7 @@ export const products: Product[] = [
       'Bracelet ajustable'
     ],
     inStock: true,
+    isBestSeller: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3680,8 +3682,8 @@ price: 89,
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
-    isBestSeller: true,
+    inStock: false,
+    isBestSeller: false,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
