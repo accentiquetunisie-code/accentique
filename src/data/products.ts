@@ -93,7 +93,7 @@ export const products: Product[] = [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: true,
     isNew: false,
     isFreeDelivery: true,
