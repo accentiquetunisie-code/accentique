@@ -3682,7 +3682,7 @@ price: 89,
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: true,
+    inStock: false,
     isBestSeller: false,
     isNew: false,
     isFreeDelivery: true,
