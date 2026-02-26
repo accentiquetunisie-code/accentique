@@ -630,7 +630,7 @@ price: 89,
    {
     id: '30',
     name: 'Bague 1',
-    price: 15,
+    price: 18,
     category: ['rings'],
     images: [
       '/product_data/rings/IMG_6853.jpeg',
