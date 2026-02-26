@@ -635,7 +635,7 @@ price: 89,
     images: [
       '/product_data/rings/IMG_6853.jpeg',
       '/product_data/rings/IMG_6859.jpeg',
-      '/product_data/rings/IMG_6858.jpeg',
+      '/product_data/rings/IMG_6855.jpeg',
       '/product_data/rings/IMG_6832.jpeg'
     ],
     description: 'Bague "Aura" – Acier Inoxydable & Nacre.',
