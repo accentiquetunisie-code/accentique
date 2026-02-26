@@ -1854,15 +1854,15 @@ price: 89,
   {
     id: '93',
     name: 'Bracelet 10',
-    price: 69,
+    price: 32,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/IMG_6236.jpeg',
-      '/product_data/bracelets/IMG_6242.jpeg',
-      '/product_data/bracelets/IMG_6195.jpeg',
-      '/product_data/bracelets/IMG_61944.jpeg',
+      '/product_data/bracelets/IMG_6895.jpeg',
+      '/product_data/bracelets/IMG_6890.jpeg',
+      '/product_data/bracelets/IMG_6894.jpeg',
+      '/product_data/bracelets/IMG_6885.jpeg',
     ],
-    description: 'Lot de bracelets spirales aux finitions dorée, argentée et rose gold en acier inoxydable.',
+    description: 'Bracelet Jonc Triple "Sphères" – Acier Inoxydable.',
     features: [
       'Taille standard'
     ],
