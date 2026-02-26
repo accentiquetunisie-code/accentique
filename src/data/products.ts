@@ -1794,18 +1794,18 @@ price: 89,
   {
     id: '90',
     name: 'Bracelet 7',
-    price: 25,
+    price: 27,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/bracelet-12.jpeg',
-      '/product_data/bracelets/bracelet-11.jpeg',
-      '/product_data/bracelets/bracelet-10.jpeg'
+      '/product_data/bracelets/bracelet-21.jpeg',
+      '/product_data/bracelets/bracelet-19.jpeg',
+      '/product_data/bracelets/bracelet-20.jpeg'
     ],
-    description: 'Bracelet en acier inoxydable.',
+    description: 'Bracelet van cleef noir en acier inoxydable.',
     features: [
-      'Longueur ajustable'
+      'Longueur standard'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.9,
@@ -1814,7 +1814,7 @@ price: 89,
    {
     id: '91',
     name: 'Bracelet 8',
-    price: 25,
+    price: 27,
     category: ['bracelets'],
     images: [
       '/product_data/bracelets/bracelet-13.jpeg',
@@ -1834,18 +1834,17 @@ price: 89,
   {
     id: '92',
     name: 'Bracelet 9',
-    price: 25,
+    price: 27,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/bracelet-17.jpeg',
-      '/product_data/bracelets/bracelet-16.jpeg',
-      '/product_data/bracelets/bracelet-18.jpeg'
+      'product_data/bracelets/IMG_6900.jpeg',
+
     ],
-    description: 'Bracelet en acier inoxydable.',
+    description: 'Bracelet van cleef blanche en acier inoxydable.',
     features: [
-      'Taille ajustable'
+      'Taille standard'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.5,
