@@ -216,7 +216,7 @@ price: 89,
     materials: ['Acier inoxydable'],
     rating: 4.8,
     reviews: 88,
-  }
+ },
         {
     id: '8',
     name: 'montre et bracelet 26',
