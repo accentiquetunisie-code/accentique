@@ -77,7 +77,7 @@ export const products: Product[] = [
   },
       {
     id: '2',
-    name: 'montre et bracelet 14',
+    name: 'Montre et bracelet 1 ',
     price: 89,
     originalPrice: 110,
     category: ['package'],
@@ -2277,7 +2277,7 @@ price: 89,
   },
   {
     id: '111',
-    name: 'Montre et bracelet 1',
+    name: 'Pack accessoires 3',
 price: 129,
     originalPrice: 149,
     category: ['package'],
