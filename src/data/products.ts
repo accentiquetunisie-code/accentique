@@ -2303,25 +2303,23 @@ price: 129,
 
   {
     id: '112',
-    name: 'montre et bracelet 16',
-    price: 89,
-    originalPrice: 110,
+    name: 'montre et bracelets 16',
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_6009.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6010.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6012.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6014.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6016.jpeg'
-      
+      '/product_data/watches/montre+bracelet/IMG_6931.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6930.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6932.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6924.jpeg'  
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
-    isNew: false,
+    inStock: true,
+    isNew: true,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
     rating: 4.8,
@@ -3387,23 +3385,22 @@ price: 129,
   },
   {
     id: '159',
-    name: 'montre et bracelet 2',
-    price: 89,
-    originalPrice: 110,
+    name: 'montre et bracelets 2',
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
-       '/product_data/watches/montre+bracelet/IMG_6056.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6058.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6059.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6061.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6060.jpeg'
+       '/product_data/watches/montre+bracelet/IMG_6945.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6948.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6950.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6951.jpeg',
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
@@ -3722,22 +3719,22 @@ price: 129,
   },
   {
     id: '173',
-    name: 'montre et bracelet 17',
-    price: 89,
-    originalPrice: 110,
+    name: 'montre et bracelets 17',
+    price: 109,
+    originalPrice: 129,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_5959.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5964.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5963.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_5960.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_6934.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6935.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6937.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6938.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
       'Résistante à l\'eau (3atm)',
       'Bracelet ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isNew: false,
     isFreeDelivery: true,
     materials: ['Acier inoxydable'],
