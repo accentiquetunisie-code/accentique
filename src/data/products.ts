@@ -3940,7 +3940,7 @@ price: 129,
   },
   {
     id: '182',
-    name: 'Pack accessoires 14',
+    name: 'Accessoires P14',
 price: 129,
     originalPrice: 149,
     category: ['package'],
