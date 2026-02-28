@@ -3390,9 +3390,9 @@ price: 129,
     originalPrice: 129,
     category: ['package'],
     images: [
-       '/product_data/watches/montre+bracelet/IMG_6945.jpeg',
+       '/product_data/watches/montre+bracelet/IMG_6950.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6948.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6950.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6945.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6951.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
