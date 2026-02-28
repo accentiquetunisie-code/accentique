@@ -2311,7 +2311,7 @@ price: 129,
       '/product_data/watches/montre+bracelet/IMG_6931.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6930.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6932.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6924.jpeg'  
+      '/product_data/watches/montre+bracelet/IMG_6924.jpeg', 
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3393,7 +3393,7 @@ price: 129,
        '/product_data/watches/montre+bracelet/IMG_6945.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6948.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6950.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6951.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_6951.jpeg'
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -3727,7 +3727,7 @@ price: 129,
       '/product_data/watches/montre+bracelet/IMG_6934.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6935.jpeg',
       '/product_data/watches/montre+bracelet/IMG_6937.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6938.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_6938.jpeg',
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
