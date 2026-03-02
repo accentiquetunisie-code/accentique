@@ -3936,69 +3936,7 @@ price: 119,
     rating: 4.7,
     reviews: 96,
   },
-         {
-    id: '183',
-    name: 'Bracelet 16',
-    price: 27,
-    category: ['bracelets'],
-    images: [
-      '/product_data/bracelets/IMG_6424.jpeg',
-      '/product_data/bracelets/IMG_6429.jpeg',
-      '/product_data/bracelets/IMG_6426.jpeg'
-    ],
-    description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
-    features: [
-      'Fermoir sécurisé',
-      'Taille standard'
-    ],
-    inStock: true,
-    isBestSeller: true,
-    materials: ['Acier inoxydable'],
-    rating: 4.9,
-    reviews: 57,
-  },
-        {
-    id: '184',
-    name: 'Bracelet 17',
-    price: 27,
-    category: ['bracelets'],
-    images: [
-      '/product_data/bracelets/IMG_6433.jpeg',
-      '/product_data/bracelets/IMG_6435.jpeg',
-      '/product_data/bracelets/IMG_6434.jpeg',
-    ],
-    description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
-    features: [
-      'Fermoir sécurisé',
-      'Taille standard'
-    ],
-    inStock: true,
-    isBestSeller: true,
-    materials: ['Acier inoxydable'],
-    rating: 4.7,
-    reviews: 66,
-  },
-        {
-    id: '185',
-    name: 'Bracelet 18',
-    price: 27,
-    category: ['bracelets'],
-    images: [
-      '/product_data/bracelets/IMG_6441.jpeg',
-      '/product_data/bracelets/IMG_6442.jpeg',
-      '/product_data/bracelets/IMG_6444.jpeg'
-    ],
-    description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
-    features: [
-      'Fermoir sécurisé',
-      'Taille standard'
-    ],
-    inStock: true,
-    isBestSeller: true,
-    materials: ['Acier inoxydable'],
-    rating: 4.9,
-    reviews: 86,
-  },
+ 
 ];
 
 export const bundles: Bundle[] = [
