@@ -512,18 +512,20 @@ price: 89,
   },
           {
     id: '24',
-    name: 'Bracelet A5',
-    price: 69,
+    name: 'Bracelet 15',
+    price: 32,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/bracelet A5.jpeg'
+      '/product_data/bracelets/IMG_7032.jpeg.jpeg',
+      '/product_data/bracelets/IMG_7034.jpeg.jpeg',
+      '/product_data/bracelets/IMG_7031.jpeg.jpeg'
     ],
-    description: 'Bracelet délicat en chaîne dorée avec pendentifs scintillants.',
+    description: 'Bracelet Rigide Jardin d Hiver en finitions dorées.',
     features: [
       'Fermoir sécurisé',
       'Taille standard'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: true,
     materials: ['Acier inoxydable'],
     rating: 4.8,
@@ -2390,18 +2392,18 @@ price: 89,
   {
     id: '117',
     name: 'Bracelet 11',
-    price: 25,
+    price: 38,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/bracelet23.jpeg',
-      '/product_data/bracelets/bracelet24.jpeg',
-      '/product_data/bracelets/bracelet25.jpeg'
+      '/product_data/bracelets/IMG_7028.jpeg',
+      '/product_data/bracelets/IMG_7026.jpeg',
+      '/product_data/bracelets/IMG_7029.jpeg.jpeg'
     ],
-    description: 'Bracelet en acier inoxydable.',
+    description: 'Duo Bracelets coeur en acier inoxydable.',
     features: [
       'Taille ajustable'
     ],
-    inStock: false,
+    inStock: true,
     isBestSeller: false,
     materials: ['Acier inoxydable'],
     rating: 4.5,
@@ -3933,6 +3935,69 @@ price: 119,
     materials: ['Acier inoxydable'],
     rating: 4.7,
     reviews: 96,
+  },
+         {
+    id: '183',
+    name: 'Bracelet 16',
+    price: 27,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_6424.jpeg.jpeg',
+      '/product_data/bracelets/IMG_6429.jpeg.jpeg',
+      '/product_data/bracelets/IMG_6426.jpeg.jpeg'
+    ],
+    description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
+    features: [
+      'Fermoir sécurisé',
+      'Taille standard'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 57,
+  },
+        {
+    id: '184',
+    name: 'Bracelet 17',
+    price: 27,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_6433.jpeg.jpeg',
+      '/product_data/bracelets/IMG_6435.jpeg.jpeg',
+      '/product_data/bracelets/IMG_6434.jpeg.jpeg'
+    ],
+    description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
+    features: [
+      'Fermoir sécurisé',
+      'Taille standard'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 66,
+  },
+        {
+    id: '185',
+    name: 'Bracelet 18',
+    price: 27,
+    category: ['bracelets'],
+    images: [
+      '/product_data/bracelets/IMG_6441.jpeg.jpeg',
+      '/product_data/bracelets/IMG_6442.jpeg.jpeg',
+      '/product_data/bracelets/IMG_6444.jpeg.jpeg'
+    ],
+    description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
+    features: [
+      'Fermoir sécurisé',
+      'Taille standard'
+    ],
+    inStock: true,
+    isBestSeller: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 86,
   },
 
 ];
