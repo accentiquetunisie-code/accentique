@@ -3944,7 +3944,7 @@ price: 119,
     images: [
       '/product_data/bracelets/IMG_6424.jpeg',
       '/product_data/bracelets/IMG_6429.jpeg',
-      '/product_data/bracelets/IMG_6426.jpeg',
+      '/product_data/bracelets/IMG_6426.jpeg'
     ],
     description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
     features: [
@@ -3986,7 +3986,7 @@ price: 119,
     images: [
       '/product_data/bracelets/IMG_6441.jpeg',
       '/product_data/bracelets/IMG_6442.jpeg',
-      '/product_data/bracelets/IMG_6444.jpeg',
+      '/product_data/bracelets/IMG_6444.jpeg'
     ],
     description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
     features: [
@@ -3999,7 +3999,6 @@ price: 119,
     rating: 4.9,
     reviews: 86,
   },
-
 ];
 
 export const bundles: Bundle[] = [
