@@ -516,9 +516,9 @@ price: 89,
     price: 32,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/IMG_7032.jpeg.jpeg',
-      '/product_data/bracelets/IMG_7034.jpeg.jpeg',
-      '/product_data/bracelets/IMG_7031.jpeg.jpeg'
+      '/product_data/bracelets/IMG_7032.jpeg',
+      '/product_data/bracelets/IMG_7034.jpeg',
+      '/product_data/bracelets/IMG_7031.jpeg'
     ],
     description: 'Bracelet Rigide Jardin d Hiver en finitions dorées.',
     features: [
@@ -2397,7 +2397,7 @@ price: 89,
     images: [
       '/product_data/bracelets/IMG_7028.jpeg',
       '/product_data/bracelets/IMG_7026.jpeg',
-      '/product_data/bracelets/IMG_7029.jpeg.jpeg'
+      '/product_data/bracelets/IMG_7029.jpeg
     ],
     description: 'Duo Bracelets coeur en acier inoxydable.',
     features: [
@@ -3942,9 +3942,9 @@ price: 119,
     price: 27,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/IMG_6424.jpeg.jpeg',
-      '/product_data/bracelets/IMG_6429.jpeg.jpeg',
-      '/product_data/bracelets/IMG_6426.jpeg.jpeg'
+      '/product_data/bracelets/IMG_6424.jpeg',
+      '/product_data/bracelets/IMG_6429.jpeg',
+      '/product_data/bracelets/IMG_6426.jpeg',
     ],
     description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
     features: [
@@ -3963,9 +3963,9 @@ price: 119,
     price: 27,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/IMG_6433.jpeg.jpeg',
-      '/product_data/bracelets/IMG_6435.jpeg.jpeg',
-      '/product_data/bracelets/IMG_6434.jpeg.jpeg'
+      '/product_data/bracelets/IMG_6433.jpeg',
+      '/product_data/bracelets/IMG_6435.jpeg',
+      '/product_data/bracelets/IMG_6434.jpeg',
     ],
     description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
     features: [
@@ -3984,9 +3984,9 @@ price: 119,
     price: 27,
     category: ['bracelets'],
     images: [
-      '/product_data/bracelets/IMG_6441.jpeg.jpeg',
-      '/product_data/bracelets/IMG_6442.jpeg.jpeg',
-      '/product_data/bracelets/IMG_6444.jpeg.jpeg'
+      '/product_data/bracelets/IMG_6441.jpeg',
+      '/product_data/bracelets/IMG_6442.jpeg',
+      '/product_data/bracelets/IMG_6444.jpeg',
     ],
     description: 'Rivière de Tulipes Écarlates | Collection Inox Premium',
     features: [
