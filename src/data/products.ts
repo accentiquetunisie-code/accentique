@@ -3223,8 +3223,8 @@ price: 89,
   {
     id: '153',
     name: 'Pack accessoires 6',
-    price: 109,
-    originalPrice: 129,
+    price: 119,
+    originalPrice: 139,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/pack24.jpeg',
