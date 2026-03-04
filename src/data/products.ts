@@ -3314,15 +3314,14 @@ price: 89,
   {
     id: '157',
     name: 'montre et bracelet 18',
-    price: 89,
-    originalPrice: 110,
+    price: 99,
+    originalPrice: 119,
     category: ['package'],
     images: [
-      '/product_data/watches/montre+bracelet/IMG_6080.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6079.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6078.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6077.jpeg',
-      '/product_data/watches/montre+bracelet/IMG_6076.jpeg'
+      '/product_data/watches/montre+bracelet/IMG_7202.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_7191.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_7296.jpeg',
+      '/product_data/watches/montre+bracelet/IMG_7297.jpeg',
     ],
     description: 'Montre + bracelet , finition acier inoxydable, dans un coffret LOVE garni de roses ',
     features: [
@@ -4002,8 +4001,8 @@ price: 119,
   {
     id: '186',
     name: 'Accessoires Pack 3',
-    price: 109,
-    originalPrice: 119,
+    price: 119,
+    originalPrice: 139,
     category: ['package'],
     images: [
       '/product_data/watches/montre+bracelet/IMG_7245.jpeg',
