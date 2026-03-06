@@ -4,7 +4,7 @@ const Contact = () => {
   const faqItems = [
     {
       question: "Quels sont vos délais de livraison ?",
-      answer: "Nous proposons une livraison express 24h pour Tunis et 2-3 jours pour le reste de la Tunisie. La livraison est gratuite à partir de 200 DT."
+      answer: "Nous proposons une livraison express 24h pour Tunis et 2-3 jours pour le reste de la Tunisie. La livraison est gratuite à partir de 99 DT."
     },
     {
       question: "Vos bijoux sont-ils garantis ?",
@@ -12,11 +12,7 @@ const Contact = () => {
     },
     {
       question: "Puis-je échanger ou retourner un article ?",
-      answer: "Vous avez 14 jours pour retourner un article dans son état d'origine. Les échanges sont gratuits, les retours sont remboursés sous 5-7 jours ouvrés."
-    },
-    {
-      question: "Proposez-vous un service d'emballage cadeau ?",
-      answer: "Oui, l'emballage cadeau est inclus gratuitement avec toutes nos commandes. Vous pouvez également ajouter une carte message personnalisée."
+      answer: "Vous disposez de 10 jours pour échanger un article dans son état d’origine.Les échanges pour défaut de fabrication sont gratuits.Pour changer d’article ou de couleur, des frais de livraison de 8 DT s’appliquent."
     },
     {
       question: "Comment entretenir mes bijoux ?",
