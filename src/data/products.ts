@@ -4161,7 +4161,7 @@ price: 149,
       '/product_data/gift-sets/coffret/IMG_7405.jpeg',
       '/product_data/gift-sets/coffret/IMG_7399.jpeg',
     ],
-    description: '📦 Le pack complet bijoux - porte clé et Ecrin .',
+    description: '📦 Le pack complet bijoux - porte clé et Ecrin',
     features: [
       'Design intemporel',
     ],
