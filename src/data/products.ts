@@ -4148,6 +4148,30 @@ price: 149,
     rating: 4.7,
     reviews: 96,
   },
+  {
+    id: '192',
+    name: ' Cherry Blossom 🍒',
+    price: 65,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/gift-sets/coffret/IMG_7419.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7412.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7406.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7404.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7405.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7399.jpeg',
+    ],
+    description: '📦 Le pack complet bijoux - porte clé et Ecrin .',
+    features: [
+      'Design intemporel',
+    ],
+    inStock: true,
+    isFreeDelivery: false,
+    isBestSeller: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 94,
+  },
   
  
 ];
