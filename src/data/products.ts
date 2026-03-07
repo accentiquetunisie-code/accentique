@@ -4172,7 +4172,50 @@ price: 149,
     rating: 4.9,
     reviews: 94,
   },
-  
+  {
+    id: '193',
+    name: 'Duo Trèfle Blanc',
+    price: 48,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/gift-sets/coffret/IMG_7434.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7431.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7437.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7438.jpeg',
+    ],
+    description: 'Bracelet et Pack de Boucles d Oreilles en Acier Inoxydable',
+    features: [
+      'Design intemporel',
+    ],
+    inStock: true,
+    isFreeDelivery: false,
+    isBestSeller: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.9,
+    reviews: 94,
+  },
+  {
+    id: '194',
+    name: 'Duo Trèfle noir',
+    price: 48,
+    category: ['gift-sets'],
+    images: [
+      '/product_data/gift-sets/coffret/IMG_7447.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7443.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7450.jpeg',
+      '/product_data/gift-sets/coffret/IMG_7442.jpeg',
+    ],
+    description: 'Bracelet et Pack de Boucles d Oreilles en Acier Inoxydable',
+    features: [
+      'Design intemporel',
+    ],
+    inStock: true,
+    isFreeDelivery: false,
+    isBestSeller: true,
+    materials: ['Acier inoxydable'],
+    rating: 4.7,
+    reviews: 87,
+  },
  
 ];
 
